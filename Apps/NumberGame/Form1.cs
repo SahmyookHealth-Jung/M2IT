@@ -1,0 +1,40 @@
+namespace NumberGame
+{
+    public partial class Form1 : Form
+    {
+        private int findNumber = 0;
+        private int chance = 0;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnInput_Click(object sender, EventArgs e)
+        {
+            int inputNumber = Int32.Parse(textBox.Text);
+
+            if (inputNumber == findNumber)
+            {
+                display.Text = "승리하였습니다.";
+            }
+            else
+            {
+                chance--;
+                display.Text = "기회는 " + chance + "번 남았습니다"; 
+            }
+            if (chance <= 0)
+            {
+                display.Text = "실패했습니다.";
+            }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            var rand = new Random();
+            findNumber = rand.Next(1, 21);
+            chance = 10;
+            textBox.Text = "맞출 숫자를 입력하세요.";
+        }
+    }
+}
