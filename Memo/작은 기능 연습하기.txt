@@ -6,8 +6,8 @@
 4	| 숫자 카운터		| 클래스 필드(private int) 사용, int와 string 변환 (ToString(), int.Parse())		| 버튼 2개(증가, 감소), 라벨 1개			|	V
 5	| 텍스트 실시간 반영	| TextBox.TextChanged 이벤트 처리							| 텍스트박스 2개					|	V
 6	| 숫자만 입력 제한		| KeyPress 이벤트, e.Handled = true; (입력 차단)					| 텍스트박스 1개					|	V
-7	| 엔터 키로 실행		| KeyDown 이벤트, Keys.Enter 감지, Button.PerformClick()				| 텍스트박스 1개, 버튼 1개			|	
-8	| 컬러 체인저		| Button.Click 이벤트, Control.BackColor 속성 변경					| 버튼 1개, 폼/패널 1개				|
-9	| 동적 목록 추가		| ListBox.Items.Add() 사용, 입력값 목록에 추가					| 버튼 1개, 텍스트박스 1개, 리스트박스 1개	|
-10	| 클래스 인스턴스 생성	| 사용자 정의 클래스(TodoItem 등) 생성자 호출, 객체 변수에 저장		| 버튼 1개, 라벨 1개 (생성 성공 메시지)	|
+7	| 엔터 키로 실행		| KeyDown 이벤트, Keys.Enter 감지, Button.PerformClick()				| 텍스트박스 1개, 버튼 1개			|	V
+8	| 컬러 체인저		| Button.Click 이벤트, Control.BackColor 속성 변경					| 버튼 1개, 폼/패널 1개				|	V
+9	| 동적 목록 추가		| ListBox.Items.Add() 사용, 입력값 목록에 추가					| 버튼 1개, 텍스트박스 1개, 리스트박스 1개	|	V
+10	| 클래스 인스턴스 생성	| 사용자 정의 클래스(TodoItem 등) 생성자 호출, 객체 변수에 저장		| 버튼 1개, 라벨 1개 (생성 성공 메시지)	|	V
 ========================================================================================================
