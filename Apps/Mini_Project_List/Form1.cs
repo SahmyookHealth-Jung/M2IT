@@ -12,7 +12,6 @@ namespace Mini_Project_List
 {
     public partial class Form1 : Form
     {
-        private bool isButtonClicked = true;
 
         public Form1()
         {
@@ -47,8 +46,6 @@ namespace Mini_Project_List
             Item newItem = new Item("새 항목");
             lblStatus.Text = $"{newItem.Name}이(가) 성공적으로 생성되었습니다.";
         }
-
-
     }
     public class Item
     {
