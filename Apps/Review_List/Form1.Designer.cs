@@ -30,36 +30,69 @@
         {
             this.lblOutput = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.listBox = new System.Windows.Forms.ListBox();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblOutput
             // 
-            this.lblOutput.Location = new System.Drawing.Point(334, 181);
+            this.lblOutput.Location = new System.Drawing.Point(84, 264);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(384, 23);
+            this.lblOutput.Size = new System.Drawing.Size(362, 23);
             this.lblOutput.TabIndex = 0;
             this.lblOutput.Text = "항목";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(147, 177);
+            this.btnAdd.Location = new System.Drawing.Point(458, 99);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "버튼";
+            this.btnAdd.Text = "추가";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtInput
+            // 
+            this.txtInput.Location = new System.Drawing.Point(84, 97);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(362, 25);
+            this.txtInput.TabIndex = 2;
+            // 
+            // listBox
+            // 
+            this.listBox.FormattingEnabled = true;
+            this.listBox.ItemHeight = 15;
+            this.listBox.Location = new System.Drawing.Point(84, 141);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(362, 94);
+            this.listBox.TabIndex = 3;
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(458, 141);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(75, 23);
+            this.btnRemove.TabIndex = 4;
+            this.btnRemove.Text = "삭제";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.listBox);
+            this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblOutput);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -67,6 +100,9 @@
 
         private System.Windows.Forms.Label lblOutput;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtInput;
+        private System.Windows.Forms.ListBox listBox;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 
