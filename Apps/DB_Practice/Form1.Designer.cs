@@ -31,6 +31,7 @@
             this.txtId = new System.Windows.Forms.TextBox();
             this.btnFind = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtId
@@ -58,11 +59,20 @@
             this.lblName.TabIndex = 2;
             this.lblName.Text = "이름";
             // 
+            // lblEmail
+            // 
+            this.lblEmail.Location = new System.Drawing.Point(68, 190);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(384, 23);
+            this.lblEmail.TabIndex = 3;
+            this.lblEmail.Text = "이메일";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnFind);
             this.Controls.Add(this.txtId);
@@ -78,6 +88,7 @@
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblEmail;
     }
 }
 

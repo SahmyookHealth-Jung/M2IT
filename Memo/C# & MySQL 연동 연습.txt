@@ -1,0 +1,4 @@
+C# & MySQL 연동 연습 
+
+- using 문은 IDisposable 인터페이스를 구현하는 객체에 대해 가장 안전한 자원 해제를 보장합니다.
+(try-catch 보다 using 선호) 

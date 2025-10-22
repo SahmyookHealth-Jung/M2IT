@@ -31,7 +31,7 @@ namespace DB_Practice
                 {
                     conn.Open();
 
-                    string sql = "SELECT UserName From Users WHERE UserId = @id";
+                    string sql = "SELECT UserName From Users WHERE UserId = @id";                 
 
                     using (MySqlCommand cmd = new MySqlCommand(sql, conn))
                     {
@@ -52,12 +52,16 @@ namespace DB_Practice
             }
             return userName ?? "회원을 찾을 수 없습니다.";
         }
+       
         private void btnFind_Click(object sender, EventArgs e)
         {
             string inputId = txtId.Text.Trim();
 
             string foundName = FindUserName(inputId);
             lblName.Text = foundName;
+
+            string foundEmail = FindUserName(inputId);
+            lblEmail.Text = foundEmail;
 
             if(foundName.Contains("찾을 수 없습니다."))
             {
