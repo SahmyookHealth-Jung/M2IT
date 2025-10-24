@@ -145,8 +145,23 @@ namespace Examiniation
                         // 쿼리 실행 (ExecuteNonQuery): INSERT, UPDATE, DELETE 문 실행 시 사용
                         int rowsAffected = cmd.ExecuteNonQuery();
 
+                        DialogResult confirm = MessageBox.Show(
+                            $"차트 번호 - {chartNumber}, " +
+                            $"환자 이름 - {newName}, " +
+                            $"검진 일자 - {checkupDate}, " +
+                            $"상태 선택 - {status}" +
+                            $"입력하신 정보가 맞습니까?", "등록 확인",
+                            MessageBoxButtons.YesNo
+                            );
+
+                        if (confirm == DialogResult.No )
+                        {
+                            return;
+                        }
+
                         if (rowsAffected > 0)
                         {
+                            
                             MessageBox.Show("✅ 환자 정보가 성공적으로 등록되었습니다.", "등록 완료");
 
                             allPatients = LoadPatientFromDatabase();
