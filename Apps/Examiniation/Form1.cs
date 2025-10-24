@@ -49,11 +49,12 @@ namespace Examiniation
         {
             // DB에서 읽은 데이터를 담을 임시 리스트
             List<Patient> patients = new List<Patient>();
+            
             // MySQL에서 모든 환자 정보를 조회하는 쿼리
             string sql = "SELECT Name, ChartNumber, CheckupDate, CheckupStatus FROM PatientTable";
 
             // using 문을 사용하여 안전하게 연결 자원 관리
-            using (MySqlConnection conn = new MySqlConnection(conns)) // 연결
+            using (MySqlConnection conn = new MySqlConnection(conns)) // 연결 (DB 연결 변수)
             {
                 try
                 {
@@ -129,6 +130,20 @@ namespace Examiniation
                 return;
             }
 
+            DialogResult confirm = MessageBox.Show(
+                            $"차트 번호 - {chartNumber}, " +
+                            $"환자 이름 - {newName}, " +
+                            $"검진 일자 - {checkupDate}, " +
+                            $"상태 선택 - {status}" +
+                            $"입력하신 정보가 맞습니까?", "등록 확인",
+                            MessageBoxButtons.YesNo
+                            );
+
+            if (confirm == DialogResult.No)
+            {
+                return;
+            }
+
             using (MySqlConnection conn = new MySqlConnection(conns))
             {
                 try
@@ -144,20 +159,6 @@ namespace Examiniation
 
                         // 쿼리 실행 (ExecuteNonQuery): INSERT, UPDATE, DELETE 문 실행 시 사용
                         int rowsAffected = cmd.ExecuteNonQuery();
-
-                        DialogResult confirm = MessageBox.Show(
-                            $"차트 번호 - {chartNumber}, " +
-                            $"환자 이름 - {newName}, " +
-                            $"검진 일자 - {checkupDate}, " +
-                            $"상태 선택 - {status}" +
-                            $"입력하신 정보가 맞습니까?", "등록 확인",
-                            MessageBoxButtons.YesNo
-                            );
-
-                        if (confirm == DialogResult.No )
-                        {
-                            return;
-                        }
 
                         if (rowsAffected > 0)
                         {
