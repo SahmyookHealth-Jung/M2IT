@@ -150,8 +150,7 @@ namespace Examiniation
                             MessageBox.Show("✅ 환자 정보가 성공적으로 등록되었습니다.", "등록 완료");
 
                             allPatients = LoadPatientFromDatabase();
-                            dgvPatients.DataSource = allPatients;
-                            dgvPatients.DataSource = null;
+                            FilterPatients(null, null);
                         }
                         else
                         {
@@ -174,13 +173,13 @@ namespace Examiniation
                 return;
             }
 
-            DataGridViewRow selectedRow = dgvPatients.SelectedRows[0];        
-           
-            string chartNoToUpdate = selectedRow.Cells["ChartNumber"].Value.ToString();           
+            DataGridViewRow selectedRow = dgvPatients.SelectedRows[0];
+
+            string chartNoToUpdate = selectedRow.Cells["ChartNumber"].Value.ToString();
             string newStatus = cmbStatusUpdate.SelectedItem.ToString();
 
             string sql = "UPDATE PatientTable SET CheckupStatus = @newStatus WHERE ChartNumber = @ChartNumber";
-            using(MySqlConnection conn = new MySqlConnection(conns))
+            using (MySqlConnection conn = new MySqlConnection(conns))
             {
                 try
                 {
@@ -223,5 +222,55 @@ namespace Examiniation
             public string CheckupDate { get; set; }
             public string CheckupStatus { get; set; }
         }
-    }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgvPatients.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("삭제하실 차트를 선택해주세요");
+                return;
+            }
+
+            DataGridViewRow selectedRow = dgvPatients.SelectedRows[0];
+
+            string chartToDelete = selectedRow.Cells["ChartNumber"].Value.ToString();
+            string sql = "DELETE FROM PatientTable WHERE ChartNumber = @ChartNumber";
+
+            DialogResult confirm = MessageBox.Show(
+                $"{chartToDelete} 차트 번호의 환자 정보를 정말로 삭제하시겠습니까?", "삭제확인",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm == DialogResult.No)
+            {
+                return;
+            }
+
+            using (MySqlConnection conn = new MySqlConnection(conns))
+            {
+                try
+                {
+                    conn.Open();
+                    using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@ChartNumber", chartToDelete);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show($"{chartToDelete}의 정보가 성공적으로 삭제되었습니다.");
+                        }
+
+                        allPatients = LoadPatientFromDatabase();
+                        FilterPatients(null, null); // FilterPatients 메서드를 수동으로 호출하여 현재 텍스트 실시간 반영
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"DB 오류 발생 : {ex.Message}", "시스템 오류");
+                }
+             }
+         }
+     }
 }
