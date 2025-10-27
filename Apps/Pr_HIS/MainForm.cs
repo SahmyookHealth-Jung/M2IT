@@ -16,7 +16,11 @@ namespace Pr_HIS
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        ///  viewForm. registerForm, modifyForm 객체 생성 후 Show() 메서드를 통해서 폼을 띄운다.
+        ///  ShowDialog() 경우 새로 띄운 폼을 닫기 전까지 메인 폼을 조작할 수 없다. 
+        /// </summary>
+      
         private void btnCheckupView_Click(object sender, EventArgs e)
         {
             ViewForm viewForm = new ViewForm();
