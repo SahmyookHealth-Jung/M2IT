@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblSearch = new System.Windows.Forms.Label();
             this.txtSearchName = new System.Windows.Forms.TextBox();
             this.dgvPatients = new System.Windows.Forms.DataGridView();
@@ -53,14 +53,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdateStatus = new System.Windows.Forms.Button();
             this.cmbStatusUpdate = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPatients)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -107,8 +105,8 @@
             // 
             this.ColName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColName.DataPropertyName = "Name";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.ColName.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.ColName.DefaultCellStyle = dataGridViewCellStyle1;
             this.ColName.HeaderText = "환자명";
             this.ColName.MinimumWidth = 6;
             this.ColName.Name = "ColName";
@@ -118,8 +116,8 @@
             // 
             this.ChartNumber.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.ChartNumber.DataPropertyName = "ChartNumber";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ChartNumber.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ChartNumber.DefaultCellStyle = dataGridViewCellStyle2;
             this.ChartNumber.HeaderText = "차트 번호";
             this.ChartNumber.MinimumWidth = 6;
             this.ChartNumber.Name = "ChartNumber";
@@ -130,8 +128,8 @@
             // 
             this.ColCheckupDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.ColCheckupDate.DataPropertyName = "CheckupDate";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColCheckupDate.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColCheckupDate.DefaultCellStyle = dataGridViewCellStyle3;
             this.ColCheckupDate.HeaderText = "검진 날짜";
             this.ColCheckupDate.MinimumWidth = 6;
             this.ColCheckupDate.Name = "ColCheckupDate";
@@ -142,8 +140,8 @@
             // 
             this.ColCheckupStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColCheckupStatus.DataPropertyName = "CheckupStatus";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColCheckupStatus.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColCheckupStatus.DefaultCellStyle = dataGridViewCellStyle4;
             this.ColCheckupStatus.HeaderText = "상태";
             this.ColCheckupStatus.MinimumWidth = 6;
             this.ColCheckupStatus.Name = "ColCheckupStatus";
@@ -272,7 +270,6 @@
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.dgvPatients);
@@ -292,6 +289,26 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(566, 51);
             this.panel4.TabIndex = 13;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.btnDelete);
+            this.panel5.Location = new System.Drawing.Point(440, 9);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(99, 35);
+            this.panel5.TabIndex = 12;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("굴림", 10F);
+            this.btnDelete.Location = new System.Drawing.Point(20, 4);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(57, 26);
+            this.btnDelete.TabIndex = 13;
+            this.btnDelete.Text = "삭제";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdateStatus
             // 
@@ -326,15 +343,6 @@
             this.label7.TabIndex = 10;
             this.label7.Text = "상태 수정 :";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -346,41 +354,11 @@
             this.label6.Text = "내원 환자 조회";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 15);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "label8";
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.btnDelete);
-            this.panel5.Location = new System.Drawing.Point(440, 9);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(99, 35);
-            this.panel5.TabIndex = 12;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Font = new System.Drawing.Font("굴림", 10F);
-            this.btnDelete.Location = new System.Drawing.Point(20, 4);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(57, 26);
-            this.btnDelete.TabIndex = 13;
-            this.btnDelete.Text = "삭제";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1266, 505);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Form1";
@@ -394,7 +372,6 @@
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -421,14 +398,12 @@
         private System.Windows.Forms.Button btnUpdateStatus;
         private System.Windows.Forms.ComboBox cmbStatusUpdate;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ChartNumber;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCheckupDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCheckupStatus;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Label label8;
     }
 }
 
