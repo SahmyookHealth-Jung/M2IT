@@ -58,6 +58,7 @@
     <Compile Include="BoardListForm.Designer.cs">
       <DependentUpon>BoardListForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BoardPost.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
