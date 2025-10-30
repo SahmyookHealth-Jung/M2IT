@@ -54,17 +54,11 @@ from employee
 LEFT JOIN department on employee.department_ID = department.department_ID; 
 
 -- 문제 6. employee 테이블에서 부서별 최대 급여를 조회하는 쿼리 작성
-select 
-	D.department_Name,
-	MAX(e.salary) as 부서별_최대_연봉
-from 
-	employee as e
-left join 
-	department as d on e.department_ID = d.department_ID
-group by
-	d.department_Name
-order by
-	부서별_최대_연봉 desc;
+select D.department_Name, MAX(e.salary) as 부서별_최대_연봉
+	from employee as e
+	left join department as d on e.department_ID = d.department_ID
+	group by d.department_Name
+	order by 부서별_최대_연봉 desc;
 
 -- 문제 7. employee 테이블에서 부서별 평균 급여를 계산하되, 평균 급여가 65000을 초과하는 부서의 department_ID와 평균 급여를 조회하는 쿼리 작성
 select d.department_ID, AVG(e.salary) as 평균_급여
@@ -74,4 +68,6 @@ group by d.department_ID
 having AVG(e.salary) > 65000
 order by 평균_급여 asc;
 
+select concat(first_name, ' ', last_name) as name
+from employee;
 
