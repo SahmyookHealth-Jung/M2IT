@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 게시판 프로젝트
 namespace BoardProject
 {
     public class BoardPost
