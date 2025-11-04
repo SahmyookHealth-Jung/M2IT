@@ -67,7 +67,7 @@ namespace Mini_HIS_Project
                     {
                         conn.Open();
 
-                        int rowsAffected = cmd.ExecuteNonQuery();
+                        int rowsAffected = cmd.ExecuteNonQuery(); // rowsAffected - 실제로 영향을 받은 행의 수 
                         return rowsAffected;
                     }
                     catch (Exception ex) 

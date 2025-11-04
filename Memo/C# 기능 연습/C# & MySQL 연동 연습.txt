@@ -1,0 +1,22 @@
+C# & MySQL 연동 연습 
+
+- using 문은 IDisposable 인터페이스를 구현하는 객체에 대해 가장 안전한 자원 해제를 보장합니다.
+(try-catch 보다 using 선호) 
+
+- string conn = "Server / port / db 등등 ") 을 전역변수로 놓는 이유.
+
+- allPatients = LoadPatientFromDatabase();
+  dgvPatients.DataSource = allPatients;
+  => 이 2개의 코드는 좀 생소한데 Form1() { } 안에 넣는 이유
+
+- public List<Patient> LoadPatientFromDatabase() 원래 메서드 앞에 List<Patient> 이런 형식으로도 나오기도 하는지 (string은 어떨때 쓰는지 비교하면서 )
+- using 을 사용하면서 내부 구조 어떻게 시작해서 코드 짜야하는지 
+
+-    var filteredList = allPatients
+.Where(patient => patient.Name.Contains(searchTerm) ||
+                  patient.ChartNumber.Contains(searchTerm)) // 이름 또는 차트 번호에 검색어가 포함되는지 검사
+.ToList(); // 필터링된 결과를 List로 변환
+
+    // 4. DataGridView 업데이트
+    dgvPatients.DataSource = filteredList;
+
