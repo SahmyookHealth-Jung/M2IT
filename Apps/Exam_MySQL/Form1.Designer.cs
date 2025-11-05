@@ -111,6 +111,7 @@
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "RESET";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // panel1
             // 
@@ -156,6 +157,7 @@
             this.dgvInfo.RowTemplate.Height = 23;
             this.dgvInfo.Size = new System.Drawing.Size(487, 379);
             this.dgvInfo.TabIndex = 3;
+            this.dgvInfo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInfo_CellClick);
             // 
             // btnUpdate
             // 
@@ -169,6 +171,7 @@
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "수정하기";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -182,6 +185,7 @@
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "삭제하기";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSelect
             // 
@@ -195,6 +199,7 @@
             this.btnSelect.TabIndex = 4;
             this.btnSelect.Text = "조회하기";
             this.btnSelect.UseVisualStyleBackColor = false;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // btnInsert
             // 
@@ -208,6 +213,7 @@
             this.btnInsert.TabIndex = 3;
             this.btnInsert.Text = "추가하기";
             this.btnInsert.UseVisualStyleBackColor = false;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // ID
             // 
@@ -221,7 +227,7 @@
             // colName
             // 
             this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colName.DataPropertyName = "이름";
+            this.colName.DataPropertyName = "Name";
             this.colName.HeaderText = "이름";
             this.colName.MinimumWidth = 6;
             this.colName.Name = "colName";

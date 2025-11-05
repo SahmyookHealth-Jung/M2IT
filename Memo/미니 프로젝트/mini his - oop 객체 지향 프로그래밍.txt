@@ -3,9 +3,16 @@
 C# winform / MySql DB
 
 1. UI : WinForm 폼 
-2. DTO (Data Transfer Object) : DB 데이터와 1:1로 매핑되는 C# 클래스
-3. Repositoy : DB와의 통신(SQL 쿼리)을 전담하는 클래스'
-4. Service : 복잡한 비즈니스 로직 및 여러 Repository를 조합하는 클래스
+
+2. DTO (Data Transfer Object) / Entity : DB 데이터와 1:1로 매핑되는 C# 클래스
+-> 계층 간 데이터 전달을 위해 사용 
+
+3. Repositoy : DB와의 통신(SQL 쿼리)을 전담하는 클래스		
+-> DB 접근 로직을 캡슐화하고 객체와 DB 레코드를 매핑
+
+4. Service : 복잡한 비즈니스 로직 및 여러 Repository를 조합하는 클래스  
+-> 비즈니스 로직 (유효성 검사, 검색 조건 결정)을 처리하고 Repository에 작업을 위임
+
 5 Common : 모든 계층에서 공통으로 사용하는 클래스 
 
 
@@ -16,6 +23,12 @@ C# winform / MySql DB
 	-> 사용 후에는 반드시 제자리에 갖다 놓아야 한다.(Close / Dispose)
 	-> 만약 까먹고 갖다 놓지 않으면, 다른 동료들은 그 공구를 쓰지 못하고 시스템이 멈춘다. (Connection Leak 이라고 부름)
 
+
 - using 구문 : 자동 반납 시스템 
 	-> using 블록을 벗어나는 순간, 코드가 정상적으로 실행되었든, 중간에 에러가 났든 무조건 공구를 반납한다.
-	-> 
+	
+
+
+
+
+

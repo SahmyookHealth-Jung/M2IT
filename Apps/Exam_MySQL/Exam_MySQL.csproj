@@ -96,6 +96,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBHelper.cs" />
+    <Compile Include="Exam.cs" />
+    <Compile Include="Exam_repository.cs" />
+    <Compile Include="Exam_Service.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

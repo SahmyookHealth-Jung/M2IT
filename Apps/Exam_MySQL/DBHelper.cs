@@ -11,8 +11,8 @@ namespace Exam_MySQL
 
         public MySqlDataReader ExecuteReader(string sql, MySqlParameter[] parameters = null)
         {
-            using (MySqlConnection conn = new MySqlConnection(ConnectionString))
-            {
+            MySqlConnection conn = new MySqlConnection(ConnectionString);
+            
                 try
                 {
                     conn.Open();
@@ -29,16 +29,17 @@ namespace Exam_MySQL
                         return cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
                     }
                 }
+
                 catch (Exception ex)
                 {
                     if (conn.State == System.Data.ConnectionState.Open)
                     {
                         conn.Close();
                     }
-                    throw;
+                    throw new Exception("DB Reader 실행 오류", ex);
                 }
             }
-        }
+        
 
         public int ExecuteNonQuery(string sql, MySqlParameter[] parameters = null)
         {
