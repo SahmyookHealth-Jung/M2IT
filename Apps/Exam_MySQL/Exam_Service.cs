@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace Exam_MySQL
 {
-
+    // Service : 비즈니스 로직 (유효성 검사, 검색 조건 분기)를 전담한다.
     public class Exam_Service
     {
-        private readonly Exam_repository repo = new Exam_repository();
+        private readonly Exam_repository repo = new Exam_repository();  // repository 사용
 
+        // Create 로직 
         public void Register(Exam exam)
         {
             if (string.IsNullOrWhiteSpace(exam.Name))
             {
                 throw new ArgumentException("이름은 반드시 입력해야합니다.");
             }
-            repo.AddExam(exam);
+            repo.AddExam(exam);     // 검증 후 Repository에 DB 작업 위임
         }
 
         public List<Exam> GetAllRegisteredExams(string name, string phone)

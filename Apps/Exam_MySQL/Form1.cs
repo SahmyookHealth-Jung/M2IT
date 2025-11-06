@@ -20,7 +20,7 @@ namespace Exam_MySQL
             // 💡 초기 화면에 데이터 로드 호출 제거 (요구사항 반영)
         }
 
-        // ✅ 데이터 바인딩 메서드 (갱신 및 조회 시 사용)
+        // 데이터 바인딩 메서드 (갱신 및 조회 시 사용)
         public void RefreshDataGrid(List<Exam> data)
         {
             dgvInfo.AutoGenerateColumns = false;
@@ -52,7 +52,7 @@ namespace Exam_MySQL
 
                 btnReset_Click(sender, e);
 
-                // 💡 삽입 후 전체 데이터로 갱신
+                // 삽입 후 전체 데이터로 갱신
                 RefreshDataGrid(service.GetAllRegisterExams());
             }
             catch (Exception ex)
@@ -69,6 +69,7 @@ namespace Exam_MySQL
 
                 if (selectedItem != null)
                 {
+                    // 선택된 ID를 저장하여 수정/삭제 시 사용
                     _selectedExamId = selectedItem.Id;
                     txtName.Text = selectedItem.Name;
                     txtPhone.Text = selectedItem.Phone;
@@ -148,9 +149,10 @@ namespace Exam_MySQL
             {
                 string name = txtName.Text.Trim();
                 string phone = txtPhone.Text.Trim();
+
                 List<Exam> results;
 
-                // 💡 요구사항: 빈칸 검색 시 전체 데이터를 가져옵니다.
+                // 요구사항: 빈칸 검색 시 전체 데이터를 가져옵니다.
                 if (string.IsNullOrWhiteSpace(name) && string.IsNullOrWhiteSpace(phone))
                 {
                     results = service.GetAllRegisterExams(); // 전체 데이터 조회
