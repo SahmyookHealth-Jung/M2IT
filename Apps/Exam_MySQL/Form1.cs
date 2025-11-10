@@ -143,6 +143,7 @@ namespace Exam_MySQL
             }
         }
 
+        // 조회하기 버튼
         private void btnSelect_Click(object sender, EventArgs e)
         {
             try
