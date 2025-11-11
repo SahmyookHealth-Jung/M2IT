@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using MySql.Data.MySqlClient;
+
 
 namespace Exam_MySQL
 {
     public class DBHelper
     {
-        public static readonly string ConnectionString = "Server = localhost; Port = 3306; Database = his; Uid = downer; Pwd = dkdlxl123!;";
+        public static readonly string ConnectionString =
+                ConfigurationManager.ConnectionStrings["HisDatabase"].ConnectionString;
 
         /// <summary>
         /// SELECT 쿼리 실행을 전담하는 메서드 (데이터 읽을 때 사용)
