@@ -12,6 +12,8 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        // 열거형 정의 
+        // 현재 선택된 연산자의 종류를 나타내기 위한 열거형
         enum Operators
         {
             None,
@@ -22,8 +24,13 @@ namespace Calculator
             Result
         }
 
+        // 현재 선택된 연산자를 저장하는 변수, 초기값은 None
         Operators currentOperator = Operators.None;
+
+        // 연산자 버튼을 눌렀는지 여부를 나타내는 플래그
+        // True 이면, 다음에 숫자 버튼을 누를 때 디스플레이를 초기화해야 함을 의미
         Boolean operatorChangeFlag = false;
+
         int firstOperand = 0;
         int secondOperand = 0;
 

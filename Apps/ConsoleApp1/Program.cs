@@ -23,8 +23,8 @@ for (int i = 2; i<10;  i++)
 
 // 입출력 and if문
 Console.Write("이름을 입력하세요: ");
-String input = Console.ReadLine();
-String name = "jungsw";
+string input = Console.ReadLine();
+string name = "jungsw";
 if (input.Equals(name))
 {
     Console.WriteLine("이름이 일치합니다");

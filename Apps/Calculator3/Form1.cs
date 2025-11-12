@@ -13,7 +13,7 @@ namespace Calculator3
     // Form1 클래스 내부의 Operators Enum 정의를 사용합니다.
     public partial class Form1 : Form
     {
-        // 중복 정의 제거 및 private로 변경 (필요하다면 public으로 유지 가능)
+        
         private enum Operators
         {
             None,
@@ -105,6 +105,11 @@ namespace Calculator3
                 btnResult_Click(sender, e);
                 e.SuppressKeyPress = true;
             }
+            else if (e.KeyCode == Keys.Back) 
+            {
+                HandleBackSpace();
+                e.SuppressKeyPress = true;
+            }
             // 기타 연산자 키 (+, -, *, /) 처리 (옵션)
             else if (e.KeyCode == Keys.Add || e.KeyCode == Keys.Oemplus)
             {
@@ -128,7 +133,6 @@ namespace Calculator3
             }
         }
 
-
         private void HandleOperatorClick(Operators nextOperator)
         {
             // 1. 현재 화면의 숫자를 secondOperand에 저장합니다.
@@ -151,6 +155,25 @@ namespace Calculator3
             // 3. 새로운 연산자를 저장하고, 다음 숫자 입력을 위해 플래그 설정
             currentOperator = nextOperator;
             operatorChangeFlag = true;
+        }
+
+        private void HandleBackSpace()
+        {
+            if (display.Text.Length > 1)
+            {
+                display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            }
+            else
+            {
+                display.Text = "0";
+            }
+            if (int.TryParse(display.Text, out int newNumValue))
+            {
+                if (currentOperator == Operators.None)
+                {
+                    firstOperand = newNumValue;
+                }
+            }
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
