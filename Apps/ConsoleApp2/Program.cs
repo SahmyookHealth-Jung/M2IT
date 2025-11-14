@@ -28,6 +28,11 @@ class Person {
         // 뛰는 행위
         Console.WriteLine(Name + "(이)가 한강을 뜁니다.");
     }
+
+    public void Info()
+    {
+        Console.WriteLine(Name + "의 성별은 " + Gender + "입니다.");
+    }
 }
 
 class MainClass
@@ -37,8 +42,15 @@ class MainClass
         Person p1,p2;
         p1 = new Person();
         p2 = new Person();
+        
         p1.Name = "승우";
         p2.Name = "동현";
+
+        p1.Gender = "man";
+        p2.Gender = "Girl";
+
+        p1.Info();
+
         p1.Eat();
         p1.Walk();
         p2.Run();

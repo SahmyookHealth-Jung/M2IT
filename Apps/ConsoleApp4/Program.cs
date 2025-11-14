@@ -14,7 +14,7 @@ class MainClass
         int[] array2 = new int[] {1,2,3};
 
         // 배열을 초기화하는 세 번째 방법
-        int[] array3 = { 4, 5, 6};
+        int[] array3 = {4, 5, 6};
 
         // 출력
         Console.WriteLine(array1[0]);
