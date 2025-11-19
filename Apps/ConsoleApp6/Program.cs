@@ -11,10 +11,6 @@ class MainClass
         {
             Console.WriteLine(10 / divider);
         }
-        /*catch
-        {
-            Console.WriteLine("0으로 나눌 수 없습니다.");
-        }*/
         catch (Exception e)
         {
             Console.WriteLine("예외 상황: " + e.Message);
