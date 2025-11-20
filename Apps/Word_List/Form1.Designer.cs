@@ -65,7 +65,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1082, 86);
+            this.panel1.Size = new System.Drawing.Size(1234, 86);
             this.panel1.TabIndex = 0;
             // 
             // btnSelect
@@ -112,17 +112,17 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.txtId);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 513);
+            this.panel2.Location = new System.Drawing.Point(0, 650);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1082, 151);
+            this.panel2.Size = new System.Drawing.Size(1234, 151);
             this.panel2.TabIndex = 1;
             // 
             // btnReset
             // 
             this.btnReset.Font = new System.Drawing.Font("굴림", 12F);
-            this.btnReset.Location = new System.Drawing.Point(956, 49);
+            this.btnReset.Location = new System.Drawing.Point(1094, 110);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(113, 46);
+            this.btnReset.Size = new System.Drawing.Size(113, 31);
             this.btnReset.TabIndex = 12;
             this.btnReset.Text = "초기화";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -131,9 +131,9 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("굴림", 12F);
-            this.btnSave.Location = new System.Drawing.Point(718, 49);
+            this.btnSave.Location = new System.Drawing.Point(1094, 18);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(113, 46);
+            this.btnSave.Size = new System.Drawing.Size(113, 31);
             this.btnSave.TabIndex = 11;
             this.btnSave.Text = "저장";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -142,9 +142,9 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("굴림", 12F);
-            this.btnDelete.Location = new System.Drawing.Point(837, 49);
+            this.btnDelete.Location = new System.Drawing.Point(1094, 65);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(113, 46);
+            this.btnDelete.Size = new System.Drawing.Size(113, 31);
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "삭제";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -152,18 +152,18 @@
             // 
             // txtDesc
             // 
-            this.txtDesc.Font = new System.Drawing.Font("굴림", 12F);
-            this.txtDesc.Location = new System.Drawing.Point(396, 80);
+            this.txtDesc.Font = new System.Drawing.Font("굴림", 10F);
+            this.txtDesc.Location = new System.Drawing.Point(534, 83);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(228, 58);
+            this.txtDesc.Size = new System.Drawing.Size(439, 58);
             this.txtDesc.TabIndex = 10;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("굴림", 12F);
-            this.label5.Location = new System.Drawing.Point(329, 99);
+            this.label5.Location = new System.Drawing.Point(425, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 20);
             this.label5.TabIndex = 9;
@@ -171,17 +171,18 @@
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("굴림", 12F);
-            this.txtName.Location = new System.Drawing.Point(127, 96);
+            this.txtName.Font = new System.Drawing.Font("굴림", 10F);
+            this.txtName.Location = new System.Drawing.Point(534, 18);
+            this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(176, 30);
+            this.txtName.Size = new System.Drawing.Size(439, 43);
             this.txtName.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 12F);
-            this.label4.Location = new System.Drawing.Point(18, 99);
+            this.label4.Location = new System.Drawing.Point(425, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 20);
             this.label4.TabIndex = 7;
@@ -189,17 +190,17 @@
             // 
             // txtCode
             // 
-            this.txtCode.Font = new System.Drawing.Font("굴림", 12F);
-            this.txtCode.Location = new System.Drawing.Point(396, 28);
+            this.txtCode.Font = new System.Drawing.Font("굴림", 10F);
+            this.txtCode.Location = new System.Drawing.Point(131, 95);
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(228, 30);
+            this.txtCode.Size = new System.Drawing.Size(216, 34);
             this.txtCode.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 12F);
-            this.label3.Location = new System.Drawing.Point(283, 32);
+            this.label3.Location = new System.Drawing.Point(18, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 5;
@@ -217,9 +218,11 @@
             // 
             // txtId
             // 
+            this.txtId.Enabled = false;
             this.txtId.Font = new System.Drawing.Font("굴림", 12F);
             this.txtId.Location = new System.Drawing.Point(64, 27);
             this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(171, 30);
             this.txtId.TabIndex = 0;
             // 
@@ -230,7 +233,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 86);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1082, 427);
+            this.panel3.Size = new System.Drawing.Size(1234, 564);
             this.panel3.TabIndex = 2;
             // 
             // dgvGrid
@@ -249,8 +252,9 @@
             this.dgvGrid.RowHeadersWidth = 51;
             this.dgvGrid.RowTemplate.Height = 27;
             this.dgvGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvGrid.Size = new System.Drawing.Size(1080, 425);
+            this.dgvGrid.Size = new System.Drawing.Size(1232, 562);
             this.dgvGrid.TabIndex = 0;
+            this.dgvGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGrid_CellClick);
             // 
             // colId
             // 
@@ -289,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1082, 664);
+            this.ClientSize = new System.Drawing.Size(1234, 801);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

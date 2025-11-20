@@ -15,6 +15,9 @@ namespace Word_List
         public string TermCode { get; set; }
         public string FullName { get; set; }
         public string Description { get; set; }
+        
+        // DB의 reg_date는 DATETIME 타입이니, DATETIME으로 받는 게 정석.
+        // 지금처럼 string으로 받아도 에러는 나지 않음.
         public string RegDate { get; set; }
     }
 }
