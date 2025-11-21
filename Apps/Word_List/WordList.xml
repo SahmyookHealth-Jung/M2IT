@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>13</Id>
+    <TermCode>CTO</TermCode>
+    <FullName>Chief Technical Officer</FullName>
+    <Description>최고 기술 관리자</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>12</Id>
+    <TermCode>XML</TermCode>
+    <FullName>eXtensible Markup Language</FullName>
+    <Description>데이터를 저장하고 전송하기 위한 규칙을 정의하는 확장 가능한 마크업 언어이다. 다른 시스템 간 데이터 교환을 용이하게 한다.</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>11</Id>
+    <TermCode>property</TermCode>
+    <FullName>프로퍼티</FullName>
+    <Description>속성이라는 뜻으로, 객체를 이루는 데이터나 특성을 의미.
+이름 : 값의 쌍으로 구성되며, 객체의 정보를 담는 역할을 한다.</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>10</Id>
     <TermCode>GW</TermCode>
     <FullName>Gateway</FullName>
