@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MedicalTerm>
+    <Id>10</Id>
+    <TermCode>GW</TermCode>
+    <FullName>Gateway</FullName>
+    <Description>연동 중계 서버: 병원 내부 시스템과 외부 기관 혹은 장비 간의 데이터를 주고 받는 통로 역할을 한다.</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>9</Id>
+    <TermCode>BST</TermCode>
+    <FullName>Blood Sugar Test</FullName>
+    <Description>혈당 검사: 보통 손가락 끝에서 채혈하여 간이로 측정하는 혈당 검사를 말한다.</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>8</Id>
+    <TermCode>BMI</TermCode>
+    <FullName>Body Mass Index</FullName>
+    <Description>체질량지수: 키와 몸무게를 이용해 비만도를 산출하는 지수
+공식 - 몸무게(KG) / 키(M)X키(M)</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>7</Id>
+    <TermCode>EMR</TermCode>
+    <FullName>Electronic Medical Record</FullName>
+    <Description>전자의무기록: 환자의 모든 진료 기록(차트, 병력 등)을 전산화한 것이다.</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>6</Id>
+    <TermCode>PACS</TermCode>
+    <FullName>Picture Archiving and Communication System</FullName>
+    <Description>의료영상저장전송시스템: X-ray, CT, MRI 등의 영상 데이터를 디지털로 저장하고, 진료실이나 검진 센터 PC에서 조회할 수 있게 해주는 시스템</Description>
+    <RegDate>2025-11-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>4</Id>
+    <TermCode>LIS</TermCode>
+    <FullName>Lab Data Management</FullName>
+    <Description>검사실 정보 시스템: 혈액, 소변, 검체 등 임상병리 검사와 관련 된모든 정보를 관리하는 시스템</Description>
+    <RegDate>2025-11-20</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>3</Id>
+    <TermCode>BP</TermCode>
+    <FullName>Blood Pressure</FullName>
+    <Description>혈압: 수축기/이완기 혈압, 검진 기초 검사 필수 항목</Description>
+    <RegDate />
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>2</Id>
+    <TermCode>BM</TermCode>
+    <FullName>Body Measurement</FullName>
+    <Description>신체계측: 키, 몸무게, 시력, 청력 등 가장 기초적인 검사</Description>
+    <RegDate />
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>1</Id>
+    <TermCode>OCS</TermCode>
+    <FullName>Order Communication System</FullName>
+    <Description>처방전달시스템: 의사의 처방을 각 진료/검사 부서로 전송하는 시스템</Description>
+    <RegDate />
+  </MedicalTerm>
+</ArrayOfMedicalTerm>

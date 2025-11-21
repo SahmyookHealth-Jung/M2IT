@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Xml.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -132,20 +133,21 @@ namespace Word_List
                 // 실행 파일 옆 (bin/Debug)에 저장 -> git ignore 때문에 무시
                 // string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "WordList.csv");
 
+                /* 
                 string projectPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\"));
-                string filePath = Path.Combine(projectPath, "WordList.csv");
+                string filePath = Path.Combine(projectPath, "WordList.csv");*/
+
+                string filePath = @"C:\Users\정승우\M2IT\Apps\Word_List\WordList.xml";
+
+                XmlSerializer serializer = new XmlSerializer(typeof(List<MedicalTerm>));
 
                 using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                 {
-                    sw.WriteLine("ID, 용어코드, 전체명칭, 설명, 등록일");
-
-                    foreach (var item in list)
-                    {
-                        string line = $"{item.Id},{item.TermCode},{item.FullName}, {item.Description},{item.RegDate}";
-                        sw.WriteLine(line);
-                    }
+                    serializer.Serialize(sw, list);
                 }
-            } catch (Exception ex)
+                    
+                }
+             catch (Exception ex)
             {
                 MessageBox.Show("CSV 저장 실패: " + ex.Message);
             }
