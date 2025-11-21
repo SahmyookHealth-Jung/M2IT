@@ -129,7 +129,11 @@ namespace Word_List
             {
                 List<MedicalTerm> list = _repo.SelectAll("");
 
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "WordList.csv");
+                // 실행 파일 옆 (bin/Debug)에 저장 -> git ignore 때문에 무시
+                // string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "WordList.csv");
+
+                string projectPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\"));
+                string filePath = Path.Combine(projectPath, "WordList.csv");
 
                 using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                 {
