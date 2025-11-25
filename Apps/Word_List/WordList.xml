@@ -1,6 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>27</Id>
+    <TermCode>manifest</TermCode>
+    <FullName>manifest (V)</FullName>
+    <Description>명시하다. 나타나다</Description>
+    <RegDate>2025-11-25</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>26</Id>
+    <TermCode>GDP</TermCode>
+    <FullName>Gross Domestic Product</FullName>
+    <Description>국내총생산</Description>
+    <RegDate>2025-11-25</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>25</Id>
+    <TermCode>staple diet</TermCode>
+    <FullName>staple diet</FullName>
+    <Description>주식</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>24</Id>
+    <TermCode>optimize</TermCode>
+    <FullName>optimize</FullName>
+    <Description>최적화</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>23</Id>
+    <TermCode>for centuries to come</TermCode>
+    <FullName>for centuries to come</FullName>
+    <Description>수 세기 동안 (앞으로 올 수 세기 동안)</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>22</Id>
+    <TermCode>surplus crops</TermCode>
+    <FullName>surplus crops</FullName>
+    <Description>잉여 농작물(남는 작물)</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>21</Id>
+    <TermCode>irrigation</TermCode>
+    <FullName>irrigation</FullName>
+    <Description>관개 (농사를 짓기 위해 논이나 밭에 인공적으로 물을 공급하는 행위)</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>20</Id>
+    <TermCode>the most of</TermCode>
+    <FullName>make the most of (something)</FullName>
+    <Description>~을 최대한 활용하다. ~을 가장 잘 이용하다.</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>19</Id>
+    <TermCode>thrived</TermCode>
+    <FullName>thrive 의 과거형</FullName>
+    <Description>번성하다, 성공하다</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>18</Id>
+    <TermCode>take over</TermCode>
+    <FullName>take over</FullName>
+    <Description>장악하다</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>17</Id>
+    <TermCode>remain</TermCode>
+    <FullName>remain</FullName>
+    <Description>~로 남아있다. 계속 유지되다</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>16</Id>
+    <TermCode>impressive</TermCode>
+    <FullName>impressive</FullName>
+    <Description>인상적인</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
+    <Id>15</Id>
+    <TermCode>Homogeneous</TermCode>
+    <FullName>Homogeneous 환경</FullName>
+    <Description>클러스터링 기술이 전통적으로 동일한 H/W와 OS 기반에서 구성되는 것을 의미</Description>
+    <RegDate>2025-11-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>14</Id>
     <TermCode>induce</TermCode>
     <FullName>induce</FullName>
