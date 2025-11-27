@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>28</Id>
+    <TermCode>Order</TermCode>
+    <FullName>order</FullName>
+    <Description>검진 처방</Description>
+    <RegDate>2025-11-27</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>27</Id>
     <TermCode>manifest</TermCode>
     <FullName>manifest (V)</FullName>
