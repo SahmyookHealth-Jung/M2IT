@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>33</Id>
+    <TermCode>induce</TermCode>
+    <FullName>induce</FullName>
+    <Description>유도하다</Description>
+    <RegDate>2025-12-08</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>32</Id>
     <TermCode>adhere</TermCode>
     <FullName>adhere</FullName>
