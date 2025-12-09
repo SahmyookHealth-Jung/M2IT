@@ -40,7 +40,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(340, 751);
+            this.panel1.Size = new System.Drawing.Size(340, 782);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -51,7 +51,7 @@
             this.tabControl1.Location = new System.Drawing.Point(340, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1134, 751);
+            this.tabControl1.Size = new System.Drawing.Size(1223, 782);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -59,7 +59,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1126, 722);
+            this.tabPage1.Size = new System.Drawing.Size(1215, 753);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(0, 0);
+            this.tabPage2.Size = new System.Drawing.Size(1126, 722);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -78,11 +78,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1474, 751);
+            this.ClientSize = new System.Drawing.Size(1563, 782);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "Form_Patient";
             this.Text = "Form_Patient";
+            this.Load += new System.EventHandler(this.Form_Patient_Load);
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
