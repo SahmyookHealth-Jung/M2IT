@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>34</Id>
+    <TermCode>AI</TermCode>
+    <FullName>Artificial Intelligence</FullName>
+    <Description>인공지능</Description>
+    <RegDate>2025-12-10</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>33</Id>
     <TermCode>induce</TermCode>
     <FullName>induce</FullName>
