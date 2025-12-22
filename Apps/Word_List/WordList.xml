@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>36</Id>
+    <TermCode>vacation</TermCode>
+    <FullName>vacation</FullName>
+    <Description>휴가</Description>
+    <RegDate>2025-12-22</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>35</Id>
     <TermCode>www</TermCode>
     <FullName>world wide web</FullName>
