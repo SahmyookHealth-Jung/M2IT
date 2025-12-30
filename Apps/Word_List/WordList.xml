@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>38</Id>
+    <TermCode>HTTP</TermCode>
+    <FullName>Hyper Text Transfer Protocol</FullName>
+    <Description>웹 브라우저와 웹 서버 간에 데이터를 주고받 기 위한 통신 규약</Description>
+    <RegDate>2025-12-30</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>37</Id>
     <TermCode>STATUS</TermCode>
     <FullName>STATUS</FullName>
