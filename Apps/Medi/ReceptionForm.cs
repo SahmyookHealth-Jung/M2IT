@@ -73,5 +73,15 @@ namespace Medi
             MessageBox.Show("접수가 정상적으로 등록되었습니다.");
             txtNote.Text = "";
         }
+
+        private void btnAddExam_Click(object sender, EventArgs e)
+        {
+            ExamSelectForm popup = new ExamSelectForm();
+
+            if (popup.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("검사를 선택하고 닫기.");
+            }
+        }
     }
 }

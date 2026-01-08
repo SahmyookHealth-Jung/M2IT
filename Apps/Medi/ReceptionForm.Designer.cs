@@ -30,6 +30,9 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dgvPatientList = new System.Windows.Forms.DataGridView();
+            this.PatientID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BirthDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtSearchName = new System.Windows.Forms.TextBox();
@@ -56,9 +59,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnDelExam = new System.Windows.Forms.Button();
             this.btnAddExam = new System.Windows.Forms.Button();
-            this.PatientID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BirthDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -110,6 +110,35 @@
             this.dgvPatientList.Size = new System.Drawing.Size(366, 578);
             this.dgvPatientList.TabIndex = 1;
             this.dgvPatientList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPatientList_CellDoubleClick);
+            // 
+            // PatientID
+            // 
+            this.PatientID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.PatientID.DataPropertyName = "PatientID";
+            this.PatientID.HeaderText = "환자번호";
+            this.PatientID.MinimumWidth = 6;
+            this.PatientID.Name = "PatientID";
+            this.PatientID.ReadOnly = true;
+            this.PatientID.Width = 96;
+            // 
+            // pName
+            // 
+            this.pName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.pName.DataPropertyName = "Name";
+            this.pName.HeaderText = "환자명";
+            this.pName.MinimumWidth = 6;
+            this.pName.Name = "pName";
+            this.pName.ReadOnly = true;
+            this.pName.Width = 81;
+            // 
+            // BirthDate
+            // 
+            this.BirthDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.BirthDate.DataPropertyName = "BirthDate";
+            this.BirthDate.HeaderText = "생년월일";
+            this.BirthDate.MinimumWidth = 6;
+            this.BirthDate.Name = "BirthDate";
+            this.BirthDate.ReadOnly = true;
             // 
             // panel1
             // 
@@ -392,35 +421,7 @@
             this.btnAddExam.TabIndex = 3;
             this.btnAddExam.Text = "검사 추가";
             this.btnAddExam.UseVisualStyleBackColor = true;
-            // 
-            // PatientID
-            // 
-            this.PatientID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.PatientID.DataPropertyName = "PatientID";
-            this.PatientID.HeaderText = "환자번호";
-            this.PatientID.MinimumWidth = 6;
-            this.PatientID.Name = "PatientID";
-            this.PatientID.ReadOnly = true;
-            this.PatientID.Width = 96;
-            // 
-            // pName
-            // 
-            this.pName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.pName.DataPropertyName = "Name";
-            this.pName.HeaderText = "환자명";
-            this.pName.MinimumWidth = 6;
-            this.pName.Name = "pName";
-            this.pName.ReadOnly = true;
-            this.pName.Width = 81;
-            // 
-            // BirthDate
-            // 
-            this.BirthDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.BirthDate.DataPropertyName = "BirthDate";
-            this.BirthDate.HeaderText = "생년월일";
-            this.BirthDate.MinimumWidth = 6;
-            this.BirthDate.Name = "BirthDate";
-            this.BirthDate.ReadOnly = true;
+            this.btnAddExam.Click += new System.EventHandler(this.btnAddExam_Click);
             // 
             // ReceptionForm
             // 

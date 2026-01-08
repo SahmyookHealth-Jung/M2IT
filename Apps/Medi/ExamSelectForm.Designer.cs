@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSelect = new System.Windows.Forms.Button();
+            this.dgvExamSelect = new System.Windows.Forms.DataGridView();
             this.chk = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.colCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExamSelect)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -49,22 +49,6 @@
             this.panel1.Size = new System.Drawing.Size(1089, 125);
             this.panel1.TabIndex = 0;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.chk,
-            this.colCode,
-            this.colName,
-            this.colPrice});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1089, 599);
-            this.dataGridView1.TabIndex = 1;
-            // 
             // btnSelect
             // 
             this.btnSelect.Font = new System.Drawing.Font("굴림", 14F);
@@ -74,6 +58,23 @@
             this.btnSelect.TabIndex = 0;
             this.btnSelect.Text = "선택 완료";
             this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
+            // 
+            // dgvExamSelect
+            // 
+            this.dgvExamSelect.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvExamSelect.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.chk,
+            this.colCode,
+            this.colName,
+            this.colPrice});
+            this.dgvExamSelect.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvExamSelect.Location = new System.Drawing.Point(0, 0);
+            this.dgvExamSelect.Name = "dgvExamSelect";
+            this.dgvExamSelect.RowHeadersWidth = 51;
+            this.dgvExamSelect.RowTemplate.Height = 27;
+            this.dgvExamSelect.Size = new System.Drawing.Size(1089, 599);
+            this.dgvExamSelect.TabIndex = 1;
             // 
             // chk
             // 
@@ -111,7 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1089, 730);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvExamSelect);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -119,8 +120,9 @@
             this.Name = "ExamSelectForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "검사 항목 선택";
+            this.Load += new System.EventHandler(this.ExamSelectForm_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExamSelect)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -129,7 +131,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSelect;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvExamSelect;
         private System.Windows.Forms.DataGridViewCheckBoxColumn chk;
         private System.Windows.Forms.DataGridViewTextBoxColumn colCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
