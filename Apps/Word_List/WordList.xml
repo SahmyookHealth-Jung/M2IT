@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>40</Id>
+    <TermCode>today schedule</TermCode>
+    <FullName>what will you do today</FullName>
+    <Description>오늘 뭐 할거야?
+what do you do는 보통 직업을 물어봄</Description>
+    <RegDate>2026-01-09</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>39</Id>
     <TermCode>betray</TermCode>
     <FullName>betray</FullName>
