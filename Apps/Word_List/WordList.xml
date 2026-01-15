@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>41</Id>
+    <TermCode>DIAGNOSTICIAN</TermCode>
+    <FullName>DIAGNOSTICIAN</FullName>
+    <Description>진단 전문가</Description>
+    <RegDate>2026-01-15</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>40</Id>
     <TermCode>today schedule</TermCode>
     <FullName>what will you do today</FullName>
