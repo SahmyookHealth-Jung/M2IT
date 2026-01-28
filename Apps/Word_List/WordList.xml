@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>48</Id>
+    <TermCode>Mammography</TermCode>
+    <FullName>mammography</FullName>
+    <Description>유방 촬영술</Description>
+    <RegDate>2026-01-28</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>47</Id>
     <TermCode>tariff</TermCode>
     <FullName>tariff</FullName>
