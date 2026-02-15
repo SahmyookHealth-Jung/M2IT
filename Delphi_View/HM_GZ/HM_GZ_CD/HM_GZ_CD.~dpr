@@ -1,0 +1,13 @@
+program HM_GZ_CD;
+
+uses
+  Forms,
+  VHMGZCD003S in 'VHMGZCD003S.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

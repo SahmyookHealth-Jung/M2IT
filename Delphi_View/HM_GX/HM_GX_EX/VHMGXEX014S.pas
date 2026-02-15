@@ -1,0 +1,69 @@
+unit VHMGXEX014S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, TFlatEditUnit, TFlatComboBoxUnit, ExtCtrls,
+  TFlatPanelUnit, Grids, BaseGrid, AdvGrid, TFlatButtonUnit,
+  TFlatCheckBoxUnit, TFlatLabelUnit;
+
+type
+  TForm1 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel2: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    Label7: TLabel;
+    Label1: TLabel;
+    FlaTFlatPanel23: TLabel;
+    FlatEdit10: TFlatEdit;
+    Label2: TLabel;
+    FlatEdit2: TFlatEdit;
+    Label3: TLabel;
+    Label5: TLabel;
+    FlatEdit6: TFlatEdit;
+    Label6: TLabel;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel5: TFlatPanel;
+    FlatButton7: TFlatButton;
+    FlatPanel7: TFlatPanel;
+    FlatPanel14: TFlatPanel;
+    FlatEdit7: TFlatEdit;
+    Label10: TLabel;
+    Label11: TLabel;
+    FlatEdit8: TFlatEdit;
+    FlatCheckBox17: TFlatCheckBox;
+    FlatEdit1: TFlatEdit;
+    FlatEdit5: TFlatEdit;
+    Label4: TLabel;
+    FlatEdit9: TFlatEdit;
+    FlatEdit4: TFlatEdit;
+    FlatComboBox4: TFlatComboBox;
+    FlatButton19: TFlatButton;
+    FlatButton20: TFlatButton;
+    FlatButton21: TFlatButton;
+    FlatButton22: TFlatButton;
+    FlatButton23: TFlatButton;
+    FlatButton24: TFlatButton;
+    FlatPanel9: TFlatPanel;
+    FlatPanel8: TFlatPanel;
+    FlatPanel11: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatPanel13: TFlatPanel;
+    AdvStringGrid3: TAdvStringGrid;
+    FlatLabel1: TFlatLabel;
+    FlatLabel2: TFlatLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.  
