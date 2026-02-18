@@ -42,11 +42,14 @@ type
     FlatButton4: TFlatButton;
     FlatButton6: TFlatButton;
     FlatPanel4: TFlatPanel;
-    FlatPanel5: TFlatPanel;
-    AdvStringGrid1: TAdvStringGrid;
     FlatEdit2: TFlatEdit;
     FlatPanel6: TFlatPanel;
     FlatLabel3: TFlatLabel;
+    FlatPanel7: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+    FlatPanel8: TFlatPanel;
+    FlatLabel2: TFlatLabel;
+    AdvStringGrid1: TAdvStringGrid;
     procedure Label12Click(Sender: TObject);
     procedure FlatPanel4Click(Sender: TObject);
     procedure FlatPanel5Click(Sender: TObject);

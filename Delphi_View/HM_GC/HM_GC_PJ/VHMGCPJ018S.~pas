@@ -39,7 +39,6 @@ type
     Label23: TLabel;
     Label24: TLabel;
     Label25: TLabel;
-    Label26: TLabel;
     Label27: TLabel;
     FlatEdit4: TFlatEdit;
     FlatEdit2: TFlatEdit;
@@ -51,7 +50,6 @@ type
     FlatEdit13: TFlatEdit;
     FlatEdit14: TFlatEdit;
     FlatEdit15: TFlatEdit;
-    FlatEdit16: TFlatEdit;
     FlatEdit23: TFlatEdit;
     FlatPanel3: TFlatPanel;
     FlatLabel4: TFlatLabel;
@@ -70,47 +68,19 @@ type
     FlatPanel8: TFlatPanel;
     FlatLabel5: TFlatLabel;
     FlatPanel9: TFlatPanel;
-    AdvStringGrid3: TAdvStringGrid;
     FlatPanel12: TFlatPanel;
-    FlaTFlatPanel32: TLabel;
-    Label7: TLabel;
-    Label8: TLabel;
-    Label11: TLabel;
     FlatLabel6: TFlatLabel;
     FlatPanel13: TFlatPanel;
     Label19: TLabel;
-    Label20: TLabel;
     Label21: TLabel;
-    Label22: TLabel;
-    FlatEdit10: TFlatEdit;
     FlatEdit11: TFlatEdit;
     FlatEdit21: TFlatEdit;
-    FlatEdit22: TFlatEdit;
-    FlatGroupBox1: TFlatGroupBox;
-    FlatGroupBox2: TFlatGroupBox;
-    FlatGroupBox3: TFlatGroupBox;
-    FlatGroupBox4: TFlatGroupBox;
-    FlatGroupBox5: TFlatGroupBox;
-    FlatGroupBox6: TFlatGroupBox;
-    FlatEdit18: TFlatEdit;
-    FlatEdit12: TFlatEdit;
-    FlatCheckBox26: TFlatCheckBox;
-    FlatEdit17: TFlatEdit;
-    FlatCheckBox1: TFlatCheckBox;
-    FlatPanel14: TFlatPanel;
-    FlatRadioButton10: TFlatRadioButton;
-    FlatCheckBox27: TFlatCheckBox;
-    FlatEdit19: TFlatEdit;
-    FlatRadioButton1: TFlatRadioButton;
-    FlatRadioButton2: TFlatRadioButton;
-    FlatCheckBox3: TFlatCheckBox;
-    FlatCheckBox4: TFlatCheckBox;
-    FlatEdit20: TFlatEdit;
-    FlatCheckBox2: TFlatCheckBox;
+    FlatButton2: TFlatButton;
+    FlatButton3: TFlatButton;
+    FlatButton8: TFlatButton;
     FlatPanel10: TFlatPanel;
-    FlatLabel2: TFlatLabel;
-    FlatPanel15: TFlatPanel;
-    AdvStringGrid4: TAdvStringGrid;
+    FlatRadioButton15: TFlatRadioButton;
+    FlatRadioButton14: TFlatRadioButton;
   private
     { Private declarations }
   public

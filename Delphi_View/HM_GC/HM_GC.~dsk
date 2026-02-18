@@ -11,8 +11,14 @@ File_8=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD008S
 File_9=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Demos\Docking\uMain.pas',0,1,23,39,38,1,0
 
 [Modules]
-Count=0
-EditWindowCount=0
+Module0=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr
+Count=1
+EditWindowCount=1
+
+[C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
 
 [C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC.bpg]
 FormState=0
@@ -22,9 +28,37 @@ FormOnTop=0
 FormState=0
 FormOnTop=0
 
-[C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr]
-FormState=0
-FormOnTop=0
+[EditWindow0]
+ViewCount=1
+CurrentView=0
+View0=0
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=90
+Top=96
+Width=1302
+Height=716
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1286
+ClientHeight=677
+LeftPanelSize=140
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
+
+[View0]
+Module=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
 
 [Watches]
 Count=0
@@ -39,7 +73,7 @@ Count=0
 Create=1
 Visible=1
 State=0
-Left=-3
+Left=0
 Top=0
 Width=1536
 Height=123
@@ -54,11 +88,11 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=287
+Width=403
 Height=796
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=287
+ClientWidth=403
 ClientHeight=796
 TBDockHeight=318
 LRDockWidth=446
@@ -83,11 +117,11 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=287
+Width=403
 Height=796
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=287
+ClientWidth=403
 ClientHeight=796
 TBDockHeight=412
 LRDockWidth=190
@@ -104,14 +138,46 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=287
+Width=403
 Height=796
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=287
+ClientWidth=403
 ClientHeight=796
 TBDockHeight=499
 LRDockWidth=190
+Dockable=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=140
+Height=665
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=140
+ClientHeight=665
+TBDockHeight=305
+LRDockWidth=140
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=-1974
+Top=-727
+Width=443
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=443
+ClientHeight=85
+TBDockHeight=85
+LRDockWidth=443
 Dockable=1
 
 [DockHosts]
@@ -122,19 +188,19 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=1
-Top=85
-Width=330
+Left=0
+Top=0
+Width=446
 Height=843
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=314
+ClientWidth=430
 ClientHeight=804
 TBDockHeight=843
 LRDockWidth=446
 Dockable=1
 TabPosition=2
-ActiveTab=Project Manager
+ActiveTab=Object Inspector
 TabDockClients=ProjectManager,ObjectTree,PropertyInspector
 
 [ActiveProject]

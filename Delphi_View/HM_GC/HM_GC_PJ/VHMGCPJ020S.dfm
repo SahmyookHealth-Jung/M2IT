@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = -113
-  Top = 36
-  Width = 1556
-  Height = 814
+  Left = -8
+  Top = -8
+  Width = 1552
+  Height = 832
   ActiveControl = FlatCheckBox2
   Caption = #52488#51020#54028' '#49548#44204' '#46321#47197' [VHMGCPJ020S]'
   Color = clWhite

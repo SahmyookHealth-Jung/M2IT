@@ -1,8 +1,10 @@
 object Form1: TForm1
-  Left = 1990
-  Top = 0
-  Width = 1556
-  Height = 884
+  Left = -8
+  Top = -8
+  Width = 1552
+  Height = 832
+  HorzScrollBar.Position = 6
+  VertScrollBar.Position = 120
   Caption = #50689#49345' '#44160#51652#49548#44204' '#46321#47197' [VHMGCPJ018S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -14,8 +16,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 15
   object FlatPanel11: TFlatPanel
-    Left = 88
-    Top = 28
+    Left = 38
+    Top = -111
     Width = 1481
     Height = 934
     ParentColor = True
@@ -316,17 +318,7 @@ object Form1: TForm1
         Height = 23
         Alignment = taRightJustify
         AutoSize = False
-        Caption = #45908#51060#51204#51217#49688#51068#51088
-        Layout = tlCenter
-      end
-      object Label26: TLabel
-        Left = 392
-        Top = 103
-        Width = 89
-        Height = 23
-        Alignment = taRightJustify
-        AutoSize = False
-        Caption = #45908#51060#51204#51217#49688#48264#54840
+        Caption = 'VIP'
         Layout = tlCenter
       end
       object Label27: TLabel
@@ -479,20 +471,6 @@ object Form1: TForm1
         ParentFont = False
         TabOrder = 9
       end
-      object FlatEdit16: TFlatEdit
-        Left = 488
-        Top = 103
-        Width = 116
-        Height = 23
-        ColorFlat = clWhite
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 10
-      end
       object FlatEdit23: TFlatEdit
         Left = 72
         Top = 103
@@ -505,7 +483,7 @@ object Form1: TForm1
         Font.Name = 'MS Sans Serif'
         Font.Style = []
         ParentFont = False
-        TabOrder = 11
+        TabOrder = 10
       end
     end
     object FlatPanel3: TFlatPanel
@@ -533,9 +511,9 @@ object Form1: TForm1
       end
       object FlatPanel6: TFlatPanel
         Left = 8
-        Top = 32
+        Top = 34
         Width = 289
-        Height = 809
+        Height = 792
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -543,7 +521,7 @@ object Form1: TForm1
           Left = 1
           Top = 1
           Width = 287
-          Height = 807
+          Height = 790
           Cursor = crDefault
           Align = alClient
           ColCount = 5
@@ -790,7 +768,7 @@ object Form1: TForm1
       Top = 72
       Width = 81
       Height = 23
-      Caption = #51200#51109
+      Caption = #44208#44284#51200#51109
       TabOrder = 5
     end
     object FlatButton5: TFlatButton
@@ -798,7 +776,7 @@ object Form1: TForm1
       Top = 118
       Width = 81
       Height = 23
-      Caption = #51060#51204' '#49548#44204#45236#50857
+      Caption = 'PACS'#49548#44204#50672#46041
       TabOrder = 6
     end
     object FlatButton6: TFlatButton
@@ -806,7 +784,7 @@ object Form1: TForm1
       Top = 95
       Width = 81
       Height = 23
-      Caption = #49548#44204#51200#51109
+      Caption = #51221#49345#52376#47532
       TabOrder = 7
     end
     object FlatButton7: TFlatButton
@@ -814,14 +792,14 @@ object Form1: TForm1
       Top = 141
       Width = 81
       Height = 23
-      Caption = #51068#44292#51221#49345#52376#47532
+      Caption = #49548#44204#51200#51109
       TabOrder = 8
     end
     object FlatPanel7: TFlatPanel
       Left = 306
       Top = 231
       Width = 1174
-      Height = 249
+      Height = 289
       ParentColor = True
       TabOrder = 9
       UseDockManager = True
@@ -842,9 +820,9 @@ object Form1: TForm1
       end
       object FlatPanel5: TFlatPanel
         Left = 8
-        Top = 37
+        Top = 76
         Width = 1137
-        Height = 193
+        Height = 205
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -852,7 +830,7 @@ object Form1: TForm1
           Left = 1
           Top = 1
           Width = 1135
-          Height = 191
+          Height = 203
           Cursor = crDefault
           Align = alClient
           ColCount = 9
@@ -1081,25 +1059,50 @@ object Form1: TForm1
             25)
         end
       end
+      object FlatPanel10: TFlatPanel
+        Left = 8
+        Top = 36
+        Width = 145
+        Height = 33
+        ParentColor = True
+        TabOrder = 1
+        UseDockManager = True
+        object FlatRadioButton15: TFlatRadioButton
+          Left = 71
+          Top = 8
+          Width = 58
+          Height = 17
+          Caption = #52488#51020#54028
+          TabOrder = 0
+        end
+        object FlatRadioButton14: TFlatRadioButton
+          Left = 6
+          Top = 8
+          Width = 58
+          Height = 17
+          Caption = #48169#49324#49440
+          TabOrder = 1
+        end
+      end
     end
     object FlatPanel8: TFlatPanel
       Left = 306
-      Top = 480
-      Width = 263
-      Height = 441
+      Top = 520
+      Width = 511
+      Height = 400
       ParentColor = True
       TabOrder = 10
       UseDockManager = True
       object FlatLabel5: TFlatLabel
         Left = 5
-        Top = 5
+        Top = 13
         Width = 105
         Height = 25
         BorderColor = clWhite
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
-        Caption = #51109#48708' '#49548#44204
+        Caption = #49548#44204' '#53076#46300
         Color = clWhite
         ParentColor = False
         ShowRect = True
@@ -1107,20 +1110,20 @@ object Form1: TForm1
       end
       object FlatPanel9: TFlatPanel
         Left = 8
-        Top = 32
-        Width = 249
-        Height = 405
+        Top = 42
+        Width = 497
+        Height = 340
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
-        object AdvStringGrid3: TAdvStringGrid
+        object TAdvStringGrid
           Left = 1
           Top = 1
-          Width = 247
-          Height = 403
+          Width = 495
+          Height = 338
           Cursor = crDefault
           Align = alClient
-          ColCount = 3
+          ColCount = 4
           DefaultRowHeight = 25
           DefaultDrawing = False
           FixedCols = 0
@@ -1276,8 +1279,10 @@ object Form1: TForm1
           WordWrap = False
           ColumnHeaders.Strings = (
             ''
-            #49548#44204#53076#46300
-            #49548#44204#45236#50857)
+            #53076#46300
+            #49548#44204#51452#51228#47749
+            #45236#50857
+            '')
           Lookup = False
           LookupCaseSensitive = False
           LookupHistory = False
@@ -1290,7 +1295,8 @@ object Form1: TForm1
           ColWidths = (
             30
             70
-            117)
+            312
+            90)
           RowHeights = (
             32
             25
@@ -1336,56 +1342,16 @@ object Form1: TForm1
       end
     end
     object FlatPanel12: TFlatPanel
-      Left = 827
-      Top = 480
+      Left = 818
+      Top = 520
       Width = 653
-      Height = 441
+      Height = 401
       ParentColor = True
       TabOrder = 11
       UseDockManager = True
-      object FlaTFlatPanel32: TLabel
-        Left = 12
-        Top = 109
-        Width = 24
-        Height = 23
-        Alignment = taRightJustify
-        AutoSize = False
-        Caption = #50948#52824
-        Layout = tlCenter
-      end
-      object Label7: TLabel
-        Left = 12
-        Top = 133
-        Width = 24
-        Height = 23
-        Alignment = taRightJustify
-        AutoSize = False
-        Caption = #51340
-        Layout = tlCenter
-      end
-      object Label8: TLabel
-        Left = 12
-        Top = 158
-        Width = 24
-        Height = 23
-        Alignment = taRightJustify
-        AutoSize = False
-        Caption = #50864
-        Layout = tlCenter
-      end
-      object Label11: TLabel
-        Left = 12
-        Top = 183
-        Width = 24
-        Height = 23
-        Alignment = taRightJustify
-        AutoSize = False
-        Caption = #44277#50857
-        Layout = tlCenter
-      end
       object FlatLabel6: TFlatLabel
         Left = 5
-        Top = 5
+        Top = 13
         Width = 156
         Height = 25
         BorderColor = clWhite
@@ -1399,10 +1365,10 @@ object Form1: TForm1
         ShowEssential = False
       end
       object FlatPanel13: TFlatPanel
-        Left = 12
-        Top = 33
+        Left = 8
+        Top = 44
         Width = 353
-        Height = 57
+        Height = 32
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -1416,16 +1382,6 @@ object Form1: TForm1
           Caption = #44160#49324#53076#46300
           Layout = tlCenter
         end
-        object Label20: TLabel
-          Left = 6
-          Top = 30
-          Width = 49
-          Height = 23
-          Alignment = taRightJustify
-          AutoSize = False
-          Caption = #49548#44204#53076#46300
-          Layout = tlCenter
-        end
         object Label21: TLabel
           Left = 152
           Top = 5
@@ -1435,31 +1391,6 @@ object Form1: TForm1
           AutoSize = False
           Caption = #44160#49324#47749
           Layout = tlCenter
-        end
-        object Label22: TLabel
-          Left = 152
-          Top = 29
-          Width = 47
-          Height = 23
-          Alignment = taRightJustify
-          AutoSize = False
-          Caption = #49548#44204#45236#50857
-          Layout = tlCenter
-        end
-        object FlatEdit10: TFlatEdit
-          Left = 63
-          Top = 30
-          Width = 58
-          Height = 23
-          ColorFlat = 15987699
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'MS Sans Serif'
-          Font.Style = []
-          ParentFont = False
-          ReadOnly = True
-          TabOrder = 0
         end
         object FlatEdit11: TFlatEdit
           Left = 63
@@ -1474,7 +1405,7 @@ object Form1: TForm1
           Font.Style = []
           ParentFont = False
           ReadOnly = True
-          TabOrder = 1
+          TabOrder = 0
         end
         object FlatEdit21: TFlatEdit
           Left = 207
@@ -1489,482 +1420,33 @@ object Form1: TForm1
           Font.Style = []
           ParentFont = False
           ReadOnly = True
-          TabOrder = 2
-        end
-        object FlatEdit22: TFlatEdit
-          Left = 207
-          Top = 29
-          Width = 122
-          Height = 23
-          ColorFlat = 15987699
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'MS Sans Serif'
-          Font.Style = []
-          ParentFont = False
-          ReadOnly = True
-          TabOrder = 3
-        end
-      end
-      object FlatGroupBox1: TFlatGroupBox
-        Left = 12
-        Top = 321
-        Width = 361
-        Height = 49
-        Caption = #49464#48512#49444#47749' '#48143' '#44592#53440
-        TabOrder = 1
-      end
-      object FlatGroupBox2: TFlatGroupBox
-        Left = 12
-        Top = 377
-        Width = 361
-        Height = 48
-        Caption = #44208#44284#52376#47532#49884' '#51204#45804#49324#54637
-        TabOrder = 2
-      end
-      object FlatGroupBox3: TFlatGroupBox
-        Left = 392
-        Top = 29
-        Width = 233
-        Height = 80
-        Caption = #51656#54872#45236#50669
-        TabOrder = 3
-      end
-      object FlatGroupBox4: TFlatGroupBox
-        Left = 392
-        Top = 233
-        Width = 233
-        Height = 80
-        Caption = #51204#45804#49324#54637
-        TabOrder = 4
-      end
-      object FlatGroupBox5: TFlatGroupBox
-        Left = 392
-        Top = 129
-        Width = 233
-        Height = 80
-        Caption = #48373#50857#50557#47932
-        TabOrder = 5
-      end
-      object FlatGroupBox6: TFlatGroupBox
-        Left = 392
-        Top = 344
-        Width = 233
-        Height = 80
-        Caption = #44160#49324' '#48520#44032' '#54637#47785
-        TabOrder = 6
-      end
-      object FlatEdit18: TFlatEdit
-        Left = 39
-        Top = 109
-        Width = 124
-        Height = 23
-        ColorFlat = clWhite
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 7
-      end
-      object FlatEdit12: TFlatEdit
-        Left = 39
-        Top = 133
-        Width = 124
-        Height = 23
-        ColorFlat = clWhite
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 8
-      end
-      object FlatCheckBox26: TFlatCheckBox
-        Left = 171
-        Top = 137
-        Width = 42
-        Height = 22
-        Caption = #50808
-        TabOrder = 9
-        TabStop = True
-      end
-      object FlatEdit17: TFlatEdit
-        Left = 39
-        Top = 158
-        Width = 124
-        Height = 23
-        ColorFlat = clWhite
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 10
-      end
-      object FlatCheckBox1: TFlatCheckBox
-        Left = 171
-        Top = 162
-        Width = 42
-        Height = 22
-        Caption = #50808
-        TabOrder = 11
-        TabStop = True
-      end
-      object FlatPanel14: TFlatPanel
-        Left = 12
-        Top = 225
-        Width = 361
-        Height = 89
-        ParentColor = True
-        TabOrder = 12
-        UseDockManager = True
-        object FlatRadioButton10: TFlatRadioButton
-          Left = 9
-          Top = 35
-          Width = 96
-          Height = 17
-          Caption = #51109#44592#52628#51201#44160#49324
-          TabOrder = 0
-        end
-        object FlatCheckBox27: TFlatCheckBox
-          Left = 175
-          Top = 10
-          Width = 128
-          Height = 22
-          Caption = #54792#50529#44160#49324#52280#51312
           TabOrder = 1
-          TabStop = True
-        end
-        object FlatEdit19: TFlatEdit
-          Left = 136
-          Top = 11
-          Width = 28
-          Height = 19
-          ColorFlat = clWhite
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'MS Sans Serif'
-          Font.Style = []
-          ParentFont = False
-          TabOrder = 2
-        end
-        object FlatRadioButton1: TFlatRadioButton
-          Left = 9
-          Top = 13
-          Width = 120
-          Height = 17
-          Caption = '()'#44060#50900' '#54980' '#45800#44592#52628#51201#44160#49324
-          TabOrder = 3
-        end
-        object FlatRadioButton2: TFlatRadioButton
-          Left = 9
-          Top = 55
-          Width = 152
-          Height = 17
-          Caption = #51221#48128#44160#49324'('#51204#47928#51032#49345#45812')'
-          TabOrder = 4
-        end
-        object FlatCheckBox3: TFlatCheckBox
-          Left = 174
-          Top = 32
-          Width = 115
-          Height = 22
-          Caption = #51204#47928#51032#49345#45812'('#51076#49345')'
-          TabOrder = 5
-          TabStop = True
-        end
-        object FlatCheckBox4: TFlatCheckBox
-          Left = 174
-          Top = 52
-          Width = 74
-          Height = 22
-          Caption = #45817#51068#51652#47308
-          TabOrder = 6
-          TabStop = True
-        end
-      end
-      object FlatEdit20: TFlatEdit
-        Left = 39
-        Top = 183
-        Width = 124
-        Height = 23
-        ColorFlat = clWhite
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 13
-      end
-      object FlatCheckBox2: TFlatCheckBox
-        Left = 171
-        Top = 185
-        Width = 42
-        Height = 22
-        Caption = #50808
-        TabOrder = 14
-        TabStop = True
-      end
-    end
-    object FlatPanel10: TFlatPanel
-      Left = 569
-      Top = 480
-      Width = 258
-      Height = 441
-      ParentColor = True
-      TabOrder = 12
-      UseDockManager = True
-      object FlatLabel2: TFlatLabel
-        Left = 5
-        Top = 5
-        Width = 105
-        Height = 25
-        BorderColor = clWhite
-        TextBorder = 2
-        BevelInner = beNone
-        BevelOuter = beNone
-        Caption = #49440#53469' '#51109#48708' '#49548#44204
-        Color = clWhite
-        ParentColor = False
-        ShowRect = True
-        ShowEssential = False
-      end
-      object FlatPanel15: TFlatPanel
-        Left = 5
-        Top = 32
-        Width = 249
-        Height = 406
-        ParentColor = True
-        TabOrder = 0
-        UseDockManager = True
-        object AdvStringGrid4: TAdvStringGrid
-          Left = 1
-          Top = 1
-          Width = 247
-          Height = 404
-          Cursor = crDefault
-          Align = alClient
-          ColCount = 3
-          DefaultRowHeight = 25
-          DefaultDrawing = False
-          FixedCols = 0
-          RowCount = 40
-          FixedRows = 1
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'Tahoma'
-          Font.Style = []
-          GridLineWidth = 1
-          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
-          ParentFont = False
-          TabOrder = 0
-          GridLineColor = clSilver
-          ActiveCellShow = False
-          ActiveCellFont.Charset = DEFAULT_CHARSET
-          ActiveCellFont.Color = clWindowText
-          ActiveCellFont.Height = -11
-          ActiveCellFont.Name = 'MS Sans Serif'
-          ActiveCellFont.Style = [fsBold]
-          ActiveCellColor = clGray
-          Bands.PrimaryColor = clInfoBk
-          Bands.PrimaryLength = 1
-          Bands.SecondaryColor = clWindow
-          Bands.SecondaryLength = 1
-          Bands.Print = False
-          AutoNumAlign = False
-          AutoSize = False
-          VAlignment = vtaTop
-          EnhTextSize = False
-          EnhRowColMove = False
-          SizeWithForm = False
-          Multilinecells = False
-          DragDropSettings.OleAcceptFiles = True
-          DragDropSettings.OleAcceptText = True
-          SortSettings.AutoColumnMerge = False
-          SortSettings.Column = 0
-          SortSettings.Show = False
-          SortSettings.IndexShow = False
-          SortSettings.IndexColor = clYellow
-          SortSettings.Full = True
-          SortSettings.SingleColumn = False
-          SortSettings.IgnoreBlanks = False
-          SortSettings.BlankPos = blFirst
-          SortSettings.AutoFormat = True
-          SortSettings.Direction = sdAscending
-          SortSettings.FixedCols = False
-          SortSettings.NormalCellsOnly = False
-          SortSettings.Row = 0
-          FloatingFooter.Color = clBtnFace
-          FloatingFooter.Column = 0
-          FloatingFooter.FooterStyle = fsFixedLastRow
-          FloatingFooter.Visible = False
-          ControlLook.Color = clBlack
-          ControlLook.CheckSize = 15
-          ControlLook.RadioSize = 10
-          ControlLook.ControlStyle = csClassic
-          ControlLook.FlatButton = False
-          EnableBlink = False
-          EnableHTML = True
-          EnableWheel = True
-          Flat = False
-          HintColor = clInfoBk
-          SelectionColor = clHighlight
-          SelectionTextColor = clHighlightText
-          SelectionRectangle = False
-          SelectionResizer = False
-          SelectionRTFKeep = False
-          HintShowCells = False
-          HintShowLargeText = False
-          HintShowSizing = False
-          PrintSettings.FooterSize = 0
-          PrintSettings.HeaderSize = 0
-          PrintSettings.Time = ppNone
-          PrintSettings.Date = ppNone
-          PrintSettings.DateFormat = 'dd/mm/yyyy'
-          PrintSettings.PageNr = ppNone
-          PrintSettings.Title = ppNone
-          PrintSettings.Font.Charset = DEFAULT_CHARSET
-          PrintSettings.Font.Color = clWindowText
-          PrintSettings.Font.Height = -11
-          PrintSettings.Font.Name = 'MS Sans Serif'
-          PrintSettings.Font.Style = []
-          PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
-          PrintSettings.HeaderFont.Color = clWindowText
-          PrintSettings.HeaderFont.Height = -11
-          PrintSettings.HeaderFont.Name = 'MS Sans Serif'
-          PrintSettings.HeaderFont.Style = []
-          PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
-          PrintSettings.FooterFont.Color = clWindowText
-          PrintSettings.FooterFont.Height = -11
-          PrintSettings.FooterFont.Name = 'MS Sans Serif'
-          PrintSettings.FooterFont.Style = []
-          PrintSettings.Borders = pbNoborder
-          PrintSettings.BorderStyle = psSolid
-          PrintSettings.Centered = False
-          PrintSettings.RepeatFixedRows = False
-          PrintSettings.RepeatFixedCols = False
-          PrintSettings.LeftSize = 0
-          PrintSettings.RightSize = 0
-          PrintSettings.ColumnSpacing = 0
-          PrintSettings.RowSpacing = 0
-          PrintSettings.TitleSpacing = 0
-          PrintSettings.Orientation = poPortrait
-          PrintSettings.PageNumberOffset = 0
-          PrintSettings.MaxPagesOffset = 0
-          PrintSettings.FixedWidth = 0
-          PrintSettings.FixedHeight = 0
-          PrintSettings.UseFixedHeight = False
-          PrintSettings.UseFixedWidth = False
-          PrintSettings.FitToPage = fpNever
-          PrintSettings.PageNumSep = '/'
-          PrintSettings.NoAutoSize = False
-          PrintSettings.NoAutoSizeRow = False
-          PrintSettings.PrintGraphics = False
-          HTMLSettings.Width = 100
-          HTMLSettings.XHTML = False
-          Navigation.AdvanceDirection = adLeftRight
-          Navigation.InsertPosition = pInsertBefore
-          Navigation.HomeEndKey = heFirstLastColumn
-          Navigation.TabToNextAtEnd = False
-          Navigation.TabAdvanceDirection = adLeftRight
-          ColumnSize.Location = clRegistry
-          CellNode.Color = clSilver
-          CellNode.NodeColor = clBlack
-          CellNode.ShowTree = False
-          MaxEditLength = 0
-          IntelliPan = ipVertical
-          URLColor = clBlue
-          URLShow = False
-          URLFull = False
-          URLEdit = False
-          ScrollType = ssNormal
-          ScrollColor = clNone
-          ScrollWidth = 17
-          ScrollSynch = False
-          ScrollProportional = False
-          ScrollHints = shNone
-          OemConvert = False
-          FixedFooters = 0
-          FixedRightCols = 0
-          FixedColWidth = 30
-          FixedRowHeight = 32
-          FixedFont.Charset = DEFAULT_CHARSET
-          FixedFont.Color = clWindowText
-          FixedFont.Height = -13
-          FixedFont.Name = #45208#45588#44256#46357
-          FixedFont.Style = []
-          FixedAsButtons = False
-          FloatFormat = '%.2f'
-          IntegralHeight = False
-          WordWrap = False
-          ColumnHeaders.Strings = (
-            ''
-            #49548#44204#53076#46300
-            #49548#44204#45236#50857)
-          Lookup = False
-          LookupCaseSensitive = False
-          LookupHistory = False
-          ShowSelection = False
-          BackGround.Top = 0
-          BackGround.Left = 0
-          BackGround.Display = bdTile
-          BackGround.Cells = bcNormal
-          Filter = <>
-          ColWidths = (
-            30
-            70
-            110)
-          RowHeights = (
-            32
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25
-            25)
         end
       end
     end
+  end
+  object FlatButton2: TFlatButton
+    Left = 1403
+    Top = 53
+    Width = 81
+    Height = 23
+    Caption = #51060#51204#49548#44204#45236#50857
+    TabOrder = 1
+  end
+  object FlatButton3: TFlatButton
+    Left = 1403
+    Top = 76
+    Width = 81
+    Height = 23
+    Caption = #49548#44204#51204#52404
+    TabOrder = 2
+  end
+  object FlatButton8: TFlatButton
+    Left = 1403
+    Top = 99
+    Width = 81
+    Height = 23
+    Caption = #48516#47448#53076#46300
+    TabOrder = 3
   end
 end

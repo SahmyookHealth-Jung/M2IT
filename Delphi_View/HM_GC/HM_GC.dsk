@@ -1,19 +1,35 @@
 [Closed Files]
-File_0=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ018S.pas',0,1,45,37,53,1,1
-File_1=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\PJ_20S.pas',0,1,1,56,11,1,0
-File_2=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD003S.pas',0,1,51,1,51,1,0
-File_3=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ020S.pas',0,1,130,1,130,3,0
-File_4=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas',0,1,1,1,1,0,0
-File_5=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX014S.pas',0,1,1,1,1,1,0
-File_6=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\VHMGXEX017S.pas',0,1,1,1,1,0,0
-File_7=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX018S.pas',0,1,1,1,1,0,0
-File_8=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD008S.pas',0,1,1,1,1,0,0
-File_9=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Demos\Docking\uMain.pas',0,1,23,39,38,1,0
+File_0=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\PJ_20S.pas',0,1,1,56,11,1,0
+File_1=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD003S.pas',0,1,51,1,51,1,0
+File_2=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas',0,1,1,1,1,0,0
+File_3=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX014S.pas',0,1,1,1,1,1,0
+File_4=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\VHMGXEX017S.pas',0,1,1,1,1,0,0
+File_5=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX018S.pas',0,1,1,1,1,0,0
+File_6=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD008S.pas',0,1,1,1,1,0,0
+File_7=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Demos\Docking\uMain.pas',0,1,23,39,38,1,0
 
 [Modules]
-Module0=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr
-Count=1
+Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ066S.pas
+Module1=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ020S.pas
+Module2=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ018S.pas
+Module3=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr
+Count=4
 EditWindowCount=1
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ066S.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ020S.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ018S.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
 
 [C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr]
 ModuleType=SourceModule
@@ -29,22 +45,25 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=1
-CurrentView=0
+ViewCount=4
+CurrentView=3
 View0=0
+View1=1
+View2=2
+View3=3
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=90
-Top=96
+Left=-7
+Top=44
 Width=1302
-Height=716
+Height=682
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1286
-ClientHeight=677
+ClientHeight=643
 LeftPanelSize=140
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
@@ -55,6 +74,27 @@ BottomPanelData=00000400010000000B0000004D65737361676556696577000000000000000000
 
 [View0]
 Module=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\HM_PJ\HM_PJ_PROJECT.dpr
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ018S.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View2]
+Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ020S.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View3]
+Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ066S.pas
 CursorX=1
 CursorY=1
 TopLine=1
@@ -128,7 +168,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=87
 ArrangeBy=Name
-SelectedItem=
+SelectedItem=Caption
 ExpandedItems=
 HiddenCategories=
 
@@ -155,11 +195,11 @@ State=0
 Left=0
 Top=12
 Width=140
-Height=665
+Height=631
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=140
-ClientHeight=665
+ClientHeight=631
 TBDockHeight=305
 LRDockWidth=140
 Dockable=1
@@ -188,8 +228,8 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=0
-Top=0
+Left=4
+Top=28
 Width=446
 Height=843
 MaxLeft=-1
@@ -200,7 +240,7 @@ TBDockHeight=843
 LRDockWidth=446
 Dockable=1
 TabPosition=2
-ActiveTab=Object Inspector
+ActiveTab=Project Manager
 TabDockClients=ProjectManager,ObjectTree,PropertyInspector
 
 [ActiveProject]
