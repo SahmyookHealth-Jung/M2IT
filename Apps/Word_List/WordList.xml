@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>53</Id>
+    <TermCode>capa</TermCode>
+    <FullName>capacity</FullName>
+    <Description>케파 
+- 생산능력, 수용능력을 뜻함.</Description>
+    <RegDate>2026-02-19</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>52</Id>
     <TermCode>acpt</TermCode>
     <FullName>acceptance</FullName>
