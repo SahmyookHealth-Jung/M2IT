@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>55</Id>
+    <TermCode>Delta Panic</TermCode>
+    <FullName>Delta Panic</FullName>
+    <Description>델타(변화치) 점검은 동일 환자의 최근 검사치와 현재 검사치의 차이(또는 변화비율) 를 비교해 허용 기준을 벗어나면 오류 가능성을 점검합니다. 
+
+패닉(경고치) 점검은 치명적 위험을 유발할 수 있는 ‘임계치(critical value)’를 설정하고, 해당 범위를 넘으면 즉시 임상의에게 보고·재검을 요구합니다.</Description>
+    <RegDate>2026-02-25</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>54</Id>
     <TermCode>TTS</TermCode>
     <FullName>TEXT TO SPEECH</FullName>
