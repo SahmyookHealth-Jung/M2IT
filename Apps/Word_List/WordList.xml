@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>56</Id>
+    <TermCode>Unexamined</TermCode>
+    <FullName>Unexamined</FullName>
+    <Description>미검사</Description>
+    <RegDate>2026-02-26</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>55</Id>
     <TermCode>Delta Panic</TermCode>
     <FullName>Delta Panic</FullName>
