@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>57</Id>
+    <TermCode>U코드</TermCode>
+    <FullName>U코드</FullName>
+    <Description>미검 코드</Description>
+    <RegDate>2026-03-24</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>56</Id>
     <TermCode>Unexamined</TermCode>
     <FullName>Unexamined</FullName>
