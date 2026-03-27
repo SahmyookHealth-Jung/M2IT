@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = -113
-  Top = 36
-  Width = 1556
-  Height = 814
+  Left = 1912
+  Top = -8
+  Width = 1936
+  Height = 1048
   ActiveControl = FlatCheckBox2
   Caption = #52488#51020#54028' '#49548#44204' '#46321#47197' [VHMGCPJ020S]'
   Color = clWhite
@@ -25,10 +25,10 @@ object Form2: TForm2
     Layout = tlCenter
   end
   object FlatPanel11: TFlatPanel
-    Left = 0
-    Top = 0
+    Left = 52
+    Top = 21
     Width = 1481
-    Height = 929
+    Height = 922
     ParentColor = True
     TabOrder = 0
     UseDockManager = True
@@ -38,11 +38,18 @@ object Form2: TForm2
       Width = 105
       Height = 25
       BorderColor = clWhite
+      Alignment = taRightJustify
       TextBorder = 2
       BevelInner = beNone
       BevelOuter = beNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = #45208#45588#44256#46357
+      Font.Style = []
       Caption = #44160#51652#51088' LIST'
       Color = clWhite
+      ParentFont = False
       ParentColor = False
       ShowRect = True
       ShowEssential = False
@@ -226,13 +233,13 @@ object Form2: TForm2
       Left = 306
       Top = 77
       Width = 1174
-      Height = 154
+      Height = 180
       ParentColor = True
       TabOrder = 1
       UseDockManager = True
       object Label13: TLabel
         Left = 216
-        Top = 7
+        Top = 39
         Width = 48
         Height = 23
         Alignment = taRightJustify
@@ -242,7 +249,7 @@ object Form2: TForm2
       end
       object Label14: TLabel
         Left = 216
-        Top = 71
+        Top = 103
         Width = 48
         Height = 23
         Alignment = taRightJustify
@@ -252,7 +259,7 @@ object Form2: TForm2
       end
       object FlaTFlatPanel23: TLabel
         Left = 8
-        Top = 39
+        Top = 71
         Width = 50
         Height = 23
         Alignment = taRightJustify
@@ -262,7 +269,7 @@ object Form2: TForm2
       end
       object Label15: TLabel
         Left = 1
-        Top = 71
+        Top = 103
         Width = 57
         Height = 23
         Alignment = taRightJustify
@@ -272,7 +279,7 @@ object Form2: TForm2
       end
       object Label16: TLabel
         Left = 8
-        Top = 7
+        Top = 39
         Width = 48
         Height = 23
         Alignment = taRightJustify
@@ -282,7 +289,7 @@ object Form2: TForm2
       end
       object Label17: TLabel
         Left = 216
-        Top = 39
+        Top = 71
         Width = 48
         Height = 23
         Alignment = taRightJustify
@@ -292,7 +299,7 @@ object Form2: TForm2
       end
       object Label18: TLabel
         Left = 216
-        Top = 103
+        Top = 135
         Width = 48
         Height = 23
         Alignment = taRightJustify
@@ -302,7 +309,7 @@ object Form2: TForm2
       end
       object Label23: TLabel
         Left = 408
-        Top = 7
+        Top = 39
         Width = 73
         Height = 23
         Alignment = taRightJustify
@@ -312,7 +319,7 @@ object Form2: TForm2
       end
       object Label24: TLabel
         Left = 408
-        Top = 39
+        Top = 71
         Width = 73
         Height = 23
         Alignment = taRightJustify
@@ -322,7 +329,7 @@ object Form2: TForm2
       end
       object Label25: TLabel
         Left = 392
-        Top = 71
+        Top = 103
         Width = 89
         Height = 23
         Alignment = taRightJustify
@@ -332,7 +339,7 @@ object Form2: TForm2
       end
       object Label26: TLabel
         Left = 392
-        Top = 103
+        Top = 135
         Width = 89
         Height = 23
         Alignment = taRightJustify
@@ -342,7 +349,7 @@ object Form2: TForm2
       end
       object Label27: TLabel
         Left = 1
-        Top = 103
+        Top = 135
         Width = 57
         Height = 23
         Alignment = taRightJustify
@@ -350,9 +357,31 @@ object Form2: TForm2
         Caption = #45208#51060'/'#49457#48324
         Layout = tlCenter
       end
+      object FlatLabel7: TFlatLabel
+        Left = 11
+        Top = 8
+        Width = 97
+        Height = 25
+        BorderColor = clWhite
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #49688#44160#51088' '#51221#48372
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
       object FlatEdit4: TFlatEdit
         Left = 72
-        Top = 8
+        Top = 40
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -366,7 +395,7 @@ object Form2: TForm2
       end
       object FlatEdit2: TFlatEdit
         Left = 72
-        Top = 39
+        Top = 71
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -380,7 +409,7 @@ object Form2: TForm2
       end
       object FlatEdit3: TFlatEdit
         Left = 72
-        Top = 71
+        Top = 103
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -394,7 +423,7 @@ object Form2: TForm2
       end
       object FlatEdit5: TFlatEdit
         Left = 272
-        Top = 7
+        Top = 39
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -408,7 +437,7 @@ object Form2: TForm2
       end
       object FlatEdit6: TFlatEdit
         Left = 272
-        Top = 71
+        Top = 103
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -422,7 +451,7 @@ object Form2: TForm2
       end
       object FlatEdit7: TFlatEdit
         Left = 272
-        Top = 39
+        Top = 71
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -436,7 +465,7 @@ object Form2: TForm2
       end
       object FlatEdit8: TFlatEdit
         Left = 272
-        Top = 103
+        Top = 135
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -450,7 +479,7 @@ object Form2: TForm2
       end
       object FlatEdit13: TFlatEdit
         Left = 488
-        Top = 7
+        Top = 39
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -464,7 +493,7 @@ object Form2: TForm2
       end
       object FlatEdit14: TFlatEdit
         Left = 488
-        Top = 39
+        Top = 71
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -478,7 +507,7 @@ object Form2: TForm2
       end
       object FlatEdit15: TFlatEdit
         Left = 488
-        Top = 71
+        Top = 103
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -492,7 +521,7 @@ object Form2: TForm2
       end
       object FlatEdit16: TFlatEdit
         Left = 488
-        Top = 103
+        Top = 135
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -506,7 +535,7 @@ object Form2: TForm2
       end
       object FlatEdit23: TFlatEdit
         Left = 72
-        Top = 103
+        Top = 135
         Width = 116
         Height = 23
         ColorFlat = clWhite
@@ -533,11 +562,18 @@ object Form2: TForm2
         Width = 97
         Height = 25
         BorderColor = clWhite
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
-        Caption = #44160#51652#51088' LIST'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #49688#44160#51088' LIST'
         Color = clWhite
+        ParentFont = False
         ParentColor = False
         ShowRect = True
         ShowEssential = False
@@ -546,7 +582,7 @@ object Form2: TForm2
         Left = 8
         Top = 32
         Width = 289
-        Height = 809
+        Height = 800
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -554,7 +590,7 @@ object Form2: TForm2
           Left = 1
           Top = 1
           Width = 287
-          Height = 807
+          Height = 798
           Cursor = crDefault
           Align = alClient
           ColCount = 5
@@ -796,45 +832,37 @@ object Form2: TForm2
       Text = '  Action'
       ItemIndex = -1
     end
-    object FlatButton4: TFlatButton
-      Left = 1365
-      Top = 72
-      Width = 81
-      Height = 23
-      Caption = #51200#51109
-      TabOrder = 5
-    end
     object FlatButton5: TFlatButton
-      Left = 1365
-      Top = 118
-      Width = 81
-      Height = 23
-      Caption = #51060#51204' '#49548#44204#45236#50857
-      TabOrder = 6
-    end
-    object FlatButton6: TFlatButton
       Left = 1365
       Top = 95
       Width = 81
       Height = 23
+      Caption = #51060#51204' '#49548#44204#45236#50857
+      TabOrder = 5
+    end
+    object FlatButton6: TFlatButton
+      Left = 1365
+      Top = 72
+      Width = 81
+      Height = 23
       Caption = #49548#44204#51200#51109
-      TabOrder = 7
+      TabOrder = 6
     end
     object FlatButton7: TFlatButton
       Left = 1365
-      Top = 141
+      Top = 118
       Width = 81
       Height = 23
       Caption = #51068#44292#51221#49345#52376#47532
-      TabOrder = 8
+      TabOrder = 7
     end
     object FlatPanel7: TFlatPanel
       Left = 306
-      Top = 231
+      Top = 256
       Width = 1174
-      Height = 249
+      Height = 224
       ParentColor = True
-      TabOrder = 9
+      TabOrder = 8
       UseDockManager = True
       object FlatLabel3: TFlatLabel
         Left = 8
@@ -842,20 +870,27 @@ object Form2: TForm2
         Width = 89
         Height = 25
         BorderColor = clWhite
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
         Caption = #44160#49324' '#45236#50669
         Color = clWhite
+        ParentFont = False
         ParentColor = False
         ShowRect = True
         ShowEssential = False
       end
       object FlatPanel5: TFlatPanel
         Left = 8
-        Top = 37
+        Top = 41
         Width = 1137
-        Height = 193
+        Height = 174
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -863,7 +898,7 @@ object Form2: TForm2
           Left = 1
           Top = 1
           Width = 1135
-          Height = 191
+          Height = 172
           Cursor = crDefault
           Align = alClient
           ColCount = 9
@@ -1099,28 +1134,35 @@ object Form2: TForm2
       Width = 263
       Height = 441
       ParentColor = True
-      TabOrder = 10
+      TabOrder = 9
       UseDockManager = True
       object FlatLabel5: TFlatLabel
         Left = 5
         Top = 5
-        Width = 105
+        Width = 84
         Height = 25
         BorderColor = clWhite
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
         Caption = #51109#48708' '#49548#44204
         Color = clWhite
+        ParentFont = False
         ParentColor = False
         ShowRect = True
         ShowEssential = False
       end
       object FlatPanel9: TFlatPanel
         Left = 8
-        Top = 32
+        Top = 39
         Width = 249
-        Height = 402
+        Height = 387
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -1128,7 +1170,7 @@ object Form2: TForm2
           Left = 1
           Top = 1
           Width = 247
-          Height = 400
+          Height = 385
           Cursor = crDefault
           Align = alClient
           ColCount = 3
@@ -1352,7 +1394,7 @@ object Form2: TForm2
       Width = 653
       Height = 441
       ParentColor = True
-      TabOrder = 11
+      TabOrder = 10
       UseDockManager = True
       object FlaTFlatPanel32: TLabel
         Left = 12
@@ -1400,11 +1442,18 @@ object Form2: TForm2
         Width = 156
         Height = 25
         BorderColor = clWhite
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
         Caption = #49548#44204' '#45236#50857' '#48143' '#51452#51032#49324#54637
         Color = clWhite
+        ParentFont = False
         ParentColor = False
         ShowRect = True
         ShowEssential = False
@@ -1730,28 +1779,35 @@ object Form2: TForm2
       Width = 258
       Height = 441
       ParentColor = True
-      TabOrder = 12
+      TabOrder = 11
       UseDockManager = True
       object FlatLabel2: TFlatLabel
-        Left = 5
+        Left = 7
         Top = 5
         Width = 105
         Height = 25
         BorderColor = clWhite
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
         Caption = #49440#53469' '#51109#48708' '#49548#44204
         Color = clWhite
+        ParentFont = False
         ParentColor = False
         ShowRect = True
         ShowEssential = False
       end
       object FlatPanel15: TFlatPanel
         Left = 5
-        Top = 32
+        Top = 40
         Width = 249
-        Height = 406
+        Height = 385
         ParentColor = True
         TabOrder = 0
         UseDockManager = True
@@ -1759,7 +1815,7 @@ object Form2: TForm2
           Left = 1
           Top = 1
           Width = 247
-          Height = 404
+          Height = 383
           Cursor = crDefault
           Align = alClient
           ColCount = 3
@@ -1932,7 +1988,7 @@ object Form2: TForm2
           ColWidths = (
             30
             70
-            110)
+            122)
           RowHeights = (
             32
             25
@@ -1979,8 +2035,8 @@ object Form2: TForm2
     end
   end
   object FlatButton2: TFlatButton
-    Left = 1365
-    Top = 164
+    Left = 1417
+    Top = 162
     Width = 81
     Height = 23
     Caption = #49548#44204#44160#49353

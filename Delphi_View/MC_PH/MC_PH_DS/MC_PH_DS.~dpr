@@ -1,0 +1,27 @@
+program MC_PH_DS;
+
+uses
+  Forms,
+  VMCPHDS001S in 'VMCPHDS001S.pas' {Form1},
+  VMCPHDS002S in 'VMCPHDS002S.pas' {Form2},
+  VMCPHDS003S in 'VMCPHDS003S.pas' {Form3},
+  VMCPHDS004S in 'VMCPHDS004S.pas' {Form4},
+  VMCPHDS005S in 'VMCPHDS005S.pas' {Form5},
+  VMCPHDS006S in 'VMCPHDS006S.pas' {Form6},
+  VMCPHDS007S in 'VMCPHDS007S.pas' {Form7},
+  VMCPHDS008S in 'VMCPHDS008S.pas' {Form8};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.Run;
+end.

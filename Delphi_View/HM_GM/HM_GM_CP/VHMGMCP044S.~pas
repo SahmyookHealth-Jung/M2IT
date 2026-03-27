@@ -1,0 +1,140 @@
+unit VHMGMCP044S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatCheckBoxUnit, TFlatRadioButtonUnit, TFlatButtonUnit,
+  TFlatEditUnit, StdCtrls, TFlatSpinEditUnit, TFlatLabelUnit,
+  TFlatComboBoxUnit, ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm98 = class(TForm)
+    FlatPanel4: TFlatPanel;
+    FlatPanel6: TFlatPanel;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel3: TFlatPanel;
+    Label11: TLabel;
+    FlatLabel6: TFlatLabel;
+    FlatLabel1: TFlatLabel;
+    FlatLabel5: TFlatLabel;
+    FlatLabel11: TFlatLabel;
+    FlatLabel4: TFlatLabel;
+    FlatLabel2: TFlatLabel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel8: TFlatLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    FlatSpinEditInteger2: TFlatSpinEditInteger;
+    FlatEdit5: TFlatEdit;
+    FlatComboBox9: TFlatComboBox;
+    FlatComboBox3: TFlatComboBox;
+    FlatComboBox4: TFlatComboBox;
+    FlatButton2: TFlatButton;
+    FlatPanel10: TFlatPanel;
+    FlatRadioButton12: TFlatRadioButton;
+    FlatRadioButton13: TFlatRadioButton;
+    FlatRadioButton14: TFlatRadioButton;
+    FlatPanel7: TFlatPanel;
+    FlatRadioButton28: TFlatRadioButton;
+    FlatRadioButton29: TFlatRadioButton;
+    FlatRadioButton30: TFlatRadioButton;
+    FlatRadioButton31: TFlatRadioButton;
+    FlatPanel2: TFlatPanel;
+    FlatRadioButton2: TFlatRadioButton;
+    FlatRadioButton3: TFlatRadioButton;
+    FlatComboBox1: TFlatComboBox;
+    FlatPanel1: TFlatPanel;
+    FlatRadioButton1: TFlatRadioButton;
+    FlatRadioButton7: TFlatRadioButton;
+    FlatRadioButton8: TFlatRadioButton;
+    FlatEdit1: TFlatEdit;
+    FlatSpinEditInteger4: TFlatSpinEditInteger;
+    FlatComboBox5: TFlatComboBox;
+    FlatEdit2: TFlatEdit;
+    FlatComboBox6: TFlatComboBox;
+    FlatSpinEditInteger1: TFlatSpinEditInteger;
+    FlatComboBox7: TFlatComboBox;
+    FlatComboBox8: TFlatComboBox;
+    FlatButton1: TFlatButton;
+    FlatPanel11: TFlatPanel;
+    FlatCheckBox2: TFlatCheckBox;
+    FlatCheckBox3: TFlatCheckBox;
+    FlatCheckBox1: TFlatCheckBox;
+    FlatCheckBox4: TFlatCheckBox;
+    FlatCheckBox5: TFlatCheckBox;
+    FlatLabel7: TFlatLabel;
+    FlatPanel5: TFlatPanel;
+    FlatRadioButton4: TFlatRadioButton;
+    FlatRadioButton5: TFlatRadioButton;
+    FlatRadioButton6: TFlatRadioButton;
+    FlatPanel9: TFlatPanel;
+    Label19: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    FlatEdit8: TFlatEdit;
+    FlatEdit4: TFlatEdit;
+    FlatEdit11: TFlatEdit;
+    FlatEdit3: TFlatEdit;
+    FlatEdit6: TFlatEdit;
+    FlatEdit7: TFlatEdit;
+    FlatEdit9: TFlatEdit;
+    FlatPanel8: TFlatPanel;
+    FlatLabel9: TFlatLabel;
+    FlatPanel12: TFlatPanel;
+    FlatLabel10: TFlatLabel;
+    FlatPanel13: TFlatPanel;
+    Label9: TLabel;
+    FlatLabel14: TFlatLabel;
+    FlatLabel17: TFlatLabel;
+    FlatLabel18: TFlatLabel;
+    FlatComboBox11: TFlatComboBox;
+    FlatComboBox12: TFlatComboBox;
+    FlatPanel16: TFlatPanel;
+    FlatRadioButton19: TFlatRadioButton;
+    FlatRadioButton20: TFlatRadioButton;
+    FlatComboBox13: TFlatComboBox;
+    FlatPanel18: TFlatPanel;
+    FlatCheckBox6: TFlatCheckBox;
+    FlatCheckBox7: TFlatCheckBox;
+    FlatCheckBox8: TFlatCheckBox;
+    FlatCheckBox9: TFlatCheckBox;
+    FlatCheckBox10: TFlatCheckBox;
+    Label13: TLabel;
+    FlatComboBox10: TFlatComboBox;
+    FlatLabel13: TFlatLabel;
+    FlatComboBox14: TFlatComboBox;
+    FlatLabel19: TFlatLabel;
+    FlatComboBox18: TFlatComboBox;
+    FlatLabel12: TFlatLabel;
+    FlatCheckBox11: TFlatCheckBox;
+    FlatCheckBox12: TFlatCheckBox;
+    FlatCheckBox13: TFlatCheckBox;
+    FlatLabel15: TFlatLabel;
+    FlatPanel14: TFlatPanel;
+    FlatRadioButton9: TFlatRadioButton;
+    FlatRadioButton10: TFlatRadioButton;
+    FlatLabel16: TFlatLabel;
+    FlatPanel15: TFlatPanel;
+    FlatPanel17: TFlatPanel;
+    FlatRadioButton11: TFlatRadioButton;
+    FlatRadioButton15: TFlatRadioButton;
+    FlatLabel20: TFlatLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form98: TForm98;
+
+implementation
+
+{$R *.dfm}
+
+end.

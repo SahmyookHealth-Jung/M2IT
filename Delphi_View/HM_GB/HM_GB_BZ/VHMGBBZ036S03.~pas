@@ -1,0 +1,24 @@
+unit VHMGBBZ036S03;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TForm57 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form57: TForm57;
+
+implementation
+
+{$R *.dfm}
+
+end.

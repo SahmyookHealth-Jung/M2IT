@@ -1,0 +1,63 @@
+unit VHMGBBZ059S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Grids, BaseGrid, AdvGrid, TFlatCheckBoxUnit,
+  TFlatEditUnit, TFlatComboBoxUnit, TFlatButtonUnit, TFlatLabelUnit,
+  ExtCtrls, TFlatPanelUnit, TFlatRadioButtonUnit;
+
+type
+  TForm52 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel4: TFlatPanel;
+    FlatLabel8: TFlatLabel;
+    FlatPanel6: TFlatPanel;
+    FlatLabel6: TFlatLabel;
+    FlatPanel5: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel2: TFlatLabel;
+    FlatLabel4: TFlatLabel;
+    FlatLabel7: TFlatLabel;
+    FlatButton1: TFlatButton;
+    FlatComboBox1: TFlatComboBox;
+    FlatEdit5: TFlatEdit;
+    FlatEdit1: TFlatEdit;
+    FlatComboBox3: TFlatComboBox;
+    FlatCheckBox16: TFlatCheckBox;
+    FlatCheckBox1: TFlatCheckBox;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel2: TFlatPanel;
+    AdvStringGrid3: TAdvStringGrid;
+    FlatButton2: TFlatButton;
+    FlatPanel7: TFlatPanel;
+    AdvStringGrid1: TAdvStringGrid;
+    FlatButton3: TFlatButton;
+    FlatComboBox5: TFlatComboBox;
+    Label1: TLabel;
+    FlatComboBox6: TFlatComboBox;
+    FlatPanel8: TFlatPanel;
+    FlatRadioButton3: TFlatRadioButton;
+    FlatRadioButton4: TFlatRadioButton;
+    FlatPanel9: TFlatPanel;
+    FlatRadioButton1: TFlatRadioButton;
+    FlatRadioButton2: TFlatRadioButton;
+    FlatPanel10: TFlatPanel;
+    FlatRadioButton5: TFlatRadioButton;
+    FlatRadioButton6: TFlatRadioButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form52: TForm52;
+
+implementation
+
+{$R *.dfm}
+
+end.

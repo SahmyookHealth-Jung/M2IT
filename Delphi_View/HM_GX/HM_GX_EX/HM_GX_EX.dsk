@@ -1,23 +1,29 @@
 [Closed Files]
-File_0=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX014S.pas',0,1,1,1,1,3,1
-File_1=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\VHMGXEX017S.pas',0,1,1,1,1,0,0
-File_2=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX018S.pas',0,1,1,1,1,0,0
-File_3=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD003S.pas',0,1,51,1,51,0,1
-File_4=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GZ\HM_GZ_CD\VHMGZCD008S.pas',0,1,1,1,1,0,0
-File_5=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas',0,1,1,1,1,0,1
-File_6=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Demos\Docking\uMain.pas',0,1,23,39,38,1,0
+File_0=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\VHMGXEX006S01.pas',0,1,1,1,35,0,0
+File_1=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX014S.pas',0,1,1,1,1,0,0
+File_2=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ020S.pas',0,1,1,70,9,4,1
+File_3=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S03.pas',0,1,1,1,1,4,1
+File_4=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas',0,1,1,1,1,0,1
+File_5=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ018S.pas',0,1,1,28,16,3,1
+File_6=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S02.pas',0,1,1,1,43,0,0
+File_7=SourceModule,'C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\VHMGXEX017S.pas',0,1,1,1,1,0,1
+File_8=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S04.pas',0,1,1,1,1,0,1
 
 [Modules]
-Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\HM_GX_EX.dpr
+Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S06.pas
 Count=1
 EditWindowCount=1
 
-[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\HM_GX_EX.dpr]
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S06.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
 [C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\HM_GX_EX.dpr]
 FormState=0
 FormOnTop=0
 
@@ -47,9 +53,9 @@ BottomPanelClients=MessageView@EditWindow0
 BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
 
 [View0]
-Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\HM_GX_EX.dpr
-CursorX=1
-CursorY=1
+Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GX\HM_GX_EX\VHMGXEX006S06.pas
+CursorX=52
+CursorY=15
 TopLine=1
 LeftCol=1
 
@@ -66,8 +72,8 @@ Count=0
 Create=1
 Visible=1
 State=0
-Left=2189
-Top=12
+Left=1989
+Top=18
 Width=1536
 Height=123
 MaxLeft=-1

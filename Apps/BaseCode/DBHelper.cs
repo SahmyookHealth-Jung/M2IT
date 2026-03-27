@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Oracle.ManagedDataAccess.Client;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.Odbc;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using System.Configuration;
 
 namespace BaseCodeApp
 {
@@ -14,7 +16,7 @@ namespace BaseCodeApp
         private static string ConnectionString
         {
             get
-            {
+            {             
                 string conn = ConfigurationManager.ConnectionStrings["HanaDB"].ConnectionString;
                 return conn;
             }
@@ -24,12 +26,12 @@ namespace BaseCodeApp
         {
             DataTable dt = new DataTable();
 
-            using (OdbcConnection conn = new OdbcConnection(ConnectionString))
+            using (OracleConnection conn = new OracleConnection(ConnectionString))
             {
                 try
                 {
                     conn.Open();
-                    using (OdbcDataAdapter da = new OdbcDataAdapter(query, conn))
+                    using (OracleDataAdapter da = new OracleDataAdapter(query, conn))
                     {
                         da.Fill(dt);
                     }
@@ -44,10 +46,10 @@ namespace BaseCodeApp
 
         public static int ExecuteNonQuery(string query)
         {
-            using (OdbcConnection conn = new OdbcConnection(ConnectionString))
+            using (OracleConnection conn = new OracleConnection(ConnectionString))
             {
                 conn.Open();
-                using (OdbcCommand cmd = new OdbcCommand(query, conn))
+                using (OracleCommand cmd = new OracleCommand(query, conn))
                 {
                     return cmd.ExecuteNonQuery();
                 }

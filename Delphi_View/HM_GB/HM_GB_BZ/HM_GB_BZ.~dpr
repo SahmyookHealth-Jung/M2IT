@@ -1,0 +1,119 @@
+program HM_GB_BZ;
+
+uses
+  Forms,
+  VHMGBBZ047S in 'VHMGBBZ047S.pas' {Form1},
+  VHMGBBZ048S in 'VHMGBBZ048S.pas' {Form2},
+  VHMGBBZ049S in 'VHMGBBZ049S.pas' {Form3},
+  VHMGBBZ050S in 'VHMGBBZ050S.pas' {Form4},
+  VHMGBBZ047S01 in 'VHMGBBZ047S01.pas' {Form5},
+  VHMGBBZ001S in 'VHMGBBZ001S.pas' {Form6},
+  VHMGBBZ002S in 'VHMGBBZ002S.pas' {Form7},
+  VHMGBBZ003S in 'VHMGBBZ003S.pas' {Form8},
+  VHMGBBZ004S in 'VHMGBBZ004S.pas' {Form9},
+  VHMGBBZ005S in 'VHMGBBZ005S.pas' {Form10},
+  VHMGBBZ006S in 'VHMGBBZ006S.pas' {Form11},
+  VHMGBBZ007S in 'VHMGBBZ007S.pas' {Form12},
+  VHMGBBZ008S in 'VHMGBBZ008S.pas' {Form13},
+  VHMGBBZ012S in 'VHMGBBZ012S.pas' {Form14},
+  VHMGBBZ013S in 'VHMGBBZ013S.pas' {Form15},
+  VHMGBBZ014S in 'VHMGBBZ014S.pas' {Form16},
+  VHMGBBZ015S in 'VHMGBBZ015S.pas' {Form17},
+  VHMGBBZ016S in 'VHMGBBZ016S.pas' {Form18},
+  VHMGBBZ017S in 'VHMGBBZ017S.pas' {Form19},
+  VHMGBBZ018S in 'VHMGBBZ018S.pas' {Form20},
+  VHMGBBZ019S in 'VHMGBBZ019S.pas' {Form21},
+  VHMGBBZ020S in 'VHMGBBZ020S.pas' {Form22},
+  VHMGBBZ022S in 'VHMGBBZ022S.pas' {Form23},
+  VHMGBBZ025S in 'VHMGBBZ025S.pas' {Form24},
+  VHMGBBZ028S in 'VHMGBBZ028S.pas' {Form25},
+  VHMGBBZ029S in 'VHMGBBZ029S.pas' {Form26},
+  VHMGBBZ030S in 'VHMGBBZ030S.pas' {Form27},
+  VHMGBBZ031S in 'VHMGBBZ031S.pas' {Form28},
+  VHMGBBZ032S in 'VHMGBBZ032S.pas' {Form29},
+  VHMGBBZ033S in 'VHMGBBZ033S.pas' {Form30},
+  VHMGBBZ034S in 'VHMGBBZ034S.pas' {Form31},
+  VHMGBBZ035S in 'VHMGBBZ035S.pas' {Form32},
+  VHMGBBZ039S in 'VHMGBBZ039S.pas' {Form33},
+  VHMGBBZ041S in 'VHMGBBZ041S.pas' {Form34},
+  VHMGBBZ042S in 'VHMGBBZ042S.pas' {Form35},
+  VHMGBBZ043S in 'VHMGBBZ043S.pas' {Form36},
+  VHMGBBZ044S in 'VHMGBBZ044S.pas' {Form37},
+  VHMGBBZ046S in 'VHMGBBZ046S.pas' {Form38},
+  VHMGBBZ053S in 'VHMGBBZ053S.pas' {Form39},
+  VHMGBBZ056S in 'VHMGBBZ056S.pas' {Form40},
+  VHMGBBZ057S in 'VHMGBBZ057S.pas' {Form41},
+  VHMGBBZ063S in 'VHMGBBZ063S.pas' {Form42},
+  VHMGBBZ065S in 'VHMGBBZ065S.pas' {Form43},
+  VHMGBBZ066S in 'VHMGBBZ066S.pas' {Form44},
+  VHMGBBZ067S in 'VHMGBBZ067S.pas' {Form45},
+  VHMGBBZ069S in 'VHMGBBZ069S.pas' {Form46},
+  VHMGBBZ021S in 'VHMGBBZ021S.pas' {Form47},
+  VHMGBBZ036S in 'VHMGBBZ036S.pas' {Form48},
+  VHMGBBZ062S in 'VHMGBBZ062S.pas' {Form51},
+  VHMGBBZ061S in 'VHMGBBZ061S.pas' {Form50},
+  VHMGBBZ060S in 'VHMGBBZ060S.pas' {Form49},
+  VHMGBBZ059S in 'VHMGBBZ059S.pas' {Form52},
+  VHMGBBZ037S in 'VHMGBBZ037S.pas' {Form53},
+  VHMGBBZ052S in 'VHMGBBZ052S.pas' {Form54};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(TForm11, Form11);
+  Application.CreateForm(TForm12, Form12);
+  Application.CreateForm(TForm13, Form13);
+  Application.CreateForm(TForm14, Form14);
+  Application.CreateForm(TForm15, Form15);
+  Application.CreateForm(TForm16, Form16);
+  Application.CreateForm(TForm17, Form17);
+  Application.CreateForm(TForm18, Form18);
+  Application.CreateForm(TForm19, Form19);
+  Application.CreateForm(TForm20, Form20);
+  Application.CreateForm(TForm21, Form21);
+  Application.CreateForm(TForm22, Form22);
+  Application.CreateForm(TForm23, Form23);
+  Application.CreateForm(TForm24, Form24);
+  Application.CreateForm(TForm25, Form25);
+  Application.CreateForm(TForm26, Form26);
+  Application.CreateForm(TForm27, Form27);
+  Application.CreateForm(TForm28, Form28);
+  Application.CreateForm(TForm29, Form29);
+  Application.CreateForm(TForm30, Form30);
+  Application.CreateForm(TForm31, Form31);
+  Application.CreateForm(TForm32, Form32);
+  Application.CreateForm(TForm33, Form33);
+  Application.CreateForm(TForm34, Form34);
+  Application.CreateForm(TForm35, Form35);
+  Application.CreateForm(TForm36, Form36);
+  Application.CreateForm(TForm37, Form37);
+  Application.CreateForm(TForm38, Form38);
+  Application.CreateForm(TForm39, Form39);
+  Application.CreateForm(TForm40, Form40);
+  Application.CreateForm(TForm41, Form41);
+  Application.CreateForm(TForm42, Form42);
+  Application.CreateForm(TForm43, Form43);
+  Application.CreateForm(TForm44, Form44);
+  Application.CreateForm(TForm45, Form45);
+  Application.CreateForm(TForm46, Form46);
+  Application.CreateForm(TForm47, Form47);
+  Application.CreateForm(TForm48, Form48);
+  Application.CreateForm(TForm51, Form51);
+  Application.CreateForm(TForm50, Form50);
+  Application.CreateForm(TForm49, Form49);
+  Application.CreateForm(TForm52, Form52);
+  Application.CreateForm(TForm53, Form53);
+  Application.CreateForm(TForm54, Form54);
+  Application.Run;
+end.

@@ -53,7 +53,6 @@ type
     FlatPanel6: TFlatPanel;
     FlatPanel2: TFlatPanel;
     FlatComboBox1: TFlatComboBox;
-    FlatButton4: TFlatButton;
     FlatButton5: TFlatButton;
     FlatButton6: TFlatButton;
     FlatButton7: TFlatButton;
@@ -114,6 +113,7 @@ type
     FlatPanel15: TFlatPanel;
     AdvStringGrid4: TAdvStringGrid;
     FlatLabel6: TFlatLabel;
+    FlatLabel7: TFlatLabel;
   private
     { Private declarations }
   public

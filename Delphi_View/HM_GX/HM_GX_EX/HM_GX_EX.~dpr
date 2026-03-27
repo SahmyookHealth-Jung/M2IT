@@ -2,12 +2,28 @@ program HM_GX_EX;
 
 uses
   Forms,
-  VHMGXEX014S in 'VHMGXEX014S.pas' {Form1};
+  VHMGXEX014S in 'VHMGXEX014S.pas' {Form1},
+  VHMGXEX017S in '..\..\..\..\delphi 7.0 Enterprise\Work\DrawFormSample\VHMGXEX017S.pas' {Form2},
+  VHMGXEX018S in 'VHMGXEX018S.pas' {Form3},
+  VHMGXEX006S01 in '..\VHMGXEX006S01.pas' {Form4},
+  VHMGXEX006S02 in 'VHMGXEX006S02.pas' {Form5},
+  VHMGXEX006S03 in 'VHMGXEX006S03.pas' {Form6},
+  VHMGXEX006S04 in 'VHMGXEX006S04.pas' {Form7},
+  VHMGXEX006S05 in 'VHMGXEX006S05.pas' {Form8},
+  VHMGXEX006S06 in 'VHMGXEX006S06.pas' {Form9};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

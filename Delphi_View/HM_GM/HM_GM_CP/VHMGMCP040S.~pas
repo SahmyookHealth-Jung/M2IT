@@ -1,0 +1,94 @@
+unit VHMGMCP040S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, TFlatCheckBoxUnit, TFlatSpinEditUnit, Grids, BaseGrid,
+  AdvGrid, TFlatMemoUnit, TFlatGroupBoxUnit, TFlatComboBoxUnit,
+  TFlatEditUnit, TFlatButtonUnit, TFlatLabelUnit, ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm94 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel9: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+    FlatPanel5: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel4: TFlatLabel;
+    FlatButton1: TFlatButton;
+    FlatEdit5: TFlatEdit;
+    FlatComboBox2: TFlatComboBox;
+    FlatButton2: TFlatButton;
+    FlatButton3: TFlatButton;
+    FlatButton4: TFlatButton;
+    FlatPanel4: TFlatPanel;
+    FlatLabel6: TFlatLabel;
+    FlatGroupBox4: TFlatGroupBox;
+    FlatMemo1: TFlatMemo;
+    FlatPanel7: TFlatPanel;
+    FlatLabel7: TFlatLabel;
+    FlatPanel2: TFlatPanel;
+    FlatLabel5: TFlatLabel;
+    FlatPanel10: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatGroupBox5: TFlatGroupBox;
+    FlatMemo2: TFlatMemo;
+    FlatSpinEditInteger6: TFlatSpinEditInteger;
+    FlatCheckBox1: TFlatCheckBox;
+    FlatCheckBox2: TFlatCheckBox;
+    FlatPanel8: TFlatPanel;
+    FlaTFlatPanel21: TLabel;
+    FlaTFlatPanel30: TLabel;
+    Label8: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label30: TLabel;
+    FlatEdit1: TFlatEdit;
+    FlatSpinEditInteger1: TFlatSpinEditInteger;
+    FlatComboBox7: TFlatComboBox;
+    FlatComboBox8: TFlatComboBox;
+    FlatComboBox10: TFlatComboBox;
+    FlatSpinEditInteger2: TFlatSpinEditInteger;
+    FlatSpinEditInteger3: TFlatSpinEditInteger;
+    FlatComboBox3: TFlatComboBox;
+    FlatSpinEditInteger4: TFlatSpinEditInteger;
+    FlatSpinEditInteger5: TFlatSpinEditInteger;
+    FlatGroupBox3: TFlatGroupBox;
+    FlatCheckBox15: TFlatCheckBox;
+    FlatCheckBox16: TFlatCheckBox;
+    FlatEdit15: TFlatEdit;
+    FlatComboBox13: TFlatComboBox;
+    FlatEdit20: TFlatEdit;
+    FlatComboBox14: TFlatComboBox;
+    FlatComboBox15: TFlatComboBox;
+    FlatComboBox17: TFlatComboBox;
+    FlatComboBox18: TFlatComboBox;
+    FlatEdit23: TFlatEdit;
+    FlatComboBox19: TFlatComboBox;
+    FlatComboBox20: TFlatComboBox;
+    FlatComboBox23: TFlatComboBox;
+    FlatEdit16: TFlatEdit;
+    FlatEdit24: TFlatEdit;
+    FlatComboBox22: TFlatComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form94: TForm94;
+
+implementation
+
+{$R *.dfm}
+
+end.

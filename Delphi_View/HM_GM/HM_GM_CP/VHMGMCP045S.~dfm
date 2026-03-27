@@ -1,0 +1,16 @@
+object Form99: TForm99
+  Left = 2383
+  Top = 137
+  Width = 1305
+  Height = 675
+  Caption = #54620#44397#52384#46020#44277#49324' [VHMGMCP045S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

@@ -1,0 +1,40 @@
+unit VHMGBBZ022S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatLabelUnit, TFlatButtonUnit, Grids, BaseGrid, AdvGrid,
+  ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm23 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel12: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatPanel4: TFlatPanel;
+    FlatPanel7: TFlatPanel;
+    AdvStringGrid1: TAdvStringGrid;
+    FlatPanel8: TFlatPanel;
+    FlatButton7: TFlatButton;
+    FlatPanel6: TFlatPanel;
+    FlatLabel6: TFlatLabel;
+    FlatPanel2: TFlatPanel;
+    FlatPanel5: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatPanel9: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form23: TForm23;
+
+implementation
+
+{$R *.dfm}
+
+end.

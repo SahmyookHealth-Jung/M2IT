@@ -1,0 +1,2746 @@
+object Form10: TForm10
+  Left = 1942
+  Top = 16
+  Width = 1905
+  Height = 1023
+  Caption = #44228#50557#48373#49324' [VHMGBBZ005S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+  object FlatPanel1: TFlatPanel
+    Left = 16
+    Top = 21
+    Width = 1825
+    Height = 879
+    ParentColor = True
+    TabOrder = 0
+    UseDockManager = True
+    object FlatPanel23: TFlatPanel
+      Left = 1353
+      Top = 172
+      Width = 471
+      Height = 706
+      ParentColor = True
+      TabOrder = 30
+      UseDockManager = True
+      object AdvStringGrid9: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 469
+        Height = 704
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 4
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 46
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          #49440#53469
+          #44144#47000#52376#53076#46300
+          #44144#47000#52376#47749#52845
+          #51089#49457)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          46
+          168
+          97
+          132)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel22: TFlatPanel
+      Left = 1353
+      Top = 103
+      Width = 471
+      Height = 69
+      ParentColor = True
+      TabOrder = 29
+      UseDockManager = True
+      object FlatLabel13: TFlatLabel
+        Left = 8
+        Top = 35
+        Width = 64
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44144#47000#52376#47749#52845
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object FlatLabel14: TFlatLabel
+        Left = 8
+        Top = 6
+        Width = 64
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44144#47000#52376#53076#46300
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object FlatEdit3: TFlatEdit
+        Left = 88
+        Top = 7
+        Width = 104
+        Height = 23
+        ColorFlat = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+      end
+      object FlatEdit4: TFlatEdit
+        Left = 88
+        Top = 36
+        Width = 289
+        Height = 23
+        ColorFlat = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+      end
+      object FlatCheckBox5: TFlatCheckBox
+        Left = 207
+        Top = 9
+        Width = 194
+        Height = 19
+        Caption = #45824#49345#45380#46020' '#51060#47141#51060' '#50630#45716' '#44148#47564
+        TabOrder = 2
+        TabStop = True
+      end
+    end
+    object FlatPanel21: TFlatPanel
+      Left = 1353
+      Top = 68
+      Width = 472
+      Height = 35
+      ParentColor = True
+      TabOrder = 28
+      UseDockManager = True
+      object FlatLabel12: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 117
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #48373#49324' '#45824#49345' '#44144#47000#52376
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel20: TFlatPanel
+      Left = 913
+      Top = 644
+      Width = 440
+      Height = 234
+      ParentColor = True
+      TabOrder = 27
+      UseDockManager = True
+      object AdvStringGrid8: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 232
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 3
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 74
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          #44160#49324#53076#46300
+          #49692#48264
+          #44160#49324#47749#52845)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          74
+          52
+          291)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel19: TFlatPanel
+      Left = 913
+      Top = 609
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 26
+      UseDockManager = True
+      object FlatLabel11: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 117
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #48373#49324#51228#50808' '#44160#49324#53076#46300
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel5: TFlatPanel
+      Left = 1
+      Top = 35
+      Width = 1823
+      Height = 33
+      ParentColor = True
+      TabOrder = 3
+      UseDockManager = True
+    end
+    object FlatPanel3: TFlatPanel
+      Left = 1
+      Top = 1
+      Width = 1823
+      Height = 34
+      ParentColor = True
+      TabOrder = 0
+      UseDockManager = True
+      object FlatLabel3: TFlatLabel
+        Left = 8
+        Top = 4
+        Width = 65
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44228#50557#45380#46020
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = True
+      end
+      object FlatLabel2: TFlatLabel
+        Left = 162
+        Top = 4
+        Width = 56
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #45824#49345#45380#46020
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object FlatLabel1: TFlatLabel
+        Left = 144
+        Top = 7
+        Width = 17
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = '=>'
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object Label8: TLabel
+        Left = 819
+        Top = 5
+        Width = 49
+        Height = 23
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = #44144#47000#52376#47749
+        Layout = tlCenter
+      end
+      object FlatButton1: TFlatButton
+        Left = 1743
+        Top = 5
+        Width = 72
+        Height = 23
+        Color = clSilver
+        Caption = #51312#54924
+        ParentColor = False
+        TabOrder = 0
+      end
+      object FlatPanel16: TFlatPanel
+        Left = 500
+        Top = 6
+        Width = 293
+        Height = 23
+        ParentColor = True
+        TabOrder = 1
+        UseDockManager = True
+        object FlatRadioButton36: TFlatRadioButton
+          Left = 9
+          Top = 2
+          Width = 48
+          Height = 17
+          Caption = #48177#49888
+          TabOrder = 0
+        end
+        object FlatRadioButton37: TFlatRadioButton
+          Left = 61
+          Top = 2
+          Width = 44
+          Height = 17
+          Caption = #51077#49324
+          TabOrder = 1
+        end
+        object FlatCheckBox3: TFlatCheckBox
+          Left = 113
+          Top = 1
+          Width = 47
+          Height = 19
+          Caption = #49688#51221
+          TabOrder = 2
+          TabStop = True
+        end
+        object FlatCheckBox4: TFlatCheckBox
+          Left = 167
+          Top = 1
+          Width = 122
+          Height = 19
+          Caption = #51060#47141#51060' '#51080#45716' '#44148#47564
+          TabOrder = 3
+          TabStop = True
+        end
+      end
+      object FlatSpinEditInteger2: TFlatSpinEditInteger
+        Left = 78
+        Top = 5
+        Width = 64
+        Height = 23
+        ColorFlat = clWhite
+        AutoSize = False
+        MaxValue = 0
+        MinValue = 0
+        TabOrder = 2
+        Value = 2026
+      end
+      object FlatSpinEditInteger1: TFlatSpinEditInteger
+        Left = 221
+        Top = 6
+        Width = 62
+        Height = 23
+        ColorFlat = clWhite
+        AutoSize = False
+        MaxValue = 0
+        MinValue = 0
+        TabOrder = 3
+        Value = 2026
+      end
+      object FlatCheckBox1: TFlatCheckBox
+        Left = 292
+        Top = 9
+        Width = 47
+        Height = 19
+        Caption = #49688#51221
+        TabOrder = 4
+        TabStop = True
+      end
+      object FlatCheckBox2: TFlatCheckBox
+        Left = 388
+        Top = 9
+        Width = 101
+        Height = 19
+        Caption = #48177#49888'/'#51077#49324#51068#44292
+        TabOrder = 5
+        TabStop = True
+      end
+      object FlatEdit5: TFlatEdit
+        Left = 875
+        Top = 5
+        Width = 77
+        Height = 23
+        ColorFlat = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 6
+      end
+      object FlatComboBox9: TFlatComboBox
+        Left = 954
+        Top = 5
+        Width = 171
+        Height = 23
+        Color = clWindow
+        ItemHeight = 15
+        TabOrder = 7
+        ItemIndex = -1
+      end
+    end
+    object FlatComboBox2: TFlatComboBox
+      Left = 1744
+      Top = 40
+      Width = 72
+      Height = 23
+      Color = clWindow
+      ItemHeight = 15
+      TabOrder = 1
+      Text = '  Action'
+      ItemIndex = -1
+    end
+    object FlatPanel2: TFlatPanel
+      Left = 2
+      Top = 102
+      Width = 471
+      Height = 507
+      ParentColor = True
+      TabOrder = 4
+      UseDockManager = True
+      object AdvStringGrid2: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 469
+        Height = 505
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 5
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 45
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          #49440#53469
+          #44144#47000#52376#53076#46300
+          #44228#50557#52376
+          #44228#50557#51333#47448
+          #49884#54665#44148#49688)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          45
+          103
+          143
+          80
+          75)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatButton2: TFlatButton
+      Left = 1735
+      Top = 63
+      Width = 81
+      Height = 23
+      Caption = #50641#49472#45796#50868#47196#46300
+      TabOrder = 2
+    end
+    object FlatButton3: TFlatButton
+      Left = 1735
+      Top = 86
+      Width = 81
+      Height = 23
+      Caption = #48152#50689
+      TabOrder = 5
+    end
+    object FlatButton4: TFlatButton
+      Left = 1735
+      Top = 109
+      Width = 81
+      Height = 23
+      Caption = #51312#44148#44160#49353
+      TabOrder = 6
+    end
+    object FlatButton5: TFlatButton
+      Left = 1735
+      Top = 132
+      Width = 81
+      Height = 23
+      Caption = #44144#47000#52376#52628#44032
+      TabOrder = 7
+    end
+    object FlatButton6: TFlatButton
+      Left = 1735
+      Top = 155
+      Width = 81
+      Height = 23
+      Caption = #54756#46300#50724#54588#49828
+      TabOrder = 8
+    end
+    object FlatButton7: TFlatButton
+      Left = 1735
+      Top = 224
+      Width = 81
+      Height = 23
+      Caption = #51204#52404#49440#53469
+      TabOrder = 9
+    end
+    object FlatButton8: TFlatButton
+      Left = 1735
+      Top = 201
+      Width = 81
+      Height = 23
+      Caption = #52488#44592#54868
+      TabOrder = 10
+    end
+    object FlatButton9: TFlatButton
+      Left = 1735
+      Top = 178
+      Width = 81
+      Height = 23
+      Caption = #48177#49888#45824#49345
+      TabOrder = 11
+    end
+    object FlatButton10: TFlatButton
+      Left = 1735
+      Top = 247
+      Width = 81
+      Height = 23
+      Caption = #51204#52404#54644#51228
+      TabOrder = 12
+    end
+    object FlatPanel4: TFlatPanel
+      Left = 1
+      Top = 68
+      Width = 472
+      Height = 34
+      ParentColor = True
+      TabOrder = 13
+      UseDockManager = True
+      object FlatLabel4: TFlatLabel
+        Left = 5
+        Top = 4
+        Width = 52
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44144#47000#52376
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel7: TFlatPanel
+      Left = 1
+      Top = 609
+      Width = 472
+      Height = 35
+      ParentColor = True
+      TabOrder = 14
+      UseDockManager = True
+      object FlatLabel6: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 66
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44228#50557#44396#48516
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel6: TFlatPanel
+      Left = 1
+      Top = 644
+      Width = 472
+      Height = 234
+      ParentColor = True
+      TabOrder = 15
+      UseDockManager = True
+      object AdvStringGrid1: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 470
+        Height = 232
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 3
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 46
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          #48264#54840
+          #44228#50557#47749#52845
+          #48708#44256)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          46
+          350
+          64)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel8: TFlatPanel
+      Left = 913
+      Top = 68
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 16
+      UseDockManager = True
+      object FlatLabel5: TFlatLabel
+        Left = 5
+        Top = 4
+        Width = 78
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #51452#44228#50557#49345#49464
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel9: TFlatPanel
+      Left = 913
+      Top = 103
+      Width = 440
+      Height = 234
+      ParentColor = True
+      TabOrder = 17
+      UseDockManager = True
+      object AdvStringGrid3: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 232
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 3
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 13
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          ''
+          #44160#49324#53076#46300
+          #44160#49324#47749)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          13
+          331
+          72)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel10: TFlatPanel
+      Left = 473
+      Top = 68
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 18
+      UseDockManager = True
+      object FlatLabel7: TFlatLabel
+        Left = 3
+        Top = 4
+        Width = 54
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #51452#44228#50557
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel11: TFlatPanel
+      Left = 473
+      Top = 102
+      Width = 440
+      Height = 235
+      ParentColor = True
+      TabOrder = 19
+      UseDockManager = True
+      object AdvStringGrid4: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 233
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 2
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 46
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          #48264#54840
+          #51452#44228#50557)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          46
+          361)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel12: TFlatPanel
+      Left = 473
+      Top = 337
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 20
+      UseDockManager = True
+      object FlatLabel8: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 66
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44228#50557#49440#53469
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel13: TFlatPanel
+      Left = 473
+      Top = 372
+      Width = 440
+      Height = 237
+      ParentColor = True
+      TabOrder = 21
+      UseDockManager = True
+      object AdvStringGrid5: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 235
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 4
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 23
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          ''
+          #48264#54840
+          #44079#49688
+          #47749#52845)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          23
+          40
+          64
+          289)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel14: TFlatPanel
+      Left = 913
+      Top = 337
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 22
+      UseDockManager = True
+      object FlatLabel9: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 66
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #49440#53469#49345#49464
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel15: TFlatPanel
+      Left = 913
+      Top = 372
+      Width = 440
+      Height = 237
+      ParentColor = True
+      TabOrder = 23
+      UseDockManager = True
+      object AdvStringGrid6: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 235
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 4
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 17
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          ''
+          #53076#46300
+          #47749#52845
+          #48708#44256)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          17
+          150
+          147
+          113)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+    object FlatPanel17: TFlatPanel
+      Left = 473
+      Top = 609
+      Width = 440
+      Height = 35
+      ParentColor = True
+      TabOrder = 24
+      UseDockManager = True
+      object FlatLabel10: TFlatLabel
+        Left = 4
+        Top = 4
+        Width = 66
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44228#50557#52628#44032
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = True
+        ShowEssential = False
+      end
+    end
+    object FlatPanel18: TFlatPanel
+      Left = 473
+      Top = 644
+      Width = 440
+      Height = 234
+      ParentColor = True
+      TabOrder = 25
+      UseDockManager = True
+      object AdvStringGrid7: TAdvStringGrid
+        Left = 1
+        Top = 1
+        Width = 438
+        Height = 232
+        Cursor = crDefault
+        Align = alClient
+        ColCount = 4
+        DefaultRowHeight = 25
+        DefaultDrawing = False
+        FixedCols = 0
+        RowCount = 40
+        FixedRows = 1
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        GridLineWidth = 1
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected]
+        ParentFont = False
+        TabOrder = 0
+        GridLineColor = clSilver
+        ActiveCellShow = False
+        ActiveCellFont.Charset = DEFAULT_CHARSET
+        ActiveCellFont.Color = clWindowText
+        ActiveCellFont.Height = -11
+        ActiveCellFont.Name = 'MS Sans Serif'
+        ActiveCellFont.Style = [fsBold]
+        ActiveCellColor = clGray
+        Bands.PrimaryColor = clInfoBk
+        Bands.PrimaryLength = 1
+        Bands.SecondaryColor = clWindow
+        Bands.SecondaryLength = 1
+        Bands.Print = False
+        AutoNumAlign = False
+        AutoSize = False
+        VAlignment = vtaTop
+        EnhTextSize = False
+        EnhRowColMove = False
+        SizeWithForm = False
+        Multilinecells = False
+        DragDropSettings.OleAcceptFiles = True
+        DragDropSettings.OleAcceptText = True
+        SortSettings.AutoColumnMerge = False
+        SortSettings.Column = 0
+        SortSettings.Show = False
+        SortSettings.IndexShow = False
+        SortSettings.IndexColor = clYellow
+        SortSettings.Full = True
+        SortSettings.SingleColumn = False
+        SortSettings.IgnoreBlanks = False
+        SortSettings.BlankPos = blFirst
+        SortSettings.AutoFormat = True
+        SortSettings.Direction = sdAscending
+        SortSettings.FixedCols = False
+        SortSettings.NormalCellsOnly = False
+        SortSettings.Row = 0
+        FloatingFooter.Color = clBtnFace
+        FloatingFooter.Column = 0
+        FloatingFooter.FooterStyle = fsFixedLastRow
+        FloatingFooter.Visible = False
+        ControlLook.Color = clBlack
+        ControlLook.CheckSize = 15
+        ControlLook.RadioSize = 10
+        ControlLook.ControlStyle = csClassic
+        ControlLook.FlatButton = False
+        EnableBlink = False
+        EnableHTML = True
+        EnableWheel = True
+        Flat = False
+        HintColor = clInfoBk
+        SelectionColor = clHighlight
+        SelectionTextColor = clHighlightText
+        SelectionRectangle = False
+        SelectionResizer = False
+        SelectionRTFKeep = False
+        HintShowCells = False
+        HintShowLargeText = False
+        HintShowSizing = False
+        PrintSettings.FooterSize = 0
+        PrintSettings.HeaderSize = 0
+        PrintSettings.Time = ppNone
+        PrintSettings.Date = ppNone
+        PrintSettings.DateFormat = 'dd/mm/yyyy'
+        PrintSettings.PageNr = ppNone
+        PrintSettings.Title = ppNone
+        PrintSettings.Font.Charset = DEFAULT_CHARSET
+        PrintSettings.Font.Color = clWindowText
+        PrintSettings.Font.Height = -11
+        PrintSettings.Font.Name = 'MS Sans Serif'
+        PrintSettings.Font.Style = []
+        PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+        PrintSettings.HeaderFont.Color = clWindowText
+        PrintSettings.HeaderFont.Height = -11
+        PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+        PrintSettings.HeaderFont.Style = []
+        PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+        PrintSettings.FooterFont.Color = clWindowText
+        PrintSettings.FooterFont.Height = -11
+        PrintSettings.FooterFont.Name = 'MS Sans Serif'
+        PrintSettings.FooterFont.Style = []
+        PrintSettings.Borders = pbNoborder
+        PrintSettings.BorderStyle = psSolid
+        PrintSettings.Centered = False
+        PrintSettings.RepeatFixedRows = False
+        PrintSettings.RepeatFixedCols = False
+        PrintSettings.LeftSize = 0
+        PrintSettings.RightSize = 0
+        PrintSettings.ColumnSpacing = 0
+        PrintSettings.RowSpacing = 0
+        PrintSettings.TitleSpacing = 0
+        PrintSettings.Orientation = poPortrait
+        PrintSettings.PageNumberOffset = 0
+        PrintSettings.MaxPagesOffset = 0
+        PrintSettings.FixedWidth = 0
+        PrintSettings.FixedHeight = 0
+        PrintSettings.UseFixedHeight = False
+        PrintSettings.UseFixedWidth = False
+        PrintSettings.FitToPage = fpNever
+        PrintSettings.PageNumSep = '/'
+        PrintSettings.NoAutoSize = False
+        PrintSettings.NoAutoSizeRow = False
+        PrintSettings.PrintGraphics = False
+        HTMLSettings.Width = 100
+        HTMLSettings.XHTML = False
+        Navigation.AdvanceDirection = adLeftRight
+        Navigation.InsertPosition = pInsertBefore
+        Navigation.HomeEndKey = heFirstLastColumn
+        Navigation.TabToNextAtEnd = False
+        Navigation.TabAdvanceDirection = adLeftRight
+        ColumnSize.Location = clRegistry
+        CellNode.Color = clSilver
+        CellNode.NodeColor = clBlack
+        CellNode.ShowTree = False
+        MaxEditLength = 0
+        IntelliPan = ipVertical
+        URLColor = clBlue
+        URLShow = False
+        URLFull = False
+        URLEdit = False
+        ScrollType = ssNormal
+        ScrollColor = clNone
+        ScrollWidth = 17
+        ScrollSynch = False
+        ScrollProportional = False
+        ScrollHints = shNone
+        OemConvert = False
+        FixedFooters = 0
+        FixedRightCols = 0
+        FixedColWidth = 28
+        FixedRowHeight = 32
+        FixedFont.Charset = DEFAULT_CHARSET
+        FixedFont.Color = clWindowText
+        FixedFont.Height = -13
+        FixedFont.Name = #45208#45588#44256#46357
+        FixedFont.Style = []
+        FixedAsButtons = False
+        FloatFormat = '%.2f'
+        IntegralHeight = False
+        WordWrap = False
+        ColumnHeaders.Strings = (
+          ''
+          #53076#46300
+          #47749#52845
+          #48708#44256)
+        Lookup = False
+        LookupCaseSensitive = False
+        LookupHistory = False
+        ShowSelection = False
+        BackGround.Top = 0
+        BackGround.Left = 0
+        BackGround.Display = bdTile
+        BackGround.Cells = bcNormal
+        Filter = <>
+        ColWidths = (
+          28
+          65
+          204
+          119)
+        RowHeights = (
+          32
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25
+          25)
+      end
+    end
+  end
+end

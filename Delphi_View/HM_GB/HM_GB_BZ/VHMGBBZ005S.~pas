@@ -1,0 +1,59 @@
+unit VHMGBBZ005S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, BaseGrid, AdvGrid, StdCtrls, TFlatEditUnit,
+  TFlatSpinEditUnit, TFlatRadioButtonUnit, TFlatComboBoxUnit,
+  TFlatButtonUnit, TFlatLabelUnit, ExtCtrls, TFlatPanelUnit,
+  TFlatCheckBoxUnit;
+
+type
+  TForm10 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel5: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel2: TFlatLabel;
+    FlatLabel1: TFlatLabel;
+    FlatButton1: TFlatButton;
+    FlatPanel16: TFlatPanel;
+    FlatRadioButton36: TFlatRadioButton;
+    FlatRadioButton37: TFlatRadioButton;
+    FlatSpinEditInteger2: TFlatSpinEditInteger;
+    FlatSpinEditInteger1: TFlatSpinEditInteger;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel2: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatButton2: TFlatButton;
+    FlatButton3: TFlatButton;
+    FlatButton4: TFlatButton;
+    FlatButton5: TFlatButton;
+    FlatButton6: TFlatButton;
+    FlatButton7: TFlatButton;
+    FlatButton8: TFlatButton;
+    FlatButton9: TFlatButton;
+    FlatButton10: TFlatButton;
+    FlatCheckBox1: TFlatCheckBox;
+    FlatCheckBox2: TFlatCheckBox;
+    FlatCheckBox3: TFlatCheckBox;
+    FlatCheckBox4: TFlatCheckBox;
+    FlatPanel4: TFlatPanel;
+    Label8: TLabel;
+    FlatEdit5: TFlatEdit;
+    FlatComboBox9: TFlatComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form10: TForm10;
+
+implementation
+
+{$R *.dfm}
+
+end.

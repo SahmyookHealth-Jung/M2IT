@@ -1,0 +1,16 @@
+object Form64: TForm64
+  Left = 2402
+  Top = 137
+  Width = 1305
+  Height = 675
+  Caption = #54252#49828#53076' '#50500#51060#50472#54000' [VHMGMCP009S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

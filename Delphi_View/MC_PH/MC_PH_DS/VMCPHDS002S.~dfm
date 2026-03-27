@@ -1,0 +1,16 @@
+object Form2: TForm2
+  Left = 2170
+  Top = 94
+  Width = 1587
+  Height = 876
+  Caption = #47560#50557#47448' '#48372#44256#45236#50669#54869#51064' [VMCPHDS002S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

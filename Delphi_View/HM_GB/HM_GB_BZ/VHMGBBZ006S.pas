@@ -1,0 +1,50 @@
+unit VHMGBBZ006S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, TFlatEditUnit, Grids, BaseGrid, AdvGrid,
+  TFlatComboBoxUnit, TFlatRadioButtonUnit, TFlatButtonUnit, TFlatLabelUnit,
+  ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm11 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel5: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatButton1: TFlatButton;
+    FlatPanel16: TFlatPanel;
+    FlatRadioButton36: TFlatRadioButton;
+    FlatRadioButton37: TFlatRadioButton;
+    FlatComboBox1: TFlatComboBox;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel2: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatButton2: TFlatButton;
+    FlatPanel4: TFlatPanel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel4: TFlatLabel;
+    FlatEdit3: TFlatEdit;
+    FlatEdit4: TFlatEdit;
+    FlatComboBox3: TFlatComboBox;
+    FlatEdit6: TFlatEdit;
+    FlatPanel6: TFlatPanel;
+    FlatLabel6: TFlatLabel;
+    FlatLabel1: TFlatLabel;
+    FlatButton3: TFlatButton;
+    FlatButton4: TFlatButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form11: TForm11;
+
+implementation
+
+{$R *.dfm}
+
+end.

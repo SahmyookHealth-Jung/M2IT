@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 2209
-  Top = 45
-  Width = 1552
-  Height = 963
+  Left = 2225
+  Top = 136
+  Width = 1374
+  Height = 902
   Caption = #44592#52488#53076#46300' '#46321#47197' [VHMGZCD003S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 15
   object FlatPanel1: TFlatPanel
-    Left = 128
-    Top = 32
+    Left = 8
+    Top = 8
     Width = 1345
     Height = 849
     ParentColor = True
@@ -62,11 +62,12 @@ object Form1: TForm1
         Top = 16
         Width = 65
         Height = 25
+        BorderColor = clWhite
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
         Caption = #45824#48516#47448
-        Color = clBtnFace
+        Color = clWhite
         ParentColor = False
         ShowRect = True
         ShowEssential = False
@@ -337,7 +338,7 @@ object Form1: TForm1
         BevelInner = beNone
         BevelOuter = beNone
         Caption = #49548#48516#47448
-        Color = clBtnFace
+        Color = clWhite
         ParentColor = False
         ShowRect = True
         ShowEssential = False
@@ -652,7 +653,7 @@ object Form1: TForm1
         BevelInner = beNone
         BevelOuter = beNone
         Caption = #51473#48516#47448
-        Color = clBtnFace
+        Color = clWhite
         ParentColor = False
         ShowRect = True
         ShowEssential = False
@@ -898,8 +899,8 @@ object Form1: TForm1
     end
   end
   object FlatComboBox4: TFlatComboBox
-    Left = 1360
-    Top = 91
+    Left = 1240
+    Top = 67
     Width = 72
     Height = 23
     Color = clWindow
@@ -909,56 +910,56 @@ object Form1: TForm1
     ItemIndex = -1
   end
   object FlatButton19: TFlatButton
-    Left = 1351
-    Top = 114
+    Left = 1231
+    Top = 90
     Width = 81
     Height = 23
     Caption = #51200#51109
     TabOrder = 2
   end
   object FlatButton20: TFlatButton
-    Left = 1351
-    Top = 137
+    Left = 1231
+    Top = 113
     Width = 81
     Height = 23
     Caption = #45824#48516#47448' '#52628#44032
     TabOrder = 3
   end
   object FlatButton22: TFlatButton
-    Left = 1351
-    Top = 183
+    Left = 1231
+    Top = 159
     Width = 81
     Height = 23
     Caption = #51473#48516#47448' '#52628#44032
     TabOrder = 4
   end
   object FlatButton23: TFlatButton
-    Left = 1351
-    Top = 206
+    Left = 1231
+    Top = 182
     Width = 81
     Height = 23
     Caption = #51473#48516#47448' '#49325#51228
     TabOrder = 5
   end
   object FlatButton24: TFlatButton
-    Left = 1351
-    Top = 229
+    Left = 1231
+    Top = 205
     Width = 81
     Height = 23
     Caption = #49548#48516#47448' '#52628#44032
     TabOrder = 6
   end
   object FlatButton1: TFlatButton
-    Left = 1351
-    Top = 252
+    Left = 1231
+    Top = 228
     Width = 81
     Height = 23
     Caption = #49548#48516#47448' '#49325#51228
     TabOrder = 7
   end
   object FlatButton2: TFlatButton
-    Left = 1351
-    Top = 160
+    Left = 1231
+    Top = 136
     Width = 81
     Height = 23
     Caption = #45824#48516#47448' '#49325#51228

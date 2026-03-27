@@ -1,0 +1,16 @@
+object Form12: TForm12
+  Left = 2402
+  Top = 137
+  Width = 1305
+  Height = 859
+  Caption = #50672#48324' '#47588#52636#50529' '#54788#54889' [VHMGBBZ007S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

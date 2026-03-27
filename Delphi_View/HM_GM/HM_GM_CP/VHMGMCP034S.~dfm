@@ -1,0 +1,16 @@
+object Form88: TForm88
+  Left = 2182
+  Top = 137
+  Width = 1525
+  Height = 857
+  Caption = #54620#54868#49884#49828#53596' [VHMGMCP034S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

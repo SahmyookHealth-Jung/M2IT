@@ -1,0 +1,16 @@
+object Form67: TForm67
+  Left = 2402
+  Top = 137
+  Width = 1305
+  Height = 860
+  Caption = #44160#51652#51088#47308' EXCEL '#48320#54872' [VHMGMCP012S] '
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

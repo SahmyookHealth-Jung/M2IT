@@ -3,7 +3,6 @@ object Form3: TForm3
   Top = 49
   Width = 1210
   Height = 729
-  VertScrollBar.Position = 47
   Caption = #53945#44160' '#49548#44204#46321#47197' [VHMGCPJ066S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -16,7 +15,7 @@ object Form3: TForm3
   TextHeight = 15
   object FlatPanel1: TFlatPanel
     Left = 8
-    Top = -39
+    Top = 8
     Width = 993
     Height = 729
     ParentColor = True
@@ -390,7 +389,7 @@ object Form3: TForm3
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
-        Caption = #53076#46300' '#44160#49353
+        Caption = #53076#46300' '#48516#47448
         Color = clWhite
         ParentColor = False
         ShowRect = True

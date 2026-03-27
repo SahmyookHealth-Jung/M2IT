@@ -1,0 +1,26 @@
+unit VHMGXEX006S01;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm4 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel2: TFlatPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+end.

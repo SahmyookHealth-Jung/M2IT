@@ -6,7 +6,8 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, TFlatComboBoxUnit, TFlatRadioButtonUnit,
   TFlatCheckBoxUnit, TFlatGroupBoxUnit, TFlatButtonUnit, TFlatEditUnit,
-  Grids, BaseGrid, AdvGrid, ExtCtrls, TFlatPanelUnit, TFlatLabelUnit;
+  Grids, BaseGrid, AdvGrid, ExtCtrls, TFlatPanelUnit, TFlatLabelUnit,
+  TFlatMemoUnit;
 
 type
   TForm1 = class(TForm)
@@ -81,6 +82,8 @@ type
     FlatPanel10: TFlatPanel;
     FlatRadioButton15: TFlatRadioButton;
     FlatRadioButton14: TFlatRadioButton;
+    FlatLabel2: TFlatLabel;
+    FlatLabel7: TFlatLabel;
   private
     { Private declarations }
   public
