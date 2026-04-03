@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>61</Id>
+    <TermCode>A</TermCode>
+    <FullName>A 코드</FullName>
+    <Description>A 코드 - 종합검진</Description>
+    <RegDate>2026-04-03</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>60</Id>
     <TermCode>cryptocurrency</TermCode>
     <FullName>cryptocurrency</FullName>
