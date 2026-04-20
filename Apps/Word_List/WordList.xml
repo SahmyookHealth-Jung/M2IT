@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>62</Id>
+    <TermCode>normalization</TermCode>
+    <FullName>normalization</FullName>
+    <Description>정규화</Description>
+    <RegDate>2026-04-20</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>61</Id>
     <TermCode>A</TermCode>
     <FullName>A 코드</FullName>
