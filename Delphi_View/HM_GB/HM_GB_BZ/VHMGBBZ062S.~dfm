@@ -217,7 +217,7 @@ object Form51: TForm51
         Font.Height = -13
         Font.Name = #45208#45588#44256#46357
         Font.Style = []
-        Caption = #54801#47141#48337#50896
+        Caption = #52376#47532#49345#53468
         Color = clWhite
         ParentFont = False
         ParentColor = False

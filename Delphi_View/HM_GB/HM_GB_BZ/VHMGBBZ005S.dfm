@@ -1,8 +1,8 @@
 object Form10: TForm10
-  Left = 1942
-  Top = 16
-  Width = 1905
-  Height = 1023
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #44228#50557#48373#49324' [VHMGBBZ005S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -27,7 +27,7 @@ object Form10: TForm10
       Width = 471
       Height = 706
       ParentColor = True
-      TabOrder = 30
+      TabOrder = 28
       UseDockManager = True
       object AdvStringGrid9: TAdvStringGrid
         Left = 1
@@ -258,7 +258,7 @@ object Form10: TForm10
       Width = 471
       Height = 69
       ParentColor = True
-      TabOrder = 29
+      TabOrder = 27
       UseDockManager = True
       object FlatLabel13: TFlatLabel
         Left = 8
@@ -346,7 +346,7 @@ object Form10: TForm10
       Width = 472
       Height = 35
       ParentColor = True
-      TabOrder = 28
+      TabOrder = 26
       UseDockManager = True
       object FlatLabel12: TFlatLabel
         Left = 4
@@ -376,7 +376,7 @@ object Form10: TForm10
       Width = 440
       Height = 234
       ParentColor = True
-      TabOrder = 27
+      TabOrder = 25
       UseDockManager = True
       object AdvStringGrid8: TAdvStringGrid
         Left = 1
@@ -605,7 +605,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 26
+      TabOrder = 24
       UseDockManager = True
       object FlatLabel11: TFlatLabel
         Left = 4
@@ -1122,21 +1122,13 @@ object Form10: TForm10
       Caption = #54756#46300#50724#54588#49828
       TabOrder = 8
     end
-    object FlatButton7: TFlatButton
-      Left = 1735
-      Top = 224
-      Width = 81
-      Height = 23
-      Caption = #51204#52404#49440#53469
-      TabOrder = 9
-    end
     object FlatButton8: TFlatButton
       Left = 1735
       Top = 201
       Width = 81
       Height = 23
       Caption = #52488#44592#54868
-      TabOrder = 10
+      TabOrder = 9
     end
     object FlatButton9: TFlatButton
       Left = 1735
@@ -1144,15 +1136,7 @@ object Form10: TForm10
       Width = 81
       Height = 23
       Caption = #48177#49888#45824#49345
-      TabOrder = 11
-    end
-    object FlatButton10: TFlatButton
-      Left = 1735
-      Top = 247
-      Width = 81
-      Height = 23
-      Caption = #51204#52404#54644#51228
-      TabOrder = 12
+      TabOrder = 10
     end
     object FlatPanel4: TFlatPanel
       Left = 1
@@ -1160,7 +1144,7 @@ object Form10: TForm10
       Width = 472
       Height = 34
       ParentColor = True
-      TabOrder = 13
+      TabOrder = 11
       UseDockManager = True
       object FlatLabel4: TFlatLabel
         Left = 5
@@ -1190,7 +1174,7 @@ object Form10: TForm10
       Width = 472
       Height = 35
       ParentColor = True
-      TabOrder = 14
+      TabOrder = 12
       UseDockManager = True
       object FlatLabel6: TFlatLabel
         Left = 4
@@ -1220,7 +1204,7 @@ object Form10: TForm10
       Width = 472
       Height = 234
       ParentColor = True
-      TabOrder = 15
+      TabOrder = 13
       UseDockManager = True
       object AdvStringGrid1: TAdvStringGrid
         Left = 1
@@ -1229,7 +1213,7 @@ object Form10: TForm10
         Height = 232
         Cursor = crDefault
         Align = alClient
-        ColCount = 3
+        ColCount = 4
         DefaultRowHeight = 25
         DefaultDrawing = False
         FixedCols = 0
@@ -1384,6 +1368,7 @@ object Form10: TForm10
         IntegralHeight = False
         WordWrap = False
         ColumnHeaders.Strings = (
+          #49440#53469
           #48264#54840
           #44228#50557#47749#52845
           #48708#44256)
@@ -1398,8 +1383,9 @@ object Form10: TForm10
         Filter = <>
         ColWidths = (
           46
-          350
-          64)
+          45
+          280
+          78)
         RowHeights = (
           32
           25
@@ -1449,7 +1435,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 16
+      TabOrder = 14
       UseDockManager = True
       object FlatLabel5: TFlatLabel
         Left = 5
@@ -1479,7 +1465,7 @@ object Form10: TForm10
       Width = 440
       Height = 234
       ParentColor = True
-      TabOrder = 17
+      TabOrder = 15
       UseDockManager = True
       object AdvStringGrid3: TAdvStringGrid
         Left = 1
@@ -1708,7 +1694,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 18
+      TabOrder = 16
       UseDockManager = True
       object FlatLabel7: TFlatLabel
         Left = 3
@@ -1738,7 +1724,7 @@ object Form10: TForm10
       Width = 440
       Height = 235
       ParentColor = True
-      TabOrder = 19
+      TabOrder = 17
       UseDockManager = True
       object AdvStringGrid4: TAdvStringGrid
         Left = 1
@@ -1747,7 +1733,7 @@ object Form10: TForm10
         Height = 233
         Cursor = crDefault
         Align = alClient
-        ColCount = 2
+        ColCount = 3
         DefaultRowHeight = 25
         DefaultDrawing = False
         FixedCols = 0
@@ -1902,6 +1888,7 @@ object Form10: TForm10
         IntegralHeight = False
         WordWrap = False
         ColumnHeaders.Strings = (
+          #49440#53469
           #48264#54840
           #51452#44228#50557)
         Lookup = False
@@ -1915,7 +1902,8 @@ object Form10: TForm10
         Filter = <>
         ColWidths = (
           46
-          361)
+          44
+          327)
         RowHeights = (
           32
           25
@@ -1965,7 +1953,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 20
+      TabOrder = 18
       UseDockManager = True
       object FlatLabel8: TFlatLabel
         Left = 4
@@ -1995,7 +1983,7 @@ object Form10: TForm10
       Width = 440
       Height = 237
       ParentColor = True
-      TabOrder = 21
+      TabOrder = 19
       UseDockManager = True
       object AdvStringGrid5: TAdvStringGrid
         Left = 1
@@ -2226,7 +2214,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 22
+      TabOrder = 20
       UseDockManager = True
       object FlatLabel9: TFlatLabel
         Left = 4
@@ -2256,7 +2244,7 @@ object Form10: TForm10
       Width = 440
       Height = 237
       ParentColor = True
-      TabOrder = 23
+      TabOrder = 21
       UseDockManager = True
       object AdvStringGrid6: TAdvStringGrid
         Left = 1
@@ -2487,7 +2475,7 @@ object Form10: TForm10
       Width = 440
       Height = 35
       ParentColor = True
-      TabOrder = 24
+      TabOrder = 22
       UseDockManager = True
       object FlatLabel10: TFlatLabel
         Left = 4
@@ -2517,7 +2505,7 @@ object Form10: TForm10
       Width = 440
       Height = 234
       ParentColor = True
-      TabOrder = 25
+      TabOrder = 23
       UseDockManager = True
       object AdvStringGrid7: TAdvStringGrid
         Left = 1
@@ -2669,7 +2657,7 @@ object Form10: TForm10
         OemConvert = False
         FixedFooters = 0
         FixedRightCols = 0
-        FixedColWidth = 28
+        FixedColWidth = 34
         FixedRowHeight = 32
         FixedFont.Charset = DEFAULT_CHARSET
         FixedFont.Color = clWindowText
@@ -2681,7 +2669,7 @@ object Form10: TForm10
         IntegralHeight = False
         WordWrap = False
         ColumnHeaders.Strings = (
-          ''
+          #49440#53469
           #53076#46300
           #47749#52845
           #48708#44256)
@@ -2695,7 +2683,7 @@ object Form10: TForm10
         BackGround.Cells = bcNormal
         Filter = <>
         ColWidths = (
-          28
+          34
           65
           204
           119)

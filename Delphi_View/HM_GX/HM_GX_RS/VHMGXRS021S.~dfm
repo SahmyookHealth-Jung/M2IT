@@ -1,0 +1,16 @@
+object Form80: TForm80
+  Left = 2265
+  Top = 32
+  Width = 1555
+  Height = 963
+  Caption = #51068#48152#54792#50529' '#44208#44284' '#52636#47141' [VHMGXRS021S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

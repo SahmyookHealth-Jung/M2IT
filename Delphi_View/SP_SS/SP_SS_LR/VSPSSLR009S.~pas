@@ -1,0 +1,24 @@
+unit VSPSSLR009S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TForm64 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form64: TForm64;
+
+implementation
+
+{$R *.dfm}
+
+end.

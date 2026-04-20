@@ -1,8 +1,8 @@
 object Form35: TForm35
-  Left = 1921
+  Left = 1
   Top = 1
-  Width = 1918
-  Height = 1030
+  Width = 1534
+  Height = 814
   Caption = #44160#51652#44208#44284' '#52376#47532#53685#44228' [VHMGBBZ042S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

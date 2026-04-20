@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, TFlatSpinEditUnit, StdCtrls, TFlatEditUnit, TFlatButtonUnit,
   TFlatCheckBoxUnit, TFlatComboBoxUnit, TFlatRadioButtonUnit,
-  TFlatLabelUnit, ExtCtrls, TFlatPanelUnit;
+  TFlatLabelUnit, ExtCtrls, TFlatPanelUnit, Grids, BaseGrid, AdvGrid;
 
 type
   TForm4 = class(TForm)
@@ -21,9 +21,6 @@ type
     FlatLabel3: TFlatLabel;
     FlatLabel4: TFlatLabel;
     FlatLabel5: TFlatLabel;
-    FlatLabel8: TFlatLabel;
-    FlatLabel9: TFlatLabel;
-    FlatLabel10: TFlatLabel;
     FlatPanel1: TFlatPanel;
     FlatRadioButton1: TFlatRadioButton;
     FlatRadioButton15: TFlatRadioButton;
@@ -39,28 +36,26 @@ type
     FlatPanel2: TFlatPanel;
     FlatRadioButton3: TFlatRadioButton;
     FlatRadioButton5: TFlatRadioButton;
-    FlatRadioButton2: TFlatRadioButton;
     FlatEdit5: TFlatEdit;
     FlatSpinEditInteger2: TFlatSpinEditInteger;
-    FlatSpinEditInteger1: TFlatSpinEditInteger;
     FlatComboBox9: TFlatComboBox;
     FlatPanel5: TFlatPanel;
     FlatCheckBox2: TFlatCheckBox;
     FlatComboBox1: TFlatComboBox;
-    FlatPanel7: TFlatPanel;
-    FlatCheckBox3: TFlatCheckBox;
-    FlatComboBox6: TFlatComboBox;
-    FlatPanel9: TFlatPanel;
-    FlatCheckBox4: TFlatCheckBox;
-    FlatComboBox7: TFlatComboBox;
-    FlatPanel10: TFlatPanel;
-    FlatRadioButton4: TFlatRadioButton;
-    FlatRadioButton6: TFlatRadioButton;
-    FlatRadioButton7: TFlatRadioButton;
-    FlatRadioButton8: TFlatRadioButton;
-    FlatRadioButton9: TFlatRadioButton;
     FlatComboBox2: TFlatComboBox;
     FlatButton1: TFlatButton;
+    FlatRadioButton2: TFlatRadioButton;
+    FlatLabel8: TFlatLabel;
+    FlatComboBox6: TFlatComboBox;
+    FlatLabel9: TFlatLabel;
+    FlatComboBox7: TFlatComboBox;
+    FlatPanel11: TFlatPanel;
+    FlatCheckBox3: TFlatCheckBox;
+    FlatCheckBox4: TFlatCheckBox;
+    FlatCheckBox6: TFlatCheckBox;
+    FlatButton3: TFlatButton;
+    FlatPanel14: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
   private
     { Private declarations }
   public

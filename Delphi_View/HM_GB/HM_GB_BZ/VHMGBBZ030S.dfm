@@ -1,8 +1,8 @@
 object Form27: TForm27
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 864
+  Height = 823
   ActiveControl = FlatCheckBox7
   Caption = 'B'#54805#44036#50684' '#51217#51333#45824#49345#51088', '#47732#50669#51088', '#48372#44512#51088' [VHMGBBZ030S]'
   Color = clWhite

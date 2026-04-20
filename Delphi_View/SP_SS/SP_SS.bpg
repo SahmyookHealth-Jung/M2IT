@@ -9,12 +9,34 @@ MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
 DCC = $(ROOT)\bin\dcc32.exe $**
 BRCC = $(ROOT)\bin\brcc32.exe $**
 #------------------------------------------------------------------------------
-PROJECTS = SP_SS_ZZ.exe
+PROJECTS = SP_SS_ZZ.exe HM_GX_RS.exe SP_SS_LR.exe HM_GB_BZ.exe SP_SS_QC.exe \
+  SP_SS_SC.exe HM_GZ_CD.exe SP_SS_SP.exe
 #------------------------------------------------------------------------------
 default: $(PROJECTS)
 #------------------------------------------------------------------------------
 
 SP_SS_ZZ.exe: SP_SS_ZZ\SP_SS_ZZ.dpr
+  $(DCC)
+
+HM_GX_RS.exe: ..\HM_GX\HM_GX_RS\HM_GX_RS.dpr
+  $(DCC)
+
+SP_SS_LR.exe: SP_SS_LR\SP_SS_LR.dpr
+  $(DCC)
+
+HM_GB_BZ.exe: ..\HM_GB\HM_GB_BZ\HM_GB_BZ.dpr
+  $(DCC)
+
+SP_SS_QC.exe: SP_SS_QC\SP_SS_QC.dpr
+  $(DCC)
+
+SP_SS_SC.exe: SP_SS_SC\SP_SS_SC.dpr
+  $(DCC)
+
+HM_GZ_CD.exe: ..\HM_GZ\HM_GZ_CD\HM_GZ_CD.dpr
+  $(DCC)
+
+SP_SS_SP.exe: SP_SS_SP\SP_SS_SP.dpr
   $(DCC)
 
 

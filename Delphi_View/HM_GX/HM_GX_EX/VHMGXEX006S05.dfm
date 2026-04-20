@@ -1,6 +1,6 @@
 object Form8: TForm8
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 111
   Width = 1305
   Height = 675
   Caption = #44160#51652#51032#49324#48324#44160#51652#49892#51201' [VHMGXEX006S05]'

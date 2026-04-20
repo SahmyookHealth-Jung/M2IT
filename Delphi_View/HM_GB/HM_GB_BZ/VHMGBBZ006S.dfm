@@ -1,6 +1,6 @@
 object Form11: TForm11
-  Left = 2296
-  Top = 130
+  Left = 238
+  Top = 0
   Width = 1305
   Height = 823
   Caption = #49440#53469#44160#49324#49444#51221' [VHMGBBZ006S]'

@@ -1,6 +1,6 @@
 object Form17: TForm17
-  Left = 2293
-  Top = 198
+  Left = 238
+  Top = 0
   Width = 1305
   Height = 823
   Caption = #51652#47308#48512' '#54637#47785' '#53685#44228' [VHMGBBZ015S]'

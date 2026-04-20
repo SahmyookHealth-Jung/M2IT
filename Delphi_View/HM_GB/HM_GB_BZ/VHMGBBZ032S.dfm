@@ -1,6 +1,6 @@
 object Form29: TForm29
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 26
   Width = 1305
   Height = 797
   Caption = #51656#54872#48324' '#50976#49548#44204#53685#44228' [VHMGBBZ032S]'

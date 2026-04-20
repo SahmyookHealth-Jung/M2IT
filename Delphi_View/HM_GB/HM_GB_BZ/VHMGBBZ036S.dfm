@@ -1,8 +1,8 @@
 object Form48: TForm48
-  Left = 1975
-  Top = 9
-  Width = 1780
-  Height = 1008
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #44160#51652#44228#50557' '#46321#47197' [VHMGBBZ036S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -36,7 +36,7 @@ object Form48: TForm48
         Height = 841
         Cursor = crDefault
         Align = alClient
-        ColCount = 7
+        ColCount = 8
         DefaultRowHeight = 25
         DefaultDrawing = False
         FixedCols = 0
@@ -194,6 +194,7 @@ object Form48: TForm48
           ''
           #44160#49324#53076#46300
           #44160#49324#47749
+          #44228#50557#45380#46020
           #51068#48152#49688#44032
           #51032#48372#49688#44032
           #53945#44160#49688#44032
@@ -210,10 +211,11 @@ object Form48: TForm48
         ColWidths = (
           13
           66
-          202
-          88
-          79
+          104
+          76
+          61
           78
+          64
           64)
         RowHeights = (
           32
@@ -286,6 +288,70 @@ object Form48: TForm48
         ParentColor = False
         ShowRect = True
         ShowEssential = False
+      end
+      object FlatLabel12: TFlatLabel
+        Left = 96
+        Top = 3
+        Width = 92
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #48708#44368' '#44228#50557#45380#46020' '
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object FlatLabel13: TFlatLabel
+        Left = 256
+        Top = 3
+        Width = 55
+        Height = 25
+        Alignment = taRightJustify
+        TextBorder = 0
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #44228#50557#48264#54840
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
+      object FlatSpinEditInteger4: TFlatSpinEditInteger
+        Left = 186
+        Top = 5
+        Width = 64
+        Height = 23
+        ColorFlat = clWhite
+        AutoSize = False
+        MaxValue = 0
+        MinValue = 0
+        TabOrder = 0
+        Value = 2026
+      end
+      object FlatComboBox18: TFlatComboBox
+        Left = 314
+        Top = 5
+        Width = 103
+        Height = 23
+        Color = clWindow
+        ItemHeight = 15
+        TabOrder = 1
+        ItemIndex = -1
       end
     end
     object FlatPanel9: TFlatPanel
@@ -1068,7 +1134,7 @@ object Form48: TForm48
         Font.Height = -13
         Font.Name = #45208#45588#44256#46357
         Font.Style = []
-        Caption = #44144#47000#52376#47749
+        Caption = #49324#50629#51109#47749
         Color = clWhite
         ParentFont = False
         ParentColor = False

@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, TFlatEditUnit, TFlatComboBoxUnit, ExtCtrls,
   TFlatPanelUnit, Grids, BaseGrid, AdvGrid, TFlatButtonUnit,
-  TFlatCheckBoxUnit;
+  TFlatCheckBoxUnit, TFlatLabelUnit;
 
 type
   TForm1 = class(TForm)
@@ -38,7 +38,6 @@ type
     Label4: TLabel;
     FlatEdit9: TFlatEdit;
     FlatEdit4: TFlatEdit;
-    FlatPanel6: TFlatPanel;
     FlatComboBox4: TFlatComboBox;
     FlatButton19: TFlatButton;
     FlatButton20: TFlatButton;
@@ -48,12 +47,12 @@ type
     FlatButton24: TFlatButton;
     FlatPanel9: TFlatPanel;
     FlatPanel8: TFlatPanel;
-    FlatPanel10: TFlatPanel;
     FlatPanel11: TFlatPanel;
-    FlatPanel12: TFlatPanel;
     AdvStringGrid2: TAdvStringGrid;
     FlatPanel13: TFlatPanel;
     AdvStringGrid3: TAdvStringGrid;
+    FlatLabel1: TFlatLabel;
+    FlatLabel2: TFlatLabel;
   private
     { Private declarations }
   public

@@ -2,12 +2,22 @@ program HM_GZ_CD;
 
 uses
   Forms,
-  VHMGZCD003S in 'VHMGZCD003S.pas' {Form1};
+  VHMGZCD003S in 'VHMGZCD003S.pas' {Form1},
+  VHMGZCD008S in 'VHMGZCD008S.pas' {Form3},
+  VHMGZCD001S in 'VHMGZCD001S.pas' {Form4},
+  VHMGZCD002S in 'VHMGZCD002S.pas' {Form58},
+  VHMGZCD004S in 'VHMGZCD004S.pas' {Form59},
+  VHMGZCD005S in 'VHMGZCD005S.pas' {Form60};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm58, Form58);
+  Application.CreateForm(TForm59, Form59);
+  Application.CreateForm(TForm60, Form60);
   Application.Run;
 end.

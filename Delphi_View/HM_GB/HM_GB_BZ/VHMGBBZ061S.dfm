@@ -1,8 +1,8 @@
 object Form50: TForm50
-  Left = 2002
-  Top = 49
-  Width = 1798
-  Height = 874
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   ActiveControl = FlatCheckBox5
   Caption = #54801#47141#48337#50896' '#51648#44553#51204#54364' '#49373#49457' [VHMGBBZ061S]'
   Color = clWhite

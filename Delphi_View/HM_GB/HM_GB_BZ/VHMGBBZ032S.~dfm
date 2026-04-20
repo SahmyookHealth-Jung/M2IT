@@ -32,7 +32,7 @@ object Form29: TForm29
       object FlatLabel6: TFlatLabel
         Left = 6
         Top = 5
-        Width = 146
+        Width = 134
         Height = 25
         Alignment = taRightJustify
         TextBorder = 2
@@ -43,7 +43,7 @@ object Form29: TForm29
         Font.Height = -13
         Font.Name = #45208#45588#44256#46357
         Font.Style = []
-        Caption = #44144#47000#52376#48324' '#50976#49548#44204#51088' '#47749#45800
+        Caption = #51656#54872#48324' '#50976#49548#44204#51088' '#47749#45800
         Color = clWhite
         ParentFont = False
         ParentColor = False

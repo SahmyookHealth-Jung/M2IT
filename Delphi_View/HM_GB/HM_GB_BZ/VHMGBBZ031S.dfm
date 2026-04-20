@@ -1,8 +1,8 @@
 object Form28: TForm28
-  Left = 2366
-  Top = 99
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 882
+  Height = 823
   Caption = #44060#51064#48324' '#51333#54633#49548#44204#54788#54889' [VHMGBBZ031S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

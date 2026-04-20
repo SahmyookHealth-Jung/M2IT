@@ -1,8 +1,8 @@
 object Form54: TForm54
-  Left = 2239
-  Top = 56
-  Width = 1548
-  Height = 957
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #53945#49688#44148#44053#51652#45800' '#49892#49884#44228#54925#49436' [VHMGBBZ052S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

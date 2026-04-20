@@ -32,6 +32,8 @@ type
     FlatPanel6: TFlatPanel;
     FlatLabel6: TFlatLabel;
     FlatLabel1: TFlatLabel;
+    FlatButton3: TFlatButton;
+    FlatButton4: TFlatButton;
   private
     { Private declarations }
   public

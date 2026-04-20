@@ -657,7 +657,7 @@ object Form50: TForm50
         Top = 32
         Width = 111
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clSilver
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -680,7 +680,7 @@ object Form50: TForm50
         Top = 32
         Width = 111
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clSilver
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13

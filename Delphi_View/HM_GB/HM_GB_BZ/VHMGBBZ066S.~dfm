@@ -141,7 +141,7 @@ object Form44: TForm44
         ParentFont = False
         ParentColor = False
         ShowRect = False
-        ShowEssential = False
+        ShowEssential = True
       end
       object FlatLabel7: TFlatLabel
         Left = 173
@@ -687,7 +687,7 @@ object Form44: TForm44
         OemConvert = False
         FixedFooters = 0
         FixedRightCols = 0
-        FixedColWidth = 43
+        FixedColWidth = 21
         FixedRowHeight = 32
         FixedFont.Charset = DEFAULT_CHARSET
         FixedFont.Color = clWindowText
@@ -706,7 +706,11 @@ object Form44: TForm44
           '('#51333#47196')'#48176#52824#51204
           '('#51333#47196')'#53945#44160#49688#44032
           '('#51333#47196')'#53945#44160'+'#51068#48152
-          '('#51333#47196')'#53945#44160'+'#51068#48152)
+          '('#51333#47196')'#53945#44160'+'#51068#48152'('#51060#49345#51648#51656#51228#50808')'
+          '('#44053#45224')'#48176#52824#51204
+          '('#44053#45224')'#53945#44160#49688#44032
+          '('#44053#45224') '#53945#44160' + '#51068#48152
+          '('#44053#45224') '#53945#44160' + '#51068#48152' ('#51060#49345#51648#51656#51228#50808')')
         Lookup = False
         LookupCaseSensitive = False
         LookupHistory = False
@@ -717,14 +721,14 @@ object Form44: TForm44
         BackGround.Cells = bcNormal
         Filter = <>
         ColWidths = (
-          43
-          96
+          21
+          61
           70
-          98
+          62
           82
           89
-          64
-          64
+          99
+          180
           64
           64
           64

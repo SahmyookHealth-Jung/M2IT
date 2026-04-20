@@ -1,0 +1,138 @@
+unit VHMGSRC059S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatTabControlUnit, TFlatSpinEditUnit, TFlatLabelUnit, Grids,
+  BaseGrid, AdvGrid, ExtCtrls, TFlatGroupBoxUnit, TFlatCheckBoxUnit,
+  TFlatButtonUnit, StdCtrls, TFlatEditUnit, TFlatComboBoxUnit,
+  TFlatPanelUnit;
+
+type
+  TForm27 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel2: TFlatPanel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    FlatComboBox13: TFlatComboBox;
+    FlatComboBox37: TFlatComboBox;
+    FlatComboBox38: TFlatComboBox;
+    FlatComboBox39: TFlatComboBox;
+    FlatEdit47: TFlatEdit;
+    FlatEdit48: TFlatEdit;
+    FlatButton7: TFlatButton;
+    FlaTFlatPanel67: TLabel;
+    FlatEdit28: TFlatEdit;
+    FlatComboBox29: TFlatComboBox;
+    FlaTFlatPanel40: TLabel;
+    FlatEdit25: TFlatEdit;
+    FlaTFlatPanel50: TLabel;
+    FlaTFlatPanel52: TLabel;
+    FlaTFlatPanel54: TLabel;
+    FlaTFlatPanel58: TLabel;
+    FlaTFlatPanel62: TLabel;
+    FlaTFlatPanel60: TLabel;
+    FlaTFlatPanel56: TLabel;
+    pn_Panel013: TFlatPanel;
+    FlatCheckBox7: TFlatCheckBox;
+    FlatComboBox21: TFlatComboBox;
+    pn_Panel014: TFlatPanel;
+    FlatCheckBox8: TFlatCheckBox;
+    FlatComboBox22: TFlatComboBox;
+    pn_Panel016: TFlatPanel;
+    FlatCheckBox10: TFlatCheckBox;
+    FlatComboBox24: TFlatComboBox;
+    pn_Panel018: TFlatPanel;
+    FlatCheckBox12: TFlatCheckBox;
+    FlatComboBox26: TFlatComboBox;
+    pn_Panel015: TFlatPanel;
+    FlatCheckBox9: TFlatCheckBox;
+    FlatComboBox23: TFlatComboBox;
+    pn_Panel017: TFlatPanel;
+    FlatCheckBox11: TFlatCheckBox;
+    FlatComboBox25: TFlatComboBox;
+    pn_Panel019: TFlatPanel;
+    FlatCheckBox13: TFlatCheckBox;
+    FlatComboBox27: TFlatComboBox;
+    FlatGroupBox4: TFlatGroupBox;
+    Bevel1: TBevel;
+    FlatCheckBox23: TFlatCheckBox;
+    FlatCheckBox25: TFlatCheckBox;
+    FlatCheckBox26: TFlatCheckBox;
+    FlatCheckBox27: TFlatCheckBox;
+    FlatCheckBox28: TFlatCheckBox;
+    FlatCheckBox29: TFlatCheckBox;
+    FlatCheckBox30: TFlatCheckBox;
+    FlatCheckBox31: TFlatCheckBox;
+    FlatCheckBox32: TFlatCheckBox;
+    FlatCheckBox33: TFlatCheckBox;
+    FlatCheckBox34: TFlatCheckBox;
+    FlatCheckBox35: TFlatCheckBox;
+    FlatCheckBox36: TFlatCheckBox;
+    FlatCheckBox37: TFlatCheckBox;
+    FlatCheckBox41: TFlatCheckBox;
+    FlatPanel4: TFlatPanel;
+    AdvStringGrid1: TAdvStringGrid;
+    FlatPanel7: TFlatPanel;
+    FlatLabel11: TFlatLabel;
+    FlatPanel11: TFlatPanel;
+    FlatLabel15: TFlatLabel;
+    FlatPanel5: TFlatPanel;
+    FlatComboBox2: TFlatComboBox;
+    FlatButton2: TFlatButton;
+    FlatPanel3: TFlatPanel;
+    FlatLabel13: TFlatLabel;
+    FlatEdit3: TFlatEdit;
+    FlatLabel2: TFlatLabel;
+    FlatEdit1: TFlatEdit;
+    FlatLabel4: TFlatLabel;
+    FlatEdit4: TFlatEdit;
+    FlatLabel3: TFlatLabel;
+    FlatComboBox1: TFlatComboBox;
+    FlatLabel1: TFlatLabel;
+    FlatEdit2: TFlatEdit;
+    FlatCheckBox1: TFlatCheckBox;
+    FlatCheckBox2: TFlatCheckBox;
+    FlatLabel5: TFlatLabel;
+    FlatEdit5: TFlatEdit;
+    FlatSpinEditInteger2: TFlatSpinEditInteger;
+    FlatComboBox9: TFlatComboBox;
+    FlatComboBox3: TFlatComboBox;
+    FlatLabel6: TFlatLabel;
+    FlatEdit6: TFlatEdit;
+    FlatComboBox4: TFlatComboBox;
+    FlatLabel7: TFlatLabel;
+    FlatComboBox5: TFlatComboBox;
+    FlatLabel8: TFlatLabel;
+    FlatComboBox6: TFlatComboBox;
+    FlatLabel9: TFlatLabel;
+    FlatComboBox7: TFlatComboBox;
+    FlatEdit7: TFlatEdit;
+    FlatTabControl1: TFlatTabControl;
+    FlatPanel6: TFlatPanel;
+    FlatLabel10: TFlatLabel;
+    FlatSpinEditInteger1: TFlatSpinEditInteger;
+    Label1: TLabel;
+    Label2: TLabel;
+    FlatEdit8: TFlatEdit;
+    FlatEdit9: TFlatEdit;
+    FlatComboBox8: TFlatComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form27: TForm27;
+
+implementation
+
+{$R *.dfm}
+
+end.

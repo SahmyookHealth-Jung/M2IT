@@ -1,0 +1,45 @@
+unit VSPSSLR008S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, TFlatEditUnit, Grids, BaseGrid, AdvGrid,
+  TFlatComboBoxUnit, TFlatButtonUnit, TFlatLabelUnit, ExtCtrls,
+  TFlatPanelUnit;
+
+type
+  TForm63 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel4: TFlatPanel;
+    FlatLabel18: TFlatLabel;
+    FlatPanel5: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatLabel2: TFlatLabel;
+    FlatLabel8: TFlatLabel;
+    Label1: TLabel;
+    FlatButton1: TFlatButton;
+    FlatComboBox3: TFlatComboBox;
+    FlatComboBox1: TFlatComboBox;
+    FlatComboBox4: TFlatComboBox;
+    FlatComboBox2: TFlatComboBox;
+    FlatPanel2: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatButton2: TFlatButton;
+    FlatButton4: TFlatButton;
+    FlatEdit1: TFlatEdit;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form63: TForm63;
+
+implementation
+
+{$R *.dfm}
+
+end.

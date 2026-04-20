@@ -1,8 +1,8 @@
 object Form56: TForm56
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 848
+  Height = 823
   Caption = #44228#50557#54637#47785#48373#49324' [VHMGBBZ036S02]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

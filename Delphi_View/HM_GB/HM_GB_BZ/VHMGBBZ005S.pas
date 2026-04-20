@@ -31,10 +31,8 @@ type
     FlatButton4: TFlatButton;
     FlatButton5: TFlatButton;
     FlatButton6: TFlatButton;
-    FlatButton7: TFlatButton;
     FlatButton8: TFlatButton;
     FlatButton9: TFlatButton;
-    FlatButton10: TFlatButton;
     FlatCheckBox1: TFlatCheckBox;
     FlatCheckBox2: TFlatCheckBox;
     FlatCheckBox3: TFlatCheckBox;

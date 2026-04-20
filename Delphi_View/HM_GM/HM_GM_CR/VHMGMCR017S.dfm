@@ -1,6 +1,6 @@
 object Form115: TForm115
-  Left = 2402
-  Top = 137
+  Left = 385
+  Top = 111
   Width = 826
   Height = 711
   Caption = 'FNA'#49345#45812' '#45824#49345#51088'LIST [VHMGMCR017S]'

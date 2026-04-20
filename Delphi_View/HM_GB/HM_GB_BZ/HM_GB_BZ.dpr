@@ -58,7 +58,8 @@ uses
   VHMGBBZ052S in 'VHMGBBZ052S.pas' {Form54},
   VHMGBBZ021S01 in 'VHMGBBZ021S01.pas' {Form55},
   VHMGBBZ036S02 in '..\..\HM_GC\HM_GC_PJ\VHMGBBZ036S02.pas' {Form56},
-  VHMGBBZ036S03 in 'VHMGBBZ036S03.pas' {Form57};
+  VHMGBBZ036S03 in 'VHMGBBZ036S03.pas' {Form57},
+  VHMGBBZ036S_sub in 'VHMGBBZ036S_sub.pas' {Form60};
 
 {$R *.res}
 
@@ -121,5 +122,6 @@ begin
   Application.CreateForm(TForm55, Form55);
   Application.CreateForm(TForm56, Form56);
   Application.CreateForm(TForm57, Form57);
+  Application.CreateForm(TForm60, Form60);
   Application.Run;
 end.

@@ -9,9 +9,25 @@ MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
 DCC = $(ROOT)\bin\dcc32.exe $**
 BRCC = $(ROOT)\bin\brcc32.exe $**
 #------------------------------------------------------------------------------
-PROJECTS = 
+PROJECTS = HM_GX_EX.exe HM_GX_RS.exe HM_GB_BZ.exe HM_GR_RV.exe COOO.exe
 #------------------------------------------------------------------------------
 default: $(PROJECTS)
 #------------------------------------------------------------------------------
+
+
+HM_GX_EX.exe: HM_GX_EX\HM_GX_EX.dpr
+  $(DCC)
+
+HM_GX_RS.exe: HM_GX_RS\HM_GX_RS.dpr
+  $(DCC)
+
+HM_GB_BZ.exe: ..\HM_GB\HM_GB_BZ\HM_GB_BZ.dpr
+  $(DCC)
+
+HM_GR_RV.exe: ..\HM_GR\HM_GR_RV\HM_GR_RV.dpr
+  $(DCC)
+
+COOO.exe: Z:\홍수연\화면설계서\델파이\처방\COOO\COOO.dpr
+  $(DCC)
 
 

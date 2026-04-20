@@ -1,8 +1,8 @@
 object Form44: TForm44
-  Left = 2117
-  Top = 27
-  Width = 1616
-  Height = 974
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #53945#49688#44160#51652' '#44204#51201#44288#47532' [VHMGBBZ066S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

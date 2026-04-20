@@ -1,0 +1,13 @@
+program SP_SS_SC;
+
+uses
+  Forms,
+  VSPSSSC001S in 'VSPSSSC001S.pas' {Form86};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm86, Form86);
+  Application.Run;
+end.

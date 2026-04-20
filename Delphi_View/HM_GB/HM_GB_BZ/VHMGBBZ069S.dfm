@@ -1,8 +1,8 @@
 object Form46: TForm46
-  Left = 1921
+  Left = 1
   Top = 1
-  Width = 1918
-  Height = 1030
+  Width = 1534
+  Height = 814
   Caption = #51652#47308#53685#44228' '#54788#54889' [VHMGBBZ069S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

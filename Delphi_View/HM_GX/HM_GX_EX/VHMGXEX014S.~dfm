@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = -92
-  Top = 66
-  Width = 1658
-  Height = 907
+  Left = 2428
+  Top = 121
+  Width = 1103
+  Height = 883
   Caption = #49888#51109', '#52404#51473' '#52769#51221' [VHMGXEX014S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -13,28 +13,19 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 15
-  object FlatPanel6: TFlatPanel
-    Left = 696
-    Top = 120
-    Width = 97
-    Height = 209
-    ParentColor = True
-    TabOrder = 1
-    UseDockManager = True
-  end
   object FlatPanel1: TFlatPanel
-    Left = 328
-    Top = 32
-    Width = 761
-    Height = 793
+    Left = 8
+    Top = 8
+    Width = 713
+    Height = 761
     ParentColor = True
     TabOrder = 0
     UseDockManager = True
     object FlatPanel7: TFlatPanel
-      Left = 32
-      Top = 218
+      Left = 8
+      Top = 200
       Width = 697
-      Height = 549
+      Height = 553
       ParentColor = True
       TabOrder = 3
       UseDockManager = True
@@ -112,15 +103,19 @@ object Form1: TForm1
         ParentColor = True
         TabOrder = 1
         UseDockManager = True
-        object FlatPanel12: TFlatPanel
+        object FlatLabel2: TFlatLabel
           Left = 8
-          Top = 8
-          Width = 169
-          Height = 33
+          Top = 16
+          Width = 57
+          Height = 25
+          TextBorder = 2
+          BevelInner = beNone
+          BevelOuter = beNone
           Caption = #52404#51473
-          ParentColor = True
-          TabOrder = 0
-          UseDockManager = True
+          Color = clWhite
+          ParentColor = False
+          ShowRect = True
+          ShowEssential = False
         end
         object FlatPanel13: TFlatPanel
           Left = 8
@@ -128,7 +123,7 @@ object Form1: TForm1
           Width = 641
           Height = 145
           ParentColor = True
-          TabOrder = 1
+          TabOrder = 0
           UseDockManager = True
           object AdvStringGrid3: TAdvStringGrid
             Left = 1
@@ -364,15 +359,19 @@ object Form1: TForm1
         ParentColor = True
         TabOrder = 2
         UseDockManager = True
-        object FlatPanel10: TFlatPanel
+        object FlatLabel1: TFlatLabel
           Left = 8
-          Top = 8
-          Width = 169
-          Height = 33
+          Top = 16
+          Width = 57
+          Height = 25
+          TextBorder = 2
+          BevelInner = beNone
+          BevelOuter = beNone
           Caption = #49888#51109
-          ParentColor = True
-          TabOrder = 0
-          UseDockManager = True
+          Color = clWhite
+          ParentColor = False
+          ShowRect = True
+          ShowEssential = False
         end
         object FlatPanel11: TFlatPanel
           Left = 8
@@ -380,7 +379,7 @@ object Form1: TForm1
           Width = 641
           Height = 145
           ParentColor = True
-          TabOrder = 1
+          TabOrder = 0
           UseDockManager = True
           object AdvStringGrid2: TAdvStringGrid
             Left = 1
@@ -610,7 +609,7 @@ object Form1: TForm1
       end
     end
     object FlatPanel2: TFlatPanel
-      Left = 32
+      Left = 8
       Top = 11
       Width = 697
       Height = 33
@@ -673,10 +672,10 @@ object Form1: TForm1
       end
     end
     object FlatPanel3: TFlatPanel
-      Left = 32
+      Left = 8
       Top = 87
       Width = 697
-      Height = 121
+      Height = 106
       ParentColor = True
       TabOrder = 1
       UseDockManager = True
@@ -745,7 +744,7 @@ object Form1: TForm1
         Top = 42
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -759,7 +758,7 @@ object Form1: TForm1
         Top = 7
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -773,7 +772,7 @@ object Form1: TForm1
         Top = 73
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -787,7 +786,7 @@ object Form1: TForm1
         Top = 39
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -801,7 +800,7 @@ object Form1: TForm1
         Top = 71
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -815,7 +814,7 @@ object Form1: TForm1
         Top = 8
         Width = 116
         Height = 23
-        ColorFlat = clWhite
+        ColorFlat = clActiveCaption
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -13
@@ -826,7 +825,7 @@ object Form1: TForm1
       end
     end
     object FlatPanel5: TFlatPanel
-      Left = 32
+      Left = 8
       Top = 47
       Width = 697
       Height = 33
@@ -835,7 +834,7 @@ object Form1: TForm1
       UseDockManager = True
     end
     object FlatComboBox4: TFlatComboBox
-      Left = 640
+      Left = 616
       Top = 52
       Width = 72
       Height = 23
@@ -846,7 +845,7 @@ object Form1: TForm1
       ItemIndex = -1
     end
     object FlatButton19: TFlatButton
-      Left = 631
+      Left = 607
       Top = 75
       Width = 81
       Height = 23
@@ -854,7 +853,7 @@ object Form1: TForm1
       TabOrder = 5
     end
     object FlatButton20: TFlatButton
-      Left = 631
+      Left = 607
       Top = 98
       Width = 81
       Height = 23
@@ -862,7 +861,7 @@ object Form1: TForm1
       TabOrder = 6
     end
     object FlatButton21: TFlatButton
-      Left = 631
+      Left = 607
       Top = 121
       Width = 81
       Height = 23
@@ -870,7 +869,7 @@ object Form1: TForm1
       TabOrder = 7
     end
     object FlatButton22: TFlatButton
-      Left = 631
+      Left = 607
       Top = 144
       Width = 81
       Height = 23
@@ -878,7 +877,7 @@ object Form1: TForm1
       TabOrder = 8
     end
     object FlatButton23: TFlatButton
-      Left = 631
+      Left = 607
       Top = 167
       Width = 81
       Height = 23
@@ -886,7 +885,7 @@ object Form1: TForm1
       TabOrder = 9
     end
     object FlatButton24: TFlatButton
-      Left = 631
+      Left = 607
       Top = 190
       Width = 81
       Height = 23

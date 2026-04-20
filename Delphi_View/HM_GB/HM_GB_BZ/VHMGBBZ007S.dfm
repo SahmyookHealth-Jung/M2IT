@@ -1,8 +1,8 @@
 object Form12: TForm12
-  Left = 2289
-  Top = 129
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 859
+  Height = 823
   Caption = #50672#48324' '#47588#52636#50529' '#54788#54889' [VHMGBBZ007S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

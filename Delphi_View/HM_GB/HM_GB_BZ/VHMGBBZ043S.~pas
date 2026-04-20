@@ -36,9 +36,7 @@ type
     FlatRadioButton4: TFlatRadioButton;
     FlatRadioButton5: TFlatRadioButton;
     FlatComboBox2: TFlatComboBox;
-    FlatButton2: TFlatButton;
     FlatButton3: TFlatButton;
-    FlatButton4: TFlatButton;
     FlatCheckBox2: TFlatCheckBox;
     FlatButton1: TFlatButton;
   private

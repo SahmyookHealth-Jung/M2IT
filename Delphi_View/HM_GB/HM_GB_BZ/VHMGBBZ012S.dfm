@@ -1,8 +1,8 @@
 object Form14: TForm14
-  Left = 2404
-  Top = 188
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 851
+  Height = 823
   Caption = #51217#49688#44396#48516#48324' '#51068#51068#53685#44228' [VHMGBBZ012S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

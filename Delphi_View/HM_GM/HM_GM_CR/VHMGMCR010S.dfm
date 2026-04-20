@@ -1,8 +1,8 @@
 object Form109: TForm109
-  Left = 2072
-  Top = 50
+  Left = 121
+  Top = 0
   Width = 1295
-  Height = 904
+  Height = 823
   Caption = #50516#49548#44204' '#48143' '#51652#47308#54924#49888#49436' [VHMGMCR010S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

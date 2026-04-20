@@ -1,6 +1,6 @@
 object Form114: TForm114
-  Left = 1921
-  Top = 1
+  Left = 1913
+  Top = 2
   Width = 1918
   Height = 1030
   ActiveControl = FlatTabControl1
@@ -4096,6 +4096,7 @@ object Form114: TForm114
             Width = 56
             Height = 18
             Caption = #45824#47564
+            Checked = True
             TabOrder = 5
             TabStop = True
           end

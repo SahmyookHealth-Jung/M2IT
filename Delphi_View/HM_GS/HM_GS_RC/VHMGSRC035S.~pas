@@ -1,0 +1,50 @@
+unit VHMGSRC035S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatButtonUnit, TFlatSpinEditUnit, StdCtrls, TFlatEditUnit,
+  TFlatCheckBoxUnit, TFlatComboBoxUnit, TFlatRadioButtonUnit,
+  TFlatLabelUnit, ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm6 = class(TForm)
+    FlatPanel4: TFlatPanel;
+    FlatPanel6: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+    Label11: TLabel;
+    FlatLabel7: TFlatLabel;
+    FlatLabel3: TFlatLabel;
+    FlatLabel4: TFlatLabel;
+    FlatPanel1: TFlatPanel;
+    FlatRadioButton1: TFlatRadioButton;
+    FlatRadioButton2: TFlatRadioButton;
+    FlatRadioButton3: TFlatRadioButton;
+    FlatRadioButton4: TFlatRadioButton;
+    FlatComboBox3: TFlatComboBox;
+    FlatComboBox4: TFlatComboBox;
+    pn_Panel013: TFlatPanel;
+    FlatCheckBox7: TFlatCheckBox;
+    FlatComboBox21: TFlatComboBox;
+    FlatEdit5: TFlatEdit;
+    FlatSpinEditInteger2: TFlatSpinEditInteger;
+    FlatComboBox9: TFlatComboBox;
+    FlatComboBox2: TFlatComboBox;
+    FlatButton1: TFlatButton;
+    FlatLabel2: TFlatLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 2156
-  Top = 214
+  Left = 45
+  Top = 205
   Width = 1468
   Height = 683
   Caption = #53945#44160' '#54788#54889' [VHMGBBZ047S]'

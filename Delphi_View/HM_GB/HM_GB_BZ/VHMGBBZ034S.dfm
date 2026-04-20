@@ -1,6 +1,6 @@
 object Form31: TForm31
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 148
   Width = 1305
   Height = 675
   ActiveControl = FlatCheckBox1

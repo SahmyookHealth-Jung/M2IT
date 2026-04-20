@@ -407,7 +407,7 @@ object Form11: TForm11
         OemConvert = False
         FixedFooters = 0
         FixedRightCols = 0
-        FixedColWidth = 219
+        FixedColWidth = 146
         FixedRowHeight = 32
         FixedFont.Charset = DEFAULT_CHARSET
         FixedFont.Color = clWindowText
@@ -432,7 +432,7 @@ object Form11: TForm11
         BackGround.Cells = bcNormal
         Filter = <>
         ColWidths = (
-          219
+          146
           283
           420)
         RowHeights = (
@@ -483,8 +483,24 @@ object Form11: TForm11
       Top = 65
       Width = 81
       Height = 23
-      Caption = #50641#49472#45796#50868#47196#46300
+      Caption = #51200#51109
       TabOrder = 2
+    end
+    object FlatButton3: TFlatButton
+      Left = 688
+      Top = 88
+      Width = 81
+      Height = 23
+      Caption = #49688#51221
+      TabOrder = 7
+    end
+    object FlatButton4: TFlatButton
+      Left = 688
+      Top = 111
+      Width = 81
+      Height = 23
+      Caption = #52628#44032
+      TabOrder = 8
     end
   end
 end

@@ -148,6 +148,10 @@ type
     FlatLabel11: TFlatLabel;
     FlatPanel18: TFlatPanel;
     AdvStringGrid5: TAdvStringGrid;
+    FlatLabel12: TFlatLabel;
+    FlatSpinEditInteger4: TFlatSpinEditInteger;
+    FlatLabel13: TFlatLabel;
+    FlatComboBox18: TFlatComboBox;
   private
     { Private declarations }
   public

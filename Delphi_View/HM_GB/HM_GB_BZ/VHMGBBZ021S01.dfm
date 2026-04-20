@@ -1,6 +1,6 @@
 object Form55: TForm55
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 7
   Width = 1305
   Height = 816
   Caption = #44144#47000#52376#49440#53469' [VHMGBBZ021S01]'

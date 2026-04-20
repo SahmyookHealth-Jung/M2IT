@@ -240,9 +240,9 @@ object Form30: TForm30
       ItemIndex = -1
     end
     object FlatPanel8: TFlatPanel
-      Left = 0
+      Left = 1
       Top = 105
-      Width = 1041
+      Width = 1040
       Height = 480
       ParentColor = True
       TabOrder = 4
@@ -250,7 +250,7 @@ object Form30: TForm30
       object AdvStringGrid1: TAdvStringGrid
         Left = 1
         Top = 1
-        Width = 1039
+        Width = 1038
         Height = 478
         Cursor = crDefault
         Align = alClient

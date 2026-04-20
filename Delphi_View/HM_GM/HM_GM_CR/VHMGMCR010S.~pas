@@ -6,7 +6,8 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, TFlatRadioButtonUnit, TFlatButtonUnit, TFlatEditUnit, StdCtrls,
   TFlatSpinEditUnit, TFlatLabelUnit, TFlatComboBoxUnit, ExtCtrls,
-  TFlatPanelUnit;
+  TFlatPanelUnit, TFlatTabControlUnit, TFlatMemoUnit, TFlatGroupBoxUnit,
+  Grids, BaseGrid, AdvGrid;
 
 type
   TForm109 = class(TForm)
@@ -42,6 +43,41 @@ type
     FlatEdit1: TFlatEdit;
     FlatLabel8: TFlatLabel;
     FlatEdit2: TFlatEdit;
+    FlatPanel10: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatPanel5: TFlatPanel;
+    FlatLabel9: TFlatLabel;
+    FlatPanel7: TFlatPanel;
+    FlatGroupBox5: TFlatGroupBox;
+    FlatMemo5: TFlatMemo;
+    FlatGroupBox1: TFlatGroupBox;
+    FlatMemo1: TFlatMemo;
+    FlatLabel10: TFlatLabel;
+    FlatEdit3: TFlatEdit;
+    FlatEdit4: TFlatEdit;
+    FlatLabel11: TFlatLabel;
+    FlatLabel12: TFlatLabel;
+    FlatComboBox7: TFlatComboBox;
+    FlatLabel13: TFlatLabel;
+    FlatEdit6: TFlatEdit;
+    FlatLabel14: TFlatLabel;
+    FlatEdit7: TFlatEdit;
+    FlatGroupBox2: TFlatGroupBox;
+    FlatMemo2: TFlatMemo;
+    FlatPanel8: TFlatPanel;
+    FlatTabControl1: TFlatTabControl;
+    FlatLabel15: TFlatLabel;
+    FlatComboBox8: TFlatComboBox;
+    FlatGroupBox3: TFlatGroupBox;
+    FlatMemo3: TFlatMemo;
+    FlatPanel9: TFlatPanel;
+    AdvStringGrid1: TAdvStringGrid;
+    FlatPanel11: TFlatPanel;
+    FlatLabel16: TFlatLabel;
+    FlatPanel12: TFlatPanel;
+    AdvStringGrid3: TAdvStringGrid;
+    FlatButton3: TFlatButton;
+    FlatButton4: TFlatButton;
   private
     { Private declarations }
   public

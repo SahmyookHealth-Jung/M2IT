@@ -118,8 +118,6 @@ type
     FlatCheckBox9: TFlatCheckBox;
     FlatGroupBox1: TFlatGroupBox;
     FlatMemo1: TFlatMemo;
-    FlatGroupBox2: TFlatGroupBox;
-    FlatMemo2: TFlatMemo;
     FlatButton2: TFlatButton;
     FlatButton1: TFlatButton;
     FlatButton3: TFlatButton;
@@ -135,6 +133,8 @@ type
     FlatEdit10: TFlatEdit;
     FlatEdit11: TFlatEdit;
     FlatEdit12: TFlatEdit;
+    FlatGroupBox2: TFlatGroupBox;
+    FlatMemo2: TFlatMemo;
   private
     { Private declarations }
   public

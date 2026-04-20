@@ -1,7 +1,7 @@
 object Form53: TForm53
-  Left = 2089
+  Left = 0
   Top = 137
-  Width = 1618
+  Width = 1556
   Height = 868
   Caption = #44144#47000#52376' '#44228#50557' '#51068#44292#48373#49324' [VHMGBBZ037S]'
   Color = clWhite

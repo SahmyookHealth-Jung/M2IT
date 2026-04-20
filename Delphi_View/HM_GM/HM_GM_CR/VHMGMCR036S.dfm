@@ -1,8 +1,8 @@
 object Form130: TForm130
-  Left = 1998
-  Top = 25
-  Width = 1819
-  Height = 993
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #51032#44204#49436' '#46321#47197' [VHMGMCR036S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

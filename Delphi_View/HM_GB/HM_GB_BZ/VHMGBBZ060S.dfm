@@ -1,8 +1,8 @@
 object Form49: TForm49
-  Left = 1
-  Top = 1
-  Width = 1534
-  Height = 814
+  Left = -8
+  Top = -8
+  Width = 1552
+  Height = 832
   Caption = #51648#49324#47588#52636' '#51217#49688#44288#47532' [VHMGBBZ060S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

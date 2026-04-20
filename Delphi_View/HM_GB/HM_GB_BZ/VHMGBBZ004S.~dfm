@@ -1,8 +1,8 @@
 object Form9: TForm9
-  Left = 2402
-  Top = 128
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 873
+  Height = 823
   Caption = #50900'/'#44144#47000#52376#48324' '#44160#51652#44228#54925' [VHMGBBZ004S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

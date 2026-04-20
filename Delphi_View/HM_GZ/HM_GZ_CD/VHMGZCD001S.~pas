@@ -1,0 +1,37 @@
+unit VHMGZCD001S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatRadioButtonUnit, TFlatLabelUnit, TFlatButtonUnit, StdCtrls,
+  TFlatComboBoxUnit, ExtCtrls, TFlatPanelUnit;
+
+type
+  TForm4 = class(TForm)
+    FlatPanel1: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatComboBox4: TFlatComboBox;
+    FlatButton19: TFlatButton;
+    FlatButton20: TFlatButton;
+    FlatButton2: TFlatButton;
+    FlatPanel2: TFlatPanel;
+    FlatLabel5: TFlatLabel;
+    FlatPanel4: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+    FlatPanel16: TFlatPanel;
+    FlatRadioButton37: TFlatRadioButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+end.

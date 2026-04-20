@@ -1,8 +1,8 @@
 object Form3: TForm3
-  Left = 1912
-  Top = -8
-  Width = 1936
-  Height = 1048
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   ActiveControl = FlatRadioButton6
   Caption = #50504#50517' '#52769#51221' [VHMGXEX018S]'
   Color = clWhite

@@ -1,8 +1,8 @@
 object Form57: TForm57
-  Left = 2402
-  Top = 20
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 990
+  Height = 823
   Caption = #44144#47000#52376#46041#51032#49436' [VHMGBBZ036S03]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

@@ -1,0 +1,34 @@
+unit VSPSSLR001S;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, TFlatButtonUnit, StdCtrls, TFlatComboBoxUnit, ExtCtrls,
+  TFlatPanelUnit, TFlatLabelUnit;
+
+type
+  TForm3 = class(TForm)
+    FlatPanel4: TFlatPanel;
+    FlatPanel6: TFlatPanel;
+    FlatPanel3: TFlatPanel;
+    FlatComboBox3: TFlatComboBox;
+    FlatComboBox5: TFlatComboBox;
+    FlatComboBox2: TFlatComboBox;
+    FlatButton5: TFlatButton;
+    FlatLabel13: TFlatLabel;
+    FlatLabel1: TFlatLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+end.

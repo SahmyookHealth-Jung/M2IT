@@ -1,7 +1,7 @@
 object Form104: TForm104
-  Left = 1
-  Top = 1
-  Width = 1534
+  Left = -140
+  Top = 8
+  Width = 1621
   Height = 814
   ActiveControl = FlatCheckBox1
   Caption = #50689#47928#50689#49688#51613' [VHMGMCR005S]'

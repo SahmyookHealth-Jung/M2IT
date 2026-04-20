@@ -1,0 +1,13 @@
+program SP_SS_LR;
+
+uses
+  Forms,
+  VSPSSLR001S in 'VSPSSLR001S.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

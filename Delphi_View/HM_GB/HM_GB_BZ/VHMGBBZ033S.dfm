@@ -1,8 +1,8 @@
 object Form30: TForm30
-  Left = 2402
-  Top = 137
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 858
+  Height = 823
   Caption = #44160#51652#50756#47308' '#52376#47532#54788#54889' [VHMGBBZ033S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

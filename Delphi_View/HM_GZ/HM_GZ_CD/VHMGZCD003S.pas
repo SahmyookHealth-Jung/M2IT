@@ -11,22 +11,9 @@ type
   TForm1 = class(TForm)
     FlatPanel1: TFlatPanel;
     FlatPanel3: TFlatPanel;
-    FlatPanel4: TFlatPanel;
-    FlatPanel7: TFlatPanel;
-    AdvStringGrid1: TAdvStringGrid;
-    FlatEdit1: TFlatEdit;
-    FlaTFlatPanel14: TLabel;
-    FlatEdit2: TFlatEdit;
-    Label1: TLabel;
-    FlatEdit3: TFlatEdit;
-    Label2: TLabel;
     FlatButton7: TFlatButton;
     FlaTFlatPanel33: TLabel;
     FlatComboBox12: TFlatComboBox;
-    FlatPanel12: TFlatPanel;
-    FlatLabel1: TFlatLabel;
-    FlatLabel2: TFlatLabel;
-    FlatLabel3: TFlatLabel;
     FlatComboBox4: TFlatComboBox;
     FlatButton19: TFlatButton;
     FlatButton20: TFlatButton;
@@ -35,6 +22,18 @@ type
     FlatButton24: TFlatButton;
     FlatButton1: TFlatButton;
     FlatButton2: TFlatButton;
+    FlatPanel2: TFlatPanel;
+    FlatLabel5: TFlatLabel;
+    FlatPanel7: TFlatPanel;
+    AdvStringGrid1: TAdvStringGrid;
+    FlatPanel4: TFlatPanel;
+    AdvStringGrid2: TAdvStringGrid;
+    FlatPanel5: TFlatPanel;
+    FlatLabel1: TFlatLabel;
+    FlatPanel6: TFlatPanel;
+    AdvStringGrid3: TAdvStringGrid;
+    FlatPanel9: TFlatPanel;
+    FlatLabel2: TFlatLabel;
   private
     { Private declarations }
   public
