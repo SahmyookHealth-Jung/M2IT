@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>63</Id>
+    <TermCode>PACS</TermCode>
+    <FullName>picture archiving and communication</FullName>
+    <Description>의료영상 저장 전송 시스템</Description>
+    <RegDate>2026-04-21</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>62</Id>
     <TermCode>normalization</TermCode>
     <FullName>normalization</FullName>
