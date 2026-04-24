@@ -1,8 +1,8 @@
 object Form5: TForm5
-  Left = 2129
-  Top = 147
-  Width = 1597
-  Height = 835
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #53945#44160' '#44592#47197#51648', '#47928#51652' '#52636#47141' [VHMGCPJ064S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

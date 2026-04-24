@@ -3,17 +3,17 @@ File_0=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR017S
 
 [Modules]
 Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR033S.pas
-Module1=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR032S.pas
-Module2=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR038S.pas
-Module3=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR042S.pas
-Module4=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR005S.pas
-Module5=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR034S.pas
-Module6=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR030S.pas
-Module7=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP043S.pas
-Module8=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR037S.pas
-Module9=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP027S.pas
-Module10=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP024S.pas
-Module11=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR035S.pas
+Module1=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR038S.pas
+Module2=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR042S.pas
+Module3=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR005S.pas
+Module4=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR034S.pas
+Module5=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR030S.pas
+Module6=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP043S.pas
+Module7=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR037S.pas
+Module8=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP027S.pas
+Module9=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CP\VHMGMCP024S.pas
+Module10=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR035S.pas
+Module11=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR032S.pas
 Module12=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR031S.pas
 Module13=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR027S.pas
 Module14=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR002S.pas
@@ -74,11 +74,6 @@ ModuleType=SourceModule
 FormState=3
 FormOnTop=0
 
-[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR032S.pas]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
 [C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR038S.pas]
 ModuleType=SourceModule
 FormState=0
@@ -125,6 +120,11 @@ FormState=0
 FormOnTop=0
 
 [C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR035S.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR032S.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -477,8 +477,8 @@ MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=97
-Top=69
+Left=2418
+Top=254
 Width=1302
 Height=682
 MaxLeft=-1
@@ -954,8 +954,8 @@ Count=0
 Create=1
 Visible=1
 State=0
-Left=0
-Top=0
+Left=2189
+Top=12
 Width=1536
 Height=123
 MaxLeft=-1
@@ -1009,7 +1009,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=87
 ArrangeBy=Name
-SelectedItem=Name
+SelectedItem=
 ExpandedItems=
 HiddenCategories=
 
@@ -1069,8 +1069,8 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=0
-Top=0
+Left=1954
+Top=159
 Width=446
 Height=843
 MaxLeft=-1

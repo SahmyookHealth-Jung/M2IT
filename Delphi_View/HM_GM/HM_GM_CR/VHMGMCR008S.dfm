@@ -3,6 +3,7 @@ object Form107: TForm107
   Top = 1
   Width = 1534
   Height = 814
+  HorzScrollBar.Position = 192
   Caption = #51077#49324#44160#51652' '#50689#47928#49436#47448' [VHMGMCR008S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -14,7 +15,7 @@ object Form107: TForm107
   PixelsPerInch = 96
   TextHeight = 15
   object FlatPanel1: TFlatPanel
-    Left = 11
+    Left = -181
     Top = 10
     Width = 1682
     Height = 902

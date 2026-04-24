@@ -56,7 +56,9 @@ uses
   RV016S_MAIN in 'RV016S_MAIN.pas' {Form59},
   RV016S_MAIN2 in 'RV016S_MAIN2.pas' {Form61},
   RV016S000_NEW1 in 'RV016S000_NEW1.pas' {Form62},
-  RV016S000_NEW2 in 'RV016S000_NEW2.pas' {Form63};
+  RV016S000_NEW2 in 'RV016S000_NEW2.pas' {Form63},
+  BZ036S000_NEW1 in '..\..\HM_GB\HM_GB_BZ\BZ036S000_NEW1.pas' {Form64},
+  VHMGRRV016S_V2 in 'VHMGRRV016S_V2.pas' {Form65};
 
 {$R *.res}
 
@@ -117,5 +119,7 @@ begin
   Application.CreateForm(TForm61, Form61);
   Application.CreateForm(TForm62, Form62);
   Application.CreateForm(TForm63, Form63);
+  Application.CreateForm(TForm64, Form64);
+  Application.CreateForm(TForm65, Form65);
   Application.Run;
 end.

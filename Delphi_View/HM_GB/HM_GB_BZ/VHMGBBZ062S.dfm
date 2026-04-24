@@ -1,5 +1,5 @@
 object Form51: TForm51
-  Left = 2103
+  Left = 0
   Top = 64
   Width = 1542
   Height = 859

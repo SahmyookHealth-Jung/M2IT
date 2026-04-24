@@ -1,8 +1,8 @@
 object Form63: TForm63
-  Left = 238
-  Top = 0
+  Left = 2430
+  Top = 73
   Width = 1305
-  Height = 823
+  Height = 922
   Caption = '['#49888#44508'] '#44160#49324#54637#47785' '#51312#54924' '
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -302,25 +302,15 @@ object Form63: TForm63
       ParentColor = True
       TabOrder = 2
       UseDockManager = True
-      object FlatButton2: TFlatButton
-        Left = 247
-        Top = 7
-        Width = 70
-        Height = 23
-        Color = clSilver
-        Caption = #54869#51064
-        ParentColor = False
-        TabOrder = 0
-      end
       object FlatButton3: TFlatButton
-        Left = 335
+        Left = 295
         Top = 7
         Width = 70
         Height = 23
         Color = clWhite
         Caption = #45803#44592
         ParentColor = False
-        TabOrder = 1
+        TabOrder = 0
       end
     end
   end

@@ -3,74 +3,80 @@ File_0=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ043S
 File_1=SourceModule,'C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ047S.pas',0,1,1,1,1,0,0
 
 [Modules]
-Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ031S.pas
-Module1=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S.pas
-Module2=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S.pas
-Module3=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ006S.pas
-Module4=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ029S.pas
-Module5=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ025S.pas
-Module6=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ002S.pas
-Module7=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ007S.pas
-Module8=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S03.pas
-Module9=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ018S.pas
-Module10=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ001S.pas
-Module11=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S01.pas
-Module12=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ017S.pas
-Module13=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ016S.pas
-Module14=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ035S.pas
-Module15=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ015S.pas
-Module16=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ014S.pas
-Module17=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ013S.pas
-Module18=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm.pas
-Module19=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm3.pas
-Module20=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ046S.pas
-Module21=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ060S.pas
-Module22=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ062S.pas
-Module23=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ065S.pas
-Module24=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ047S01.pas
-Module25=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ032S.pas
-Module26=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ057S.pas
-Module27=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ053S.pas
-Module28=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ063S.pas
-Module29=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ041S.pas
-Module30=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ042S.pas
-Module31=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ037S.pas
-Module32=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ061S.pas
-Module33=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas
-Module34=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ003S.pas
-Module35=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ012S.pas
-Module36=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ008S.pas
-Module37=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ033S.pas
-Module38=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ030S.pas
-Module39=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ028S.pas
-Module40=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ050S.pas
-Module41=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ049S.pas
-Module42=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ052S.pas
-Module43=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ059S.pas
-Module44=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ022S.pas
-Module45=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ020S.pas
-Module46=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGBBZ036S02.pas
-Module47=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ063S01.pas
-Module48=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ019S.pas
-Module49=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ005S.pas
-Module50=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ069S.pas
-Module51=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ067S.pas
-Module52=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ066S.pas
-Module53=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ056S.pas
-Module54=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ044S.pas
-Module55=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ039S.pas
-Module56=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\SampleForm.dpr
-Count=57
+Module0=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S.pas
+Module1=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ031S.pas
+Module2=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\HMGBBZ999S.pas
+Module3=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S.pas
+Module4=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ006S.pas
+Module5=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ029S.pas
+Module6=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ025S.pas
+Module7=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ002S.pas
+Module8=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ007S.pas
+Module9=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S03.pas
+Module10=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ018S.pas
+Module11=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ001S.pas
+Module12=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S01.pas
+Module13=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ017S.pas
+Module14=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ016S.pas
+Module15=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ035S.pas
+Module16=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ015S.pas
+Module17=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ014S.pas
+Module18=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ013S.pas
+Module19=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm.pas
+Module20=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm3.pas
+Module21=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ046S.pas
+Module22=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ060S.pas
+Module23=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ062S.pas
+Module24=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ065S.pas
+Module25=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ047S01.pas
+Module26=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ032S.pas
+Module27=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ057S.pas
+Module28=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ053S.pas
+Module29=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ063S.pas
+Module30=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ041S.pas
+Module31=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ042S.pas
+Module32=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ037S.pas
+Module33=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ061S.pas
+Module34=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\MainForm2.pas
+Module35=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ003S.pas
+Module36=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ012S.pas
+Module37=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ008S.pas
+Module38=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ033S.pas
+Module39=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ030S.pas
+Module40=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ028S.pas
+Module41=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ050S.pas
+Module42=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ049S.pas
+Module43=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ052S.pas
+Module44=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ059S.pas
+Module45=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ022S.pas
+Module46=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ020S.pas
+Module47=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGBBZ036S02.pas
+Module48=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GC\HM_GC_PJ\VHMGCPJ063S01.pas
+Module49=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ019S.pas
+Module50=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ005S.pas
+Module51=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ069S.pas
+Module52=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ067S.pas
+Module53=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ066S.pas
+Module54=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ056S.pas
+Module55=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ044S.pas
+Module56=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ039S.pas
+Module57=C:\Users\Á¤½Â¿ì\delphi 7.0 Enterprise\Work\DrawFormSample\SampleForm.dpr
+Count=58
 EditWindowCount=1
+
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S.pas]
+ModuleType=SourceModule
+FormState=3
+FormOnTop=0
 
 [C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ031S.pas]
 ModuleType=SourceModule
 FormState=3
 FormOnTop=0
 
-[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S.pas]
+[C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\HMGBBZ999S.pas]
 ModuleType=SourceModule
-FormState=3
+FormState=0
 FormOnTop=0
 
 [C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S.pas]
@@ -357,8 +363,8 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=57
-CurrentView=46
+ViewCount=58
+CurrentView=32
 View0=0
 View1=1
 View2=2
@@ -416,13 +422,14 @@ View53=53
 View54=54
 View55=55
 View56=56
+View57=57
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=2418
-Top=254
+Left=229
+Top=108
 Width=1302
 Height=682
 MaxLeft=-1
@@ -767,69 +774,76 @@ TopLine=1
 LeftCol=1
 
 [View47]
+Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\HMGBBZ999S.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View48]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S01.pas
 CursorX=62
 CursorY=13
 TopLine=10
 LeftCol=1
 
-[View48]
+[View49]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ001S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View49]
+[View50]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ018S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View50]
+[View51]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ036S03.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View51]
+[View52]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ007S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View52]
+[View53]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ002S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View53]
+[View54]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ025S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View54]
+[View55]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ029S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View55]
+[View56]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ006S.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View56]
+[View57]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GB\HM_GB_BZ\VHMGBBZ021S.pas
 CursorX=1
 CursorY=1
@@ -849,8 +863,8 @@ Count=0
 Create=1
 Visible=1
 State=0
-Left=2189
-Top=12
+Left=0
+Top=0
 Width=1536
 Height=123
 MaxLeft=-1
@@ -962,10 +976,10 @@ DockHostCount=1
 [DockSite0]
 DockSiteType=1
 Create=1
-Visible=1
+Visible=0
 State=0
-Left=1954
-Top=159
+Left=0
+Top=0
 Width=446
 Height=843
 MaxLeft=-1

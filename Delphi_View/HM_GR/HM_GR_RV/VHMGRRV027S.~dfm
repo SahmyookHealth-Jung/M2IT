@@ -331,7 +331,7 @@ object Form130: TForm130
         Font.Height = -13
         Font.Name = #45208#45588#44256#46357
         Font.Style = []
-        Caption = #49688#44160#51088' '#47785#47197
+        Caption = #44144#47000#52376' '#54788#54889
         Color = clWhite
         ParentFont = False
         ParentColor = False

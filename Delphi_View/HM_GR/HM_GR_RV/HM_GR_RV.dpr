@@ -57,7 +57,13 @@ uses
   RV016S_MAIN2 in 'RV016S_MAIN2.pas' {Form61},
   RV016S000_NEW1 in 'RV016S000_NEW1.pas' {Form62},
   RV016S000_NEW2 in 'RV016S000_NEW2.pas' {Form63},
-  BZ036S000_NEW1 in '..\..\HM_GB\HM_GB_BZ\BZ036S000_NEW1.pas' {Form64};
+  BZ036S000_NEW1 in '..\..\HM_GB\HM_GB_BZ\BZ036S000_NEW1.pas' {Form64},
+  VHMGRRV016S_V2 in 'VHMGRRV016S_V2.pas' {Form65},
+  VHMGRRV999S in 'VHMGRRV999S.pas' {Form66},
+  VHMGRRV998S in 'VHMGRRV998S.pas' {Form67},
+  VHMGRRV997S in 'VHMGRRV997S.pas' {Form68},
+  VHMGRRV016S16 in 'VHMGRRV016S16.pas' {Form69},
+  VSPSSLR003S01 in '..\..\SP_SS\SP_SS_LR\VSPSSLR003S01.pas' {Form70};
 
 {$R *.res}
 
@@ -119,5 +125,11 @@ begin
   Application.CreateForm(TForm62, Form62);
   Application.CreateForm(TForm63, Form63);
   Application.CreateForm(TForm64, Form64);
+  Application.CreateForm(TForm65, Form65);
+  Application.CreateForm(TForm66, Form66);
+  Application.CreateForm(TForm67, Form67);
+  Application.CreateForm(TForm68, Form68);
+  Application.CreateForm(TForm69, Form69);
+  Application.CreateForm(TForm70, Form70);
   Application.Run;
 end.

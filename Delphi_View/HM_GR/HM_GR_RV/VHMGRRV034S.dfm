@@ -1,8 +1,8 @@
 object Form7: TForm7
-  Left = 2325
-  Top = 105
+  Left = 66
+  Top = 0
   Width = 1477
-  Height = 886
+  Height = 823
   Caption = #50696#50557' '#49440#46321#47197' [VHMGRRV034S]'
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
@@ -49,6 +49,7 @@ object Form7: TForm7
         Left = 11
         Top = 5
         Width = 87
+        Alignment = taRightJustify
         TextBorder = 2
         BevelInner = beNone
         BevelOuter = beNone
@@ -224,6 +225,7 @@ object Form7: TForm7
           Top = 8
           Width = 94
           BorderColor = clWhite
+          Alignment = taRightJustify
           TextBorder = 2
           BevelInner = beNone
           BevelOuter = beNone
@@ -271,6 +273,7 @@ object Form7: TForm7
           Top = 8
           Width = 108
           BorderColor = clWhite
+          Alignment = taRightJustify
           TextBorder = 2
           BevelInner = beNone
           BevelOuter = beNone
@@ -551,6 +554,7 @@ object Form7: TForm7
           Top = 8
           Width = 122
           BorderColor = clWhite
+          Alignment = taRightJustify
           TextBorder = 2
           BevelInner = beNone
           BevelOuter = beNone

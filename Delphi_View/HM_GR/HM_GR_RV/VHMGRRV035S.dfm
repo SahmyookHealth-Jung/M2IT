@@ -1,8 +1,8 @@
 object Form137: TForm137
-  Left = 2367
-  Top = 378
+  Left = 203
+  Top = 181
   Width = 983
-  Height = 197
+  Height = 371
   Caption = #50504#45236#47928' '#51068#44292#52636#47141' [VHMGRRV035S]'
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET

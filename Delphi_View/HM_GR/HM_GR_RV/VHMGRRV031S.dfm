@@ -1,5 +1,5 @@
 object Form134: TForm134
-  Left = 2208
+  Left = 0
   Top = 156
   Width = 1423
   Height = 621

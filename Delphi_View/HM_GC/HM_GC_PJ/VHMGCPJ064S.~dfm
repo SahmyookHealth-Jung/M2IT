@@ -357,7 +357,7 @@ object Form5: TForm5
         TabOrder = 0
       end
       object FlatComboBox8: TFlatComboBox
-        Left = 542
+        Left = 541
         Top = 4
         Width = 102
         Height = 23

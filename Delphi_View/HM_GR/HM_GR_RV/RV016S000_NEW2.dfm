@@ -1,8 +1,8 @@
 object Form63: TForm63
-  Left = 2430
-  Top = 73
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 922
+  Height = 823
   Caption = '['#49888#44508'] '#44160#49324#54637#47785' '#51312#54924' '
   Color = clWhite
   Font.Charset = ANSI_CHARSET

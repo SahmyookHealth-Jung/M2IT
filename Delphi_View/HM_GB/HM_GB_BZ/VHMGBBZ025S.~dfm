@@ -16,15 +16,15 @@ object Form24: TForm24
   object FlatPanel1: TFlatPanel
     Left = 32
     Top = 40
-    Width = 762
-    Height = 497
+    Width = 833
+    Height = 545
     ParentColor = True
     TabOrder = 0
     UseDockManager = True
     object FlatPanel6: TFlatPanel
       Left = 1
       Top = 70
-      Width = 760
+      Width = 831
       Height = 33
       ParentColor = True
       TabOrder = 5
@@ -54,7 +54,7 @@ object Form24: TForm24
     object FlatPanel5: TFlatPanel
       Left = 1
       Top = 37
-      Width = 760
+      Width = 831
       Height = 33
       ParentColor = True
       TabOrder = 3
@@ -63,7 +63,7 @@ object Form24: TForm24
     object FlatPanel3: TFlatPanel
       Left = 1
       Top = 1
-      Width = 760
+      Width = 831
       Height = 36
       ParentColor = True
       TabOrder = 0
@@ -111,7 +111,7 @@ object Form24: TForm24
         ShowEssential = False
       end
       object FlatLabel5: TFlatLabel
-        Left = 213
+        Left = 214
         Top = 4
         Width = 16
         Height = 25
@@ -132,8 +132,8 @@ object Form24: TForm24
         ShowEssential = False
       end
       object FlatButton1: TFlatButton
-        Left = 680
-        Top = 8
+        Left = 752
+        Top = 7
         Width = 72
         Height = 23
         Color = clSilver
@@ -156,7 +156,7 @@ object Form24: TForm24
       object FlatSpinEditInteger1: TFlatSpinEditInteger
         Left = 167
         Top = 6
-        Width = 45
+        Width = 47
         Height = 23
         ColorFlat = clWhite
         AutoSize = False
@@ -167,7 +167,7 @@ object Form24: TForm24
       end
     end
     object FlatComboBox2: TFlatComboBox
-      Left = 681
+      Left = 753
       Top = 44
       Width = 72
       Height = 23
@@ -180,16 +180,16 @@ object Form24: TForm24
     object FlatPanel2: TFlatPanel
       Left = 1
       Top = 103
-      Width = 760
-      Height = 394
+      Width = 832
+      Height = 442
       ParentColor = True
       TabOrder = 4
       UseDockManager = True
       object AdvStringGrid2: TAdvStringGrid
         Left = 1
         Top = 1
-        Width = 758
-        Height = 392
+        Width = 830
+        Height = 440
         Cursor = crDefault
         Align = alClient
         ColCount = 7
@@ -368,8 +368,8 @@ object Form24: TForm24
           108
           113
           111
-          106
-          102
+          136
+          144
           129)
         RowHeights = (
           32
@@ -415,7 +415,7 @@ object Form24: TForm24
       end
     end
     object FlatButton2: TFlatButton
-      Left = 672
+      Left = 744
       Top = 67
       Width = 81
       Height = 23

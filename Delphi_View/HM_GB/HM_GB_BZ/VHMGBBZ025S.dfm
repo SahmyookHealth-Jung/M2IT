@@ -1,5 +1,5 @@
 object Form24: TForm24
-  Left = 2402
+  Left = 0
   Top = 137
   Width = 1305
   Height = 860

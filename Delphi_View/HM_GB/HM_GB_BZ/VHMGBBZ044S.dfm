@@ -1,8 +1,8 @@
 object Form37: TForm37
-  Left = 2402
-  Top = 137
-  Width = 1305
-  Height = 879
+  Left = -8
+  Top = -8
+  Width = 1552
+  Height = 832
   ActiveControl = FlatCheckBox1
   Caption = #44160#51652#44208#44284' '#51204#45804#53685#44228' [VHMGBBZ044S]'
   Color = clWhite

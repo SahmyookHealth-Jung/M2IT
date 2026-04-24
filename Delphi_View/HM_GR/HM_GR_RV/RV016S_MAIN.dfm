@@ -1,7 +1,7 @@
 object Form59: TForm59
-  Left = 1942
-  Top = 0
-  Width = 1918
+  Left = 1710
+  Top = 51
+  Width = 1985
   Height = 1030
   Caption = 'RV016S_MAIN'
   Color = clWhite

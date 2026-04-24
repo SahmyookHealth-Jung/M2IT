@@ -1,0 +1,16 @@
+object Form68: TForm68
+  Left = 323
+  Top = 125
+  Width = 1043
+  Height = 540
+  Caption = #51204#51088#46041#51032#49436' '#44256#44061#50857' [VHMGRRV997S]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

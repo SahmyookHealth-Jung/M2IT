@@ -1,7 +1,7 @@
 object Form136: TForm136
-  Left = 2015
+  Left = 0
   Top = 66
-  Width = 1771
+  Width = 1556
   Height = 651
   Caption = #50696#50557#51088#48324' '#51109#48708#44160#49324' [VHMGRRV033S]'
   Color = clWhite

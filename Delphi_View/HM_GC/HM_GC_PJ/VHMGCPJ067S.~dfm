@@ -1,8 +1,8 @@
 object Form6: TForm6
-  Left = 2402
-  Top = 137
+  Left = 2326
+  Top = 159
   Width = 1305
-  Height = 840
+  Height = 860
   Caption = #48169#49324#49440#51089#50629#51333#49324#51088' '#44148#44053#51652#45800#48372#44256' [VHMGCPJ067S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -333,7 +333,7 @@ object Form6: TForm6
       Top = 111
       Width = 81
       Height = 23
-      Caption = #50641#49472#50629#47196#46300
+      Caption = #50641#49472#45796#50868#47196#46300
       TabOrder = 2
     end
     object FlatButton5: TFlatButton

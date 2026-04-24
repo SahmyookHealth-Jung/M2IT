@@ -18,7 +18,7 @@ object Form37: TForm37
     Left = 56
     Top = 176
     Width = 994
-    Height = 433
+    Height = 129
     ParentColor = True
     TabOrder = 0
     UseDockManager = True

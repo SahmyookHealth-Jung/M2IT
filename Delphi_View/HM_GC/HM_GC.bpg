@@ -9,11 +9,18 @@ MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
 DCC = $(ROOT)\bin\dcc32.exe $**
 BRCC = $(ROOT)\bin\brcc32.exe $**
 #------------------------------------------------------------------------------
-PROJECTS = HM_GC_PJ.exe
+PROJECTS = HM_GC_PJ.exe HM_GC_CM.exe HM_GR_RV.exe
 #------------------------------------------------------------------------------
 default: $(PROJECTS)
 #------------------------------------------------------------------------------
 
 HM_GC_PJ.exe: HM_GC_PJ\HM_GC_PJ.dpr
   $(DCC)
+
+HM_GC_CM.exe: ..\HM_GC_CM.dpr
+  $(DCC)
+
+HM_GR_RV.exe: ..\HM_GR\HM_GR_RV\HM_GR_RV.dpr
+  $(DCC)
+
 

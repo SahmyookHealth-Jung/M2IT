@@ -1,8 +1,8 @@
 object Form107: TForm107
-  Left = 2000
-  Top = 21
-  Width = 1817
-  Height = 1005
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #51077#49324#44160#51652' '#50689#47928#49436#47448' [VHMGMCR008S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

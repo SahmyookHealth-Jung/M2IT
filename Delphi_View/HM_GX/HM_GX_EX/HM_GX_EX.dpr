@@ -17,7 +17,8 @@ uses
   VHMGXEX003S in 'VHMGXEX003S.pas' {Form59},
   VHMGXEX005S in 'VHMGXEX005S.pas' {Form61},
   VHMGXEX012S in 'VHMGXEX012S.pas' {Form62},
-  VHMGXEX013S in 'VHMGXEX013S.pas' {Form65};
+  VHMGXEX013S in 'VHMGXEX013S.pas' {Form65},
+  VHMGXEX999S in 'VHMGXEX999S.pas' {Form86};
 
 {$R *.res}
 
@@ -39,5 +40,6 @@ begin
   Application.CreateForm(TForm61, Form61);
   Application.CreateForm(TForm62, Form62);
   Application.CreateForm(TForm65, Form65);
+  Application.CreateForm(TForm86, Form86);
   Application.Run;
 end.

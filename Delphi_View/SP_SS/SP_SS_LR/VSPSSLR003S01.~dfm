@@ -1,0 +1,16 @@
+object Form70: TForm70
+  Left = 323
+  Top = 125
+  Width = 1044
+  Height = 540
+  Caption = #49688#44160#51088#48324' '#44160#49324' '#52628#44032' '#54788#54889' [VSPSSLR003S01]'
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = #45208#45588#44256#46357
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+end

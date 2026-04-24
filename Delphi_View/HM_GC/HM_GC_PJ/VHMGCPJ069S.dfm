@@ -1,8 +1,8 @@
 object Form8: TForm8
-  Left = 2183
-  Top = 127
-  Width = 1559
-  Height = 850
+  Left = 1
+  Top = 1
+  Width = 1534
+  Height = 814
   Caption = #49884#47308#52292#52712#54869#51064#49436' [VHMGCPJ069S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

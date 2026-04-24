@@ -477,8 +477,8 @@ MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=2418
-Top=254
+Left=197
+Top=131
 Width=1302
 Height=682
 MaxLeft=-1
@@ -796,8 +796,8 @@ LeftCol=1
 
 [View43]
 Module=C:\Users\Á¤½Â¿ì\M2IT\Delphi_View\HM_GM\HM_GM_CR\VHMGMCR033S.pas
-CursorX=105
-CursorY=4
+CursorX=92
+CursorY=15
 TopLine=1
 LeftCol=1
 
@@ -954,8 +954,8 @@ Count=0
 Create=1
 Visible=1
 State=0
-Left=2189
-Top=12
+Left=0
+Top=0
 Width=1536
 Height=123
 MaxLeft=-1
@@ -1069,8 +1069,8 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=1954
-Top=159
+Left=0
+Top=0
 Width=446
 Height=843
 MaxLeft=-1
@@ -1081,7 +1081,7 @@ TBDockHeight=843
 LRDockWidth=446
 Dockable=1
 TabPosition=2
-ActiveTab=Object Inspector
+ActiveTab=Project Manager
 TabDockClients=ProjectManager,ObjectTree,PropertyInspector
 
 [ActiveProject]

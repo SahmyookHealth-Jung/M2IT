@@ -1,5 +1,5 @@
 object Form126: TForm126
-  Left = 2256
+  Left = 0
   Top = 231
   Width = 1287
   Height = 510

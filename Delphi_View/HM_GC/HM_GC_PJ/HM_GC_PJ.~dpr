@@ -14,7 +14,8 @@ uses
   VHMGCPJ071S in 'VHMGCPJ071S.pas' {Form10},
   VHMGCPJ073S in 'VHMGCPJ073S.pas' {Form11},
   VHMGCPJ074S in 'VHMGCPJ074S.pas' {Form12},
-  VHMGCPJ076S in 'VHMGCPJ076S.pas' {Form13};
+  VHMGCPJ076S in 'VHMGCPJ076S.pas' {Form13},
+  VHMGCPJ063S01 in 'VHMGCPJ063S01.pas' {Form14};
 
 {$R *.res}
 
@@ -33,5 +34,6 @@ begin
   Application.CreateForm(TForm11, Form11);
   Application.CreateForm(TForm12, Form12);
   Application.CreateForm(TForm13, Form13);
+  Application.CreateForm(TForm14, Form14);
   Application.Run;
 end.

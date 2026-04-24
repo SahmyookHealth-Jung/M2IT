@@ -1,8 +1,8 @@
 object Form11: TForm11
-  Left = 2390
-  Top = 152
+  Left = 109
+  Top = 0
   Width = 1434
-  Height = 881
+  Height = 823
   Caption = #53945#49688#44160#51652' '#45432#46041#48512#50577#49885' '#49373#49457' [VHMGCPJ073S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

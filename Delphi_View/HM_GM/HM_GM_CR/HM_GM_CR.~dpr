@@ -41,7 +41,9 @@ uses
   VHMGMCR042S in 'VHMGMCR042S.pas' {Form136},
   VHMGMCR043S in 'VHMGMCR043S.pas' {Form137},
   VHMGMCR044S in 'VHMGMCR044S.pas' {Form138},
-  VHMGMCR045S in 'VHMGMCR045S.pas' {Form139};
+  VHMGMCR045S in 'VHMGMCR045S.pas' {Form139},
+  VHMGMCR024S in 'VHMGMCR024S.pas' {Form140},
+  VHMGMCR027S in 'VHMGMCR027S.pas' {Form141};
 
 {$R *.res}
 
@@ -87,5 +89,7 @@ begin
   Application.CreateForm(TForm137, Form137);
   Application.CreateForm(TForm138, Form138);
   Application.CreateForm(TForm139, Form139);
+  Application.CreateForm(TForm140, Form140);
+  Application.CreateForm(TForm141, Form141);
   Application.Run;
 end.

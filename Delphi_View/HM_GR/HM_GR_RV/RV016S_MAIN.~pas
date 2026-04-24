@@ -272,10 +272,6 @@ type
     FlatGroupBox5: TFlatGroupBox;
     FlatPanel21: TFlatPanel;
     AdvStringGrid3: TAdvStringGrid;
-    FlatGroupBox6: TFlatGroupBox;
-    FlatGroupBox7: TFlatGroupBox;
-    FlatGroupBox8: TFlatGroupBox;
-    FlatGroupBox9: TFlatGroupBox;
     FlatPanel22: TFlatPanel;
     FlatCheckBox45: TFlatCheckBox;
     FlatComboBox20: TFlatComboBox;
@@ -355,6 +351,13 @@ type
     FlatButton23: TFlatButton;
     Label10: TLabel;
     FlatComboBox49: TFlatComboBox;
+    FlatLabel24: TFlatLabel;
+    FlatComboBox50: TFlatComboBox;
+    FlatButton24: TFlatButton;
+    FlatGroupBox6: TFlatGroupBox;
+    FlatGroupBox7: TFlatGroupBox;
+    FlatGroupBox9: TFlatGroupBox;
+    FlatGroupBox8: TFlatGroupBox;
   private
     { Private declarations }
   public

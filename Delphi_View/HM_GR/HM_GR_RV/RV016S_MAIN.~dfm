@@ -1,8 +1,8 @@
 object Form59: TForm59
-  Left = 1912
-  Top = -8
-  Width = 1936
-  Height = 1048
+  Left = 1942
+  Top = 0
+  Width = 1918
+  Height = 1030
   Caption = 'RV016S_MAIN'
   Color = clWhite
   Font.Charset = ANSI_CHARSET
@@ -157,6 +157,26 @@ object Form59: TForm59
         ParentFont = False
         Layout = tlCenter
       end
+      object FlatLabel24: TFlatLabel
+        Left = 1415
+        Top = 4
+        Width = 64
+        Alignment = taRightJustify
+        TextBorder = 2
+        BevelInner = beNone
+        BevelOuter = beNone
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        Caption = #49324#50629#51109#47749
+        Color = clWhite
+        ParentFont = False
+        ParentColor = False
+        ShowRect = False
+        ShowEssential = False
+      end
       object FlatButton7: TFlatButton
         Left = 1827
         Top = 3
@@ -281,6 +301,22 @@ object Form59: TForm59
         ItemHeight = 14
         ParentFont = False
         TabOrder = 7
+        ItemIndex = -1
+      end
+      object FlatComboBox50: TFlatComboBox
+        Left = 1478
+        Top = 4
+        Width = 138
+        Height = 22
+        Color = clWindow
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = #45208#45588#44256#46357
+        Font.Style = []
+        ItemHeight = 14
+        ParentFont = False
+        TabOrder = 8
         ItemIndex = -1
       end
     end
@@ -4178,45 +4214,13 @@ object Form59: TForm59
               25)
           end
         end
-        object FlatGroupBox6: TFlatGroupBox
-          Left = 1098
-          Top = 152
-          Width = 183
-          Height = 89
-          Caption = #48373#50857#50557
-          TabOrder = 88
-        end
-        object FlatGroupBox7: TFlatGroupBox
-          Left = 1298
-          Top = 152
-          Width = 183
-          Height = 89
-          Caption = #44032#51313#47141
-          TabOrder = 89
-        end
-        object FlatGroupBox8: TFlatGroupBox
-          Left = 1098
-          Top = 248
-          Width = 183
-          Height = 89
-          Caption = #49688#49696#47141
-          TabOrder = 90
-        end
-        object FlatGroupBox9: TFlatGroupBox
-          Left = 1298
-          Top = 248
-          Width = 183
-          Height = 89
-          Caption = #49373#47532#50756#44221
-          TabOrder = 91
-        end
         object FlatPanel22: TFlatPanel
           Left = 711
           Top = 196
           Width = 107
           Height = 23
           ParentColor = True
-          TabOrder = 92
+          TabOrder = 88
           UseDockManager = True
           object FlatCheckBox45: TFlatCheckBox
             Left = 5
@@ -4250,7 +4254,7 @@ object Form59: TForm59
           Font.Style = []
           ItemHeight = 13
           ParentFont = False
-          TabOrder = 93
+          TabOrder = 89
           ItemIndex = -1
         end
         object FlatPanel23: TFlatPanel
@@ -4264,7 +4268,7 @@ object Form59: TForm59
           Font.Name = #45208#45588#44256#46357
           Font.Style = []
           ParentColor = True
-          TabOrder = 94
+          TabOrder = 90
           UseDockManager = True
           object FlatRadioButton3: TFlatRadioButton
             Left = 8
@@ -4306,7 +4310,7 @@ object Form59: TForm59
           Font.Name = #45208#45588#44256#46357
           Font.Style = []
           ParentColor = True
-          TabOrder = 95
+          TabOrder = 91
           UseDockManager = True
           object FlatRadioButton16: TFlatRadioButton
             Left = 8
@@ -4348,7 +4352,7 @@ object Form59: TForm59
           Font.Name = #45208#45588#44256#46357
           Font.Style = []
           ParentColor = True
-          TabOrder = 96
+          TabOrder = 92
           UseDockManager = True
           object FlatRadioButton18: TFlatRadioButton
             Left = 8
@@ -4390,7 +4394,7 @@ object Form59: TForm59
           Font.Name = #45208#45588#44256#46357
           Font.Style = []
           ParentColor = True
-          TabOrder = 97
+          TabOrder = 93
           UseDockManager = True
           object FlatRadioButton20: TFlatRadioButton
             Left = 8
@@ -4434,7 +4438,7 @@ object Form59: TForm59
           Font.Style = []
           ItemHeight = 13
           ParentFont = False
-          TabOrder = 98
+          TabOrder = 94
           ItemIndex = -1
         end
         object FlatComboBox47: TFlatComboBox
@@ -4450,8 +4454,40 @@ object Form59: TForm59
           Font.Style = []
           ItemHeight = 14
           ParentFont = False
-          TabOrder = 99
+          TabOrder = 95
           ItemIndex = -1
+        end
+        object FlatGroupBox6: TFlatGroupBox
+          Left = 1098
+          Top = 152
+          Width = 183
+          Height = 89
+          Caption = #48373#50857#50557
+          TabOrder = 96
+        end
+        object FlatGroupBox7: TFlatGroupBox
+          Left = 1298
+          Top = 152
+          Width = 183
+          Height = 89
+          Caption = #44032#51313#47141
+          TabOrder = 97
+        end
+        object FlatGroupBox9: TFlatGroupBox
+          Left = 1298
+          Top = 248
+          Width = 183
+          Height = 89
+          Caption = #49373#47532#50756#44221
+          TabOrder = 98
+        end
+        object FlatGroupBox8: TFlatGroupBox
+          Left = 1098
+          Top = 248
+          Width = 183
+          Height = 89
+          Caption = #49688#49696#47141
+          TabOrder = 99
         end
       end
     end
@@ -5492,6 +5528,20 @@ object Form59: TForm59
       Font.Style = []
       ParentFont = False
       TabOrder = 29
+    end
+    object FlatButton24: TFlatButton
+      Left = 1820
+      Top = 541
+      Width = 77
+      Height = 23
+      Caption = #49345#45812#45236#50669
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = #45208#45588#44256#46357
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 30
     end
   end
 end

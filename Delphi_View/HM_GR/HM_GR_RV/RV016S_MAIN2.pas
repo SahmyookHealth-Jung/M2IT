@@ -337,6 +337,29 @@ type
     FlatPanel28: TFlatPanel;
     AdvStringGrid5: TAdvStringGrid;
     Label62: TLabel;
+    FlatButton3: TFlatButton;
+    FlatButton24: TFlatButton;
+    FlatButton4: TFlatButton;
+    FlatButton5: TFlatButton;
+    FlatButton8: TFlatButton;
+    FlatButton2: TFlatButton;
+    FlatButton9: TFlatButton;
+    FlatButton11: TFlatButton;
+    FlatButton10: TFlatButton;
+    FlatButton1: TFlatButton;
+    FlatButton6: TFlatButton;
+    FlatButton13: TFlatButton;
+    FlatButton12: TFlatButton;
+    FlatButton15: TFlatButton;
+    FlatButton14: TFlatButton;
+    FlatButton16: TFlatButton;
+    FlatButton17: TFlatButton;
+    FlatButton18: TFlatButton;
+    FlatButton19: TFlatButton;
+    FlatButton20: TFlatButton;
+    FlatButton21: TFlatButton;
+    FlatButton22: TFlatButton;
+    FlatButton23: TFlatButton;
   private
     { Private declarations }
   public

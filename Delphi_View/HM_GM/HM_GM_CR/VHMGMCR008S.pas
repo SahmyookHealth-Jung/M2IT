@@ -3,7 +3,7 @@ unit VHMGMCR008S;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Frms,
   Dialogs, StdCtrls, TFlatMemoUnit, TFlatGroupBoxUnit, Grids, BaseGrid,
   AdvGrid, TFlatComboBoxUnit, TFlatButtonUnit, TFlatLabelUnit,
   TFlatEditUnit, ExtCtrls, TFlatPanelUnit;

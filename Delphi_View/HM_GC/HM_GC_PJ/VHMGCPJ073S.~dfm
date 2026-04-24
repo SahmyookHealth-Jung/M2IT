@@ -262,7 +262,7 @@ object Form11: TForm11
       Top = 70
       Width = 81
       Height = 23
-      Caption = #50641#49472#50629#47196#46300
+      Caption = #50641#49472#45796#50868#47196#46300
       TabOrder = 2
     end
     object FlatPanel14: TFlatPanel

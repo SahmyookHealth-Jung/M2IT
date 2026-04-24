@@ -1,7 +1,7 @@
 object Form130: TForm130
-  Left = 2017
+  Left = 0
   Top = 88
-  Width = 1774
+  Width = 1556
   Height = 621
   Caption = #44144#47000#52376' '#48156#49373#54788#54889' [VHMGRRV027S]'
   Color = clWhite

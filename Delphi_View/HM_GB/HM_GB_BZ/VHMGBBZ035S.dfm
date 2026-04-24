@@ -1,5 +1,5 @@
 object Form32: TForm32
-  Left = 2316
+  Left = 0
   Top = 132
   Width = 1305
   Height = 842

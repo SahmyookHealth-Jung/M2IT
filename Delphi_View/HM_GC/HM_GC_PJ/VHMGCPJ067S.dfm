@@ -1,8 +1,8 @@
 object Form6: TForm6
-  Left = 2326
-  Top = 159
+  Left = 238
+  Top = 0
   Width = 1305
-  Height = 860
+  Height = 823
   Caption = #48169#49324#49440#51089#50629#51333#49324#51088' '#44148#44053#51652#45800#48372#44256' [VHMGCPJ067S]'
   Color = clWhite
   Font.Charset = ANSI_CHARSET

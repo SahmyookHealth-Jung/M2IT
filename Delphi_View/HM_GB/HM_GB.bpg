@@ -9,7 +9,7 @@ MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
 DCC = $(ROOT)\bin\dcc32.exe $**
 BRCC = $(ROOT)\bin\brcc32.exe $**
 #------------------------------------------------------------------------------
-PROJECTS = HM_GB_BZ.exe SampleForm.exe
+PROJECTS = HM_GB_BZ.exe SampleForm.exe HM_GZ_CD.exe
 #------------------------------------------------------------------------------
 default: $(PROJECTS)
 #------------------------------------------------------------------------------
@@ -18,6 +18,9 @@ HM_GB_BZ.exe: HM_GB_BZ\HM_GB_BZ.dpr
   $(DCC)
 
 SampleForm.exe: ..\..\..\delphi 7.0 Enterprise\Work\DrawFormSample\SampleForm.dpr
+  $(DCC)
+
+HM_GZ_CD.exe: ..\HM_GZ\HM_GZ_CD\HM_GZ_CD.dpr
   $(DCC)
 
 
