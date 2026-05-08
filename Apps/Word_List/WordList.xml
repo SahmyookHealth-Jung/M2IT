@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>65</Id>
+    <TermCode>recommend</TermCode>
+    <FullName>recommend</FullName>
+    <Description>추천하다</Description>
+    <RegDate>2026-05-08</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>64</Id>
     <TermCode>WPF</TermCode>
     <FullName>Windows Presentation Foundation</FullName>
