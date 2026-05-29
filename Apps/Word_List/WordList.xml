@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>68</Id>
+    <TermCode>significant</TermCode>
+    <FullName>significant</FullName>
+    <Description>상당한, 중요한</Description>
+    <RegDate>2026-05-29</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>67</Id>
     <TermCode>dialogue</TermCode>
     <FullName>dialogue</FullName>
