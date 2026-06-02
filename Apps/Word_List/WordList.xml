@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>69</Id>
+    <TermCode>server</TermCode>
+    <FullName>server 작업</FullName>
+    <Description>Back up 본 생성 - clean up - update</Description>
+    <RegDate>2026-06-02</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>68</Id>
     <TermCode>significant</TermCode>
     <FullName>significant</FullName>
