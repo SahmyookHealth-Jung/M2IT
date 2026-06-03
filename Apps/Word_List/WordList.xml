@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>70</Id>
+    <TermCode>navigate</TermCode>
+    <FullName>navigate</FullName>
+    <Description>해쳐 나가다</Description>
+    <RegDate>2026-06-04</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>69</Id>
     <TermCode>server</TermCode>
     <FullName>server 작업</FullName>
