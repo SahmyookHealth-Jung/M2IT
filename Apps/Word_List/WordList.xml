@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>74</Id>
+    <TermCode>gnta</TermCode>
+    <FullName>제넨타 사이언스</FullName>
+    <Description>제넨타 사이언스</Description>
+    <RegDate>2026-06-18</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>73</Id>
     <TermCode>abstract</TermCode>
     <FullName>abstract</FullName>
