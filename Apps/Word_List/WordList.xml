@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>75</Id>
+    <TermCode>MCP</TermCode>
+    <FullName>Model Context Protocol</FullName>
+    <Description>클로드와 옵시디언 연결 test</Description>
+    <RegDate>2026-06-26</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>74</Id>
     <TermCode>gnta</TermCode>
     <FullName>제넨타 사이언스</FullName>
