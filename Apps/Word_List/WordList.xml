@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>76</Id>
+    <TermCode>CLO</TermCode>
+    <FullName>신속요소분해효소검사</FullName>
+    <Description>내시경 시 채취한 위 점막 조직의 효소 반응을 이용해 빠르면 수 시간 내에 헬리코박터균 감염 여부를 확인하는 기본 검사입니다.</Description>
+    <RegDate>2026-08-18</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>75</Id>
     <TermCode>MCP</TermCode>
     <FullName>Model Context Protocol</FullName>
