@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>77</Id>
+    <TermCode>클립</TermCode>
+    <FullName>내시경 - 클립</FullName>
+    <Description>내시경 검사 중 용종을 절제(Polypectomy)하거나 조직검사(Biopsy)를 진행할 때 발생할 수 있는 출혈을 막거나(지혈), 상처 부위를 봉합하기 위해 사용하는 **의료용 지혈 클립(Hemoclip)** 재료 및 시술을 의미합니다.</Description>
+    <RegDate>2026-09-14</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>76</Id>
     <TermCode>CLO</TermCode>
     <FullName>신속요소분해효소검사</FullName>
