@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>78</Id>
+    <TermCode>약속검사</TermCode>
+    <FullName>건강검진에서의 약속검사란</FullName>
+    <Description>약속검사 = 특수건강진단(특검)의 "취급물질별 사전 약속된 검사 묶음"</Description>
+    <RegDate>2026-09-15</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>77</Id>
     <TermCode>클립</TermCode>
     <FullName>내시경 - 클립</FullName>
