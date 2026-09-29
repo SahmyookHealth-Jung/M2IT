@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>79</Id>
+    <TermCode>POVW</TermCode>
+    <FullName>Point of View</FullName>
+    <Description>소견
+- Opinion</Description>
+    <RegDate>2026-09-29</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>78</Id>
     <TermCode>약속검사</TermCode>
     <FullName>건강검진에서의 약속검사란</FullName>
