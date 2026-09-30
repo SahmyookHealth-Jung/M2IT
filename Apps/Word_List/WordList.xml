@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedicalTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MedicalTerm>
+    <Id>80</Id>
+    <TermCode>Medical Service Act</TermCode>
+    <FullName>의료법</FullName>
+    <Description>내시경 등 약물 관련 의료법 확인 필요</Description>
+    <RegDate>2026-09-30</RegDate>
+  </MedicalTerm>
+  <MedicalTerm>
     <Id>79</Id>
     <TermCode>POVW</TermCode>
     <FullName>Point of View</FullName>
